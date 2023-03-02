@@ -228,6 +228,30 @@ pyenv <span class="token builtin class-name">local</span> <span class="token par
       </tags>
   </entry>
   <entry>
+    <title>微服务 之 高可用保障 - 链路追踪、熔断、限流、降级</title>
+    <url>//post/micro-high-availability.html</url>
+    <content><![CDATA[<p><strong>微服务是一种将应用程序作为独立服务的集合结构的架构风格。这些服务通过API互相通信，设计为具有高度的可扩展性、灵活性和弹性。<br>为了保证微服务环境的高可用性，实施几个关键策略是非常重要的，包括链路追踪、熔断、限流和降级。</strong></p>
+<span id="more"></span>
+<h2 id="链路追踪"><a href="#链路追踪" class="headerlink" title="链路追踪"></a>链路追踪</h2><p>链路追踪是追踪请求在应用中穿过不同微服务的路径的能力。这对于故障排除和调试问题以及监测性能非常重要。</p>
+<p>通过实施链路追踪，开发人员可以快速识别问题的根源并采取纠正措施。这也可以通过优化单个服务来提高应用的整体性能。</p>
+<h2 id="熔断"><a href="#熔断" class="headerlink" title="熔断"></a>熔断</h2><p>熔断是一种防止微服务因故障导致整个应用瘫痪的技术。当一个服务不可用时，熔断器会自动打开，阻止请求传递到该服务，并返回预定义的响应。</p>
+<p>通过实施熔断，开发人员可以保证即使一个服务出现故障，整个应用也不会停止工作。这有助于保证整个应用的可用性和稳定性。</p>
+<h2 id="限流"><a href="#限流" class="headerlink" title="限流"></a>限流</h2><p>限流是一种限制单位时间内请求数量的技术。当请求速率超过预定的阈值时，限流器会阻止进一步的请求，以避免服务器过载。</p>
+<p>通过实施限流，开发人员可以保证服务器性能不会因请求速率过快而受到影响。这有助于保证应用的稳定性和可用性。</p>
+<h2 id="降级"><a href="#降级" class="headerlink" title="降级"></a>降级</h2><p>降级是一种在服务不可用时降低功能级别的技术。当一个服务不可用时，降级策略会自动启用，以降低应用的功能级别。</p>
+<p>通过实施降级，开发人员可以在服务不可用时保证应用仍然可以继续提供部分功能。这有助于保证应用的可用性。</p>
+]]></content>
+      <categories>
+        <category>Micro</category>
+      </categories>
+      <tags>
+        <tag>链路追踪</tag>
+        <tag>熔断</tag>
+        <tag>限流</tag>
+        <tag>降级</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Mysql 之 使用 Prometheus 和 Grafana 监控 MySQL 性能</title>
     <url>//post/mysql-prometheus-grafana-build.html</url>
     <content><![CDATA[<blockquote>
@@ -301,6 +325,99 @@ vi &#x2F;root&#x2F;prometheus&#x2F;prometheus-2.41.0.linux-arm64&#x2F;prometheus
         <tag>Prometheus</tag>
         <tag>Grafana</tag>
         <tag>监控</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>排名前 8 位的容器仓库</title>
+    <url>//post/container-rank.html</url>
+    <content><![CDATA[<table>
+<thead>
+<tr>
+<th>排名</th>
+<th>仓库</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>Docker Hub</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Amazon ECR</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Harbor</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Azure Container Registry</td>
+</tr>
+<tr>
+<td>5</td>
+<td>GitHub Container Registry</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Google Container Registry</td>
+</tr>
+<tr>
+<td>7</td>
+<td>JFrog Container Registry</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Red Hat Quay</td>
+</tr>
+</tbody></table>
+<span id="more"></span>
+<p>容器registry 经常对它们的存储库对应物感到困惑，即使它们服务于不同的目的。</p>
+<p>容器存储库是容器化应用程序映像的存储。如今，大多数镜像存储库都专注于“OCI”格式，基于 Docker 普及并向所有人开放的容器格式。</p>
+<p>事实上，“OCI 映像”和“Docker 映像”在registry 提供者的营销中经常可以互换使用。</p>
+<blockquote>
+<p>OCI 代表开放容器倡议。该倡议是一种容器结构，旨在充当行业标准格式。技术、开发和云服务领域的大多数主要参与者都支持该计划并支持 OCI格式。在 <a href="https://opencontainers.org/">Open Container Initiative</a> 网站上阅读有关它的更多信息。</p>
+</blockquote>
+<p>因此，容器registry 既充当容器存储库的集合，又充当您管理和部署映像的可搜索目录。</p>
+<p>市场上有许多容器注册选项，为不同类型、规模和需求的客户提供服务。让我们看看我们的前 8 名以及他们为什么会吸引人。</p>
+<h2 id="Docker-Hub"><a href="#Docker-Hub" class="headerlink" title="Docker Hub"></a>Docker Hub</h2><p>鉴于 Docker 发明了用于容器交付的标准 OCI 格式，以及所有主要操作系统的采用， <a href="https://hub.docker.com/">Docker Hub</a>也是镜像管理的标准registry 是有道理的。如果您正在开发中，那么您很可能已经使用过 Docker Hub，尤其是如果您曾经遵循我们的技术指南或博客之一。</p>
+<p>尽管此列表中的所有registry 服务都可以帮助您管理 Docker 的格式，但 Docker Hub 作为registry 仍然值得在这里占有一席之地。尤其是因为它提供了一个巨大的公共registry ，您可以使用它来部署来自大小供应商的应用程序，还可以交付您自己的应用程序。</p>
+<h2 id="Amazon-ECR"><a href="#Amazon-ECR" class="headerlink" title="Amazon ECR"></a>Amazon ECR</h2><p>如果您已经在使用 Amazon Web Services (AWS) 来托管应用程序， <a href="https://aws.amazon.com/ecr/">Amazon 的 Elastic Container Registry (ECR)将非常有用</a>，因为它具有集成和团队管理选项。</p>
+<p>Amazon 的 ECR 已融入其所有容器托管服务，因此您可以轻松管理镜像并将其推送到：</p>
+<ul>
+<li>弹性容器服务 (ECS)</li>
+<li>弹性 Kubernetes 服务 (EKS)</li>
+<li>AWS Lambda</li>
+</ul>
+<p>（当然，前提是你能理解所有这些相似的首字母缩略词。）</p>
+<p>与 Docker Hub 一样，他们的公共注册中心和市场也物有所值，允许部署许多产品、免费软件和开源项目。您永远不会缺少可以构建的现有环境</p>
+<h2 id="Harbor"><a href="#Harbor" class="headerlink" title="Harbor"></a>Harbor</h2><p> <a href="https://goharbor.io/">Harbor</a>是一个开源registry ，您几乎可以在任何地方安装，但特别适合 Kubernetes。</p>
+<p>在某些服务将其注册中心与自己的服务紧密联系在一起的情况下，Harbor 的自由度使其成为一种多功能选择。它与大多数云服务和持续集成和持续交付 (CI&#x2F;CD) 平台兼容，也是一个很好的本地解决方案。</p>
+<h2 id="Azure-Container-Registry"><a href="#Azure-Container-Registry" class="headerlink" title="Azure Container Registry"></a>Azure Container Registry</h2><p>在提供与 AWS 类似的服务的同时，微软的 <a href="https://azure.microsoft.com/en-au/products/container-registry/">Azure 容器registry (ACR)</a>还拥有对 Docker 和 OCI 映像以及 Helm 图表的支持。</p>
+<p>然而，Azure 最大的卖点是它的registry 异地复制。这确保每个人都可以以他们习惯的速度，无论他们身在何处，都能以相同的速度访问镜像。</p>
+<h2 id="GitHub-Container-Registry"><a href="#GitHub-Container-Registry" class="headerlink" title="GitHub Container Registry"></a>GitHub Container Registry</h2><p>鉴于 GitHub 的影响力，并且它已经可供所有用户使用， <a href="https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry">GitHub 的 Container Registry</a> （称为GitHub Packages的更大功能的一部分）是最平易近人的选择之一。</p>
+<p>考虑使用 GitHub Packages 进行容器管理的好处包括：</p>
+<ul>
+<li>简化的用户管理 - 您的大多数用户已经拥有帐户</li>
+<li>用于推送、发布和部署镜像的 GitHub Actions 集成</li>
+<li>相对于其他服务的成本</li>
+</ul>
+<h2 id="Google-Container-Registry"><a href="#Google-Container-Registry" class="headerlink" title="Google Container Registry"></a>Google Container Registry</h2><p>由于其他服务将承诺重点放在对部分潜在客户很重要的某些功能上， <a href="https://cloud.google.com/container-registry/">谷歌云的容器registry (GCR)</a>是一个可靠的多面手。它可以从容器registry 中完成您想要的一切，并且做得非常好。</p>
+<p>与云服务中的其他大牌一样，您可能会被锁定在 GCR 中，具体取决于您使用的 Google Cloud 产品。例如，Google Cloud Run 将仅使用存储在 GCR 中的镜像，因此在选择registry 服务时请记住这一点。</p>
+<p>它不像 AWS 或 Azure 那样拥有丰富的功能，但 Google Cloud 的 GCR 是云提供商“三大巨头”之一提供的物有所值的产品。</p>
+<h2 id="JFrog-Container-Registry"><a href="#JFrog-Container-Registry" class="headerlink" title="JFrog Container Registry"></a>JFrog Container Registry</h2><p>基于另一个 JFrog 产品 <code>Artifactory</code>， <a href="https://jfrog.com/container-registry/">JFrog Container Registry</a>支持 Docker 镜像和<code>Helm Charts</code>。JFrog Container Registry 还提供了存储任何包类型的选项，这要归功于其通用存储库。</p>
+<p>JFrog 具有云和自托管选项（如果您愿意，也可以混合），并承诺具有出色的可扩展性。</p>
+<h2 id="Red-Hat-Quay"><a href="#Red-Hat-Quay" class="headerlink" title="Red Hat Quay"></a>Red Hat Quay</h2><p>与其他选项不同， <a href="https://www.redhat.com/en/technologies/cloud-computing/quay">Red Hat Quay</a>仅提供私有容器registry 。这使其成为特别适合企业级客户的选择。</p>
+<p>与云提供商无关，Quay 可以轻松连接到 DevOps 管道两端的系统。与 Azure 一样，Quay 也包括地理位置选项，有趣的是，它支持 BitTorrent 进行容器分发。</p>
+<p>红帽还在其 Kubernetes 平台 OpenShift 中包含一个精简的registry 解决方案。然而，他们确实向较大的团队和组织推荐 Quay。</p>
+<p>翻译来源：<br> <a href="https://octopus.com/blog/top-8-container-registries">https://octopus.com/blog/top-8-container-registries</a></p>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>Docker</tag>
+        <tag>Kubernetes容器</tag>
+        <tag>Azure</tag>
       </tags>
   </entry>
   <entry>
@@ -411,123 +528,6 @@ update table_xxx set avai_amount&#x3D;avai_amount-#subAmount# where id&#x3D;#id#
         <tag>微服务</tag>
         <tag>幂等性机制</tag>
         <tag>幂等性解决方案</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>微服务 之 高可用保障 - 链路追踪、熔断、限流、降级</title>
-    <url>//post/micro-high-availability.html</url>
-    <content><![CDATA[<p><strong>微服务是一种将应用程序作为独立服务的集合结构的架构风格。这些服务通过API互相通信，设计为具有高度的可扩展性、灵活性和弹性。<br>为了保证微服务环境的高可用性，实施几个关键策略是非常重要的，包括链路追踪、熔断、限流和降级。</strong></p>
-<span id="more"></span>
-<h2 id="链路追踪"><a href="#链路追踪" class="headerlink" title="链路追踪"></a>链路追踪</h2><p>链路追踪是追踪请求在应用中穿过不同微服务的路径的能力。这对于故障排除和调试问题以及监测性能非常重要。</p>
-<p>通过实施链路追踪，开发人员可以快速识别问题的根源并采取纠正措施。这也可以通过优化单个服务来提高应用的整体性能。</p>
-<h2 id="熔断"><a href="#熔断" class="headerlink" title="熔断"></a>熔断</h2><p>熔断是一种防止微服务因故障导致整个应用瘫痪的技术。当一个服务不可用时，熔断器会自动打开，阻止请求传递到该服务，并返回预定义的响应。</p>
-<p>通过实施熔断，开发人员可以保证即使一个服务出现故障，整个应用也不会停止工作。这有助于保证整个应用的可用性和稳定性。</p>
-<h2 id="限流"><a href="#限流" class="headerlink" title="限流"></a>限流</h2><p>限流是一种限制单位时间内请求数量的技术。当请求速率超过预定的阈值时，限流器会阻止进一步的请求，以避免服务器过载。</p>
-<p>通过实施限流，开发人员可以保证服务器性能不会因请求速率过快而受到影响。这有助于保证应用的稳定性和可用性。</p>
-<h2 id="降级"><a href="#降级" class="headerlink" title="降级"></a>降级</h2><p>降级是一种在服务不可用时降低功能级别的技术。当一个服务不可用时，降级策略会自动启用，以降低应用的功能级别。</p>
-<p>通过实施降级，开发人员可以在服务不可用时保证应用仍然可以继续提供部分功能。这有助于保证应用的可用性。</p>
-]]></content>
-      <categories>
-        <category>Micro</category>
-      </categories>
-      <tags>
-        <tag>链路追踪</tag>
-        <tag>熔断</tag>
-        <tag>限流</tag>
-        <tag>降级</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>排名前 8 位的容器仓库</title>
-    <url>//post/container-rank.html</url>
-    <content><![CDATA[<table>
-<thead>
-<tr>
-<th>排名</th>
-<th>仓库</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1</td>
-<td>Docker Hub</td>
-</tr>
-<tr>
-<td>2</td>
-<td>Amazon ECR</td>
-</tr>
-<tr>
-<td>3</td>
-<td>Harbor</td>
-</tr>
-<tr>
-<td>4</td>
-<td>Azure Container Registry</td>
-</tr>
-<tr>
-<td>5</td>
-<td>GitHub Container Registry</td>
-</tr>
-<tr>
-<td>6</td>
-<td>Google Container Registry</td>
-</tr>
-<tr>
-<td>7</td>
-<td>JFrog Container Registry</td>
-</tr>
-<tr>
-<td>8</td>
-<td>Red Hat Quay</td>
-</tr>
-</tbody></table>
-<span id="more"></span>
-<p>容器registry 经常对它们的存储库对应物感到困惑，即使它们服务于不同的目的。</p>
-<p>容器存储库是容器化应用程序映像的存储。如今，大多数镜像存储库都专注于“OCI”格式，基于 Docker 普及并向所有人开放的容器格式。</p>
-<p>事实上，“OCI 映像”和“Docker 映像”在registry 提供者的营销中经常可以互换使用。</p>
-<blockquote>
-<p>OCI 代表开放容器倡议。该倡议是一种容器结构，旨在充当行业标准格式。技术、开发和云服务领域的大多数主要参与者都支持该计划并支持 OCI格式。在 <a href="https://opencontainers.org/">Open Container Initiative</a> 网站上阅读有关它的更多信息。</p>
-</blockquote>
-<p>因此，容器registry 既充当容器存储库的集合，又充当您管理和部署映像的可搜索目录。</p>
-<p>市场上有许多容器注册选项，为不同类型、规模和需求的客户提供服务。让我们看看我们的前 8 名以及他们为什么会吸引人。</p>
-<h2 id="Docker-Hub"><a href="#Docker-Hub" class="headerlink" title="Docker Hub"></a>Docker Hub</h2><p>鉴于 Docker 发明了用于容器交付的标准 OCI 格式，以及所有主要操作系统的采用， <a href="https://hub.docker.com/">Docker Hub</a>也是镜像管理的标准registry 是有道理的。如果您正在开发中，那么您很可能已经使用过 Docker Hub，尤其是如果您曾经遵循我们的技术指南或博客之一。</p>
-<p>尽管此列表中的所有registry 服务都可以帮助您管理 Docker 的格式，但 Docker Hub 作为registry 仍然值得在这里占有一席之地。尤其是因为它提供了一个巨大的公共registry ，您可以使用它来部署来自大小供应商的应用程序，还可以交付您自己的应用程序。</p>
-<h2 id="Amazon-ECR"><a href="#Amazon-ECR" class="headerlink" title="Amazon ECR"></a>Amazon ECR</h2><p>如果您已经在使用 Amazon Web Services (AWS) 来托管应用程序， <a href="https://aws.amazon.com/ecr/">Amazon 的 Elastic Container Registry (ECR)将非常有用</a>，因为它具有集成和团队管理选项。</p>
-<p>Amazon 的 ECR 已融入其所有容器托管服务，因此您可以轻松管理镜像并将其推送到：</p>
-<ul>
-<li>弹性容器服务 (ECS)</li>
-<li>弹性 Kubernetes 服务 (EKS)</li>
-<li>AWS Lambda</li>
-</ul>
-<p>（当然，前提是你能理解所有这些相似的首字母缩略词。）</p>
-<p>与 Docker Hub 一样，他们的公共注册中心和市场也物有所值，允许部署许多产品、免费软件和开源项目。您永远不会缺少可以构建的现有环境</p>
-<h2 id="Harbor"><a href="#Harbor" class="headerlink" title="Harbor"></a>Harbor</h2><p> <a href="https://goharbor.io/">Harbor</a>是一个开源registry ，您几乎可以在任何地方安装，但特别适合 Kubernetes。</p>
-<p>在某些服务将其注册中心与自己的服务紧密联系在一起的情况下，Harbor 的自由度使其成为一种多功能选择。它与大多数云服务和持续集成和持续交付 (CI&#x2F;CD) 平台兼容，也是一个很好的本地解决方案。</p>
-<h2 id="Azure-Container-Registry"><a href="#Azure-Container-Registry" class="headerlink" title="Azure Container Registry"></a>Azure Container Registry</h2><p>在提供与 AWS 类似的服务的同时，微软的 <a href="https://azure.microsoft.com/en-au/products/container-registry/">Azure 容器registry (ACR)</a>还拥有对 Docker 和 OCI 映像以及 Helm 图表的支持。</p>
-<p>然而，Azure 最大的卖点是它的registry 异地复制。这确保每个人都可以以他们习惯的速度，无论他们身在何处，都能以相同的速度访问镜像。</p>
-<h2 id="GitHub-Container-Registry"><a href="#GitHub-Container-Registry" class="headerlink" title="GitHub Container Registry"></a>GitHub Container Registry</h2><p>鉴于 GitHub 的影响力，并且它已经可供所有用户使用， <a href="https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry">GitHub 的 Container Registry</a> （称为GitHub Packages的更大功能的一部分）是最平易近人的选择之一。</p>
-<p>考虑使用 GitHub Packages 进行容器管理的好处包括：</p>
-<ul>
-<li>简化的用户管理 - 您的大多数用户已经拥有帐户</li>
-<li>用于推送、发布和部署镜像的 GitHub Actions 集成</li>
-<li>相对于其他服务的成本</li>
-</ul>
-<h2 id="Google-Container-Registry"><a href="#Google-Container-Registry" class="headerlink" title="Google Container Registry"></a>Google Container Registry</h2><p>由于其他服务将承诺重点放在对部分潜在客户很重要的某些功能上， <a href="https://cloud.google.com/container-registry/">谷歌云的容器registry (GCR)</a>是一个可靠的多面手。它可以从容器registry 中完成您想要的一切，并且做得非常好。</p>
-<p>与云服务中的其他大牌一样，您可能会被锁定在 GCR 中，具体取决于您使用的 Google Cloud 产品。例如，Google Cloud Run 将仅使用存储在 GCR 中的镜像，因此在选择registry 服务时请记住这一点。</p>
-<p>它不像 AWS 或 Azure 那样拥有丰富的功能，但 Google Cloud 的 GCR 是云提供商“三大巨头”之一提供的物有所值的产品。</p>
-<h2 id="JFrog-Container-Registry"><a href="#JFrog-Container-Registry" class="headerlink" title="JFrog Container Registry"></a>JFrog Container Registry</h2><p>基于另一个 JFrog 产品 <code>Artifactory</code>， <a href="https://jfrog.com/container-registry/">JFrog Container Registry</a>支持 Docker 镜像和<code>Helm Charts</code>。JFrog Container Registry 还提供了存储任何包类型的选项，这要归功于其通用存储库。</p>
-<p>JFrog 具有云和自托管选项（如果您愿意，也可以混合），并承诺具有出色的可扩展性。</p>
-<h2 id="Red-Hat-Quay"><a href="#Red-Hat-Quay" class="headerlink" title="Red Hat Quay"></a>Red Hat Quay</h2><p>与其他选项不同， <a href="https://www.redhat.com/en/technologies/cloud-computing/quay">Red Hat Quay</a>仅提供私有容器registry 。这使其成为特别适合企业级客户的选择。</p>
-<p>与云提供商无关，Quay 可以轻松连接到 DevOps 管道两端的系统。与 Azure 一样，Quay 也包括地理位置选项，有趣的是，它支持 BitTorrent 进行容器分发。</p>
-<p>红帽还在其 Kubernetes 平台 OpenShift 中包含一个精简的registry 解决方案。然而，他们确实向较大的团队和组织推荐 Quay。</p>
-<p>翻译来源：<br> <a href="https://octopus.com/blog/top-8-container-registries">https://octopus.com/blog/top-8-container-registries</a></p>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>Docker</tag>
-        <tag>Kubernetes容器</tag>
-        <tag>Azure</tag>
       </tags>
   </entry>
   <entry>
@@ -753,119 +753,6 @@ update table_xxx set avai_amount&#x3D;avai_amount-#subAmount# where id&#x3D;#id#
       </tags>
   </entry>
   <entry>
-    <title>github action 之 Go开源项目配置(tag release)</title>
-    <url>//post/github-actions-go1.html</url>
-    <content><![CDATA[<p><a href="https://goreleaser.com/">gorelease</a></p>
-<p>在github工作流中利用gorelease来根据tag去发布项目</p>
-<span id="more"></span>
-<h2 id="本地配置gorelease"><a href="#本地配置gorelease" class="headerlink" title="本地配置gorelease"></a>本地配置gorelease</h2><h3 id="安装gorelease"><a href="#安装gorelease" class="headerlink" title="安装gorelease"></a>安装gorelease</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">go <span class="token function">install</span> github.com/goreleaser/goreleaser@latest <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<h3 id="配置gorelease以发布文件"><a href="#配置gorelease以发布文件" class="headerlink" title="配置gorelease以发布文件"></a>配置gorelease以发布文件</h3><p>在项目根目录生成 <code>.goreleaser.yml</code> 配置文件</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">goreleaser init<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>示例 <code>.goreleaser.yml</code> 文件(具体配置参考gorelease文档):</p>
-<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">before</span><span class="token punctuation">:</span>
-  <span class="token key atrule">hooks</span><span class="token punctuation">:</span>
-    <span class="token comment"># You may remove this if you don't use go modules.</span>
-    <span class="token punctuation">-</span> go mod tidy
-    <span class="token comment"># you may remove this if you don't need go generate</span>
-<span class="token comment">#    - go generate ./...</span>
-<span class="token key atrule">builds</span><span class="token punctuation">:</span>
-  <span class="token comment"># main.go 文件位置</span>
-  <span class="token punctuation">-</span> <span class="token key atrule">main</span><span class="token punctuation">:</span> ./cmd
-    <span class="token key atrule">ldflags</span><span class="token punctuation">:</span> <span class="token comment"># build构建时 ldflags 这里利用项目的version包进行注入</span>
-      <span class="token punctuation">-</span> <span class="token punctuation">-</span>X github.com/gzwillyy/mini/pkg/version.GitVersion=<span class="token punctuation">&#123;</span><span class="token punctuation">&#123;</span>.Version<span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span>
-      <span class="token punctuation">-</span> <span class="token punctuation">-</span>X github.com/gzwillyy/mini/pkg/version.GitCommit=<span class="token punctuation">&#123;</span><span class="token punctuation">&#123;</span>.ShortCommit<span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span>
-      <span class="token punctuation">-</span> <span class="token punctuation">-</span>X github.com/gzwillyy/mini/pkg/version.GitTreeState=<span class="token punctuation">&#123;</span><span class="token punctuation">&#123;</span>.Summary<span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span>
-      <span class="token punctuation">-</span> <span class="token punctuation">-</span>X github.com/gzwillyy/mini/pkg/version.BuildDate=<span class="token punctuation">&#123;</span><span class="token punctuation">&#123;</span>.CommitDate<span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span>
-    <span class="token key atrule">env</span><span class="token punctuation">:</span>
-      <span class="token punctuation">-</span> CGO_ENABLED=0
-    <span class="token key atrule">goos</span><span class="token punctuation">:</span>
-      <span class="token punctuation">-</span> linux
-      <span class="token punctuation">-</span> darwin
-
-<span class="token key atrule">archives</span><span class="token punctuation">:</span>
-  <span class="token punctuation">-</span> <span class="token key atrule">format</span><span class="token punctuation">:</span> tar.gz
-    <span class="token comment"># this name template makes the OS and Arch compatible with the results of uname.</span>
-    <span class="token key atrule">name_template</span><span class="token punctuation">:</span> <span class="token punctuation">></span><span class="token punctuation">-</span>
-      <span class="token punctuation">&#123;</span><span class="token punctuation">&#123;</span> .ProjectName <span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span>_
-      <span class="token punctuation">&#123;</span><span class="token punctuation">&#123;</span><span class="token punctuation">-</span> title .Os <span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span>_
-      <span class="token punctuation">&#123;</span><span class="token punctuation">&#123;</span><span class="token punctuation">-</span> if eq .Arch "amd64" <span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span>x86_64
-      <span class="token punctuation">&#123;</span><span class="token punctuation">&#123;</span><span class="token punctuation">-</span> else if eq .Arch "386" <span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span>i386
-      <span class="token punctuation">&#123;</span><span class="token punctuation">&#123;</span><span class="token punctuation">-</span> else <span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span><span class="token punctuation">&#123;</span><span class="token punctuation">&#123;</span> .Arch <span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span><span class="token punctuation">&#123;</span><span class="token punctuation">&#123;</span> end <span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span>
-      <span class="token punctuation">&#123;</span><span class="token punctuation">&#123;</span><span class="token punctuation">-</span> if .Arm <span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span>v<span class="token punctuation">&#123;</span><span class="token punctuation">&#123;</span> .Arm <span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span><span class="token punctuation">&#123;</span><span class="token punctuation">&#123;</span> end <span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span>
-    <span class="token comment"># use zip for windows archives</span>
-    <span class="token key atrule">format_overrides</span><span class="token punctuation">:</span>
-      <span class="token punctuation">-</span> <span class="token key atrule">goos</span><span class="token punctuation">:</span> windows
-        <span class="token key atrule">format</span><span class="token punctuation">:</span> zip
-<span class="token key atrule">checksum</span><span class="token punctuation">:</span>
-  <span class="token key atrule">name_template</span><span class="token punctuation">:</span> <span class="token string">'checksums.txt'</span>
-<span class="token key atrule">snapshot</span><span class="token punctuation">:</span>
-  <span class="token key atrule">name_template</span><span class="token punctuation">:</span> <span class="token string">"&#123;&#123; incpatch .Version &#125;&#125;-next"</span>
-<span class="token key atrule">changelog</span><span class="token punctuation">:</span>
-  <span class="token key atrule">sort</span><span class="token punctuation">:</span> desc
-  <span class="token key atrule">filters</span><span class="token punctuation">:</span>
-    <span class="token key atrule">exclude</span><span class="token punctuation">:</span>
-      <span class="token punctuation">-</span> <span class="token string">'^docs:'</span>
-      <span class="token punctuation">-</span> <span class="token string">'^test:'</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h2 id="本地利用tag发布项目文件"><a href="#本地利用tag发布项目文件" class="headerlink" title="本地利用tag发布项目文件"></a>本地利用tag发布项目文件</h2><h3 id="创建tag"><a href="#创建tag" class="headerlink" title="创建tag"></a>创建tag</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 列出历史提交</span>
-<span class="token function">git</span> log <span class="token parameter variable">--pretty</span><span class="token operator">=</span>oneline
-<span class="token comment"># 为指定提交创建tag</span>
-<span class="token function">git</span> tag v0.6.0 <span class="token parameter variable">-m</span> <span class="token string">"v0.6.0 版本"</span>  4b9a14b8c0e7b305d258cd87658ba5e3d34fe480
-<span class="token comment"># 当前最先提交创建tag</span>
-<span class="token function">git</span> tag v0.6.0 <span class="token parameter variable">-m</span> <span class="token string">"v0.6.0 版本"</span> <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h3 id="本地发布文件"><a href="#本地发布文件" class="headerlink" title="本地发布文件"></a>本地发布文件</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">goreleaser release <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<h2 id="自动化发布"><a href="#自动化发布" class="headerlink" title="自动化发布"></a>自动化发布</h2><h3 id="使用GitHub-Actions"><a href="#使用GitHub-Actions" class="headerlink" title="使用GitHub Actions"></a>使用GitHub Actions</h3><p>在代码目录创建workflows文件定义工作流程</p>
-<pre class="line-numbers language-none"><code class="language-none">mkdir -p .github&#x2F;workflows&#x2F;gorelease.yml<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>示例<code>gorelease.yml</code>文件：</p>
-<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">name</span><span class="token punctuation">:</span> Go releaser
-<span class="token key atrule">on</span><span class="token punctuation">:</span>
-  <span class="token key atrule">push</span><span class="token punctuation">:</span>
-    <span class="token key atrule">tags</span><span class="token punctuation">:</span>
-      <span class="token punctuation">-</span> <span class="token string">'*'</span>
-<span class="token key atrule">permissions</span><span class="token punctuation">:</span>
-  <span class="token key atrule">contents</span><span class="token punctuation">:</span> write
-<span class="token key atrule">jobs</span><span class="token punctuation">:</span>
-  <span class="token key atrule">goreleaser</span><span class="token punctuation">:</span>
-    <span class="token key atrule">name</span><span class="token punctuation">:</span> workflows at release
-    <span class="token key atrule">runs-on</span><span class="token punctuation">:</span> ubuntu<span class="token punctuation">-</span>latest
-    <span class="token key atrule">steps</span><span class="token punctuation">:</span>
-      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Checkout
-        <span class="token key atrule">uses</span><span class="token punctuation">:</span> actions/checkout@v3
-        <span class="token key atrule">with</span><span class="token punctuation">:</span>
-          <span class="token key atrule">fetch-depth</span><span class="token punctuation">:</span> <span class="token number">0</span>
-      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Set up Go
-        <span class="token key atrule">uses</span><span class="token punctuation">:</span> actions/setup<span class="token punctuation">-</span>go@v3.5.0
-        <span class="token key atrule">with</span><span class="token punctuation">:</span>
-          <span class="token key atrule">go-version</span><span class="token punctuation">:</span> <span class="token string">'1.20'</span>
-      <span class="token punctuation">-</span> <span class="token key atrule">env</span><span class="token punctuation">:</span>
-          <span class="token key atrule">GITHUB_TOKEN</span><span class="token punctuation">:</span> $<span class="token punctuation">&#123;</span><span class="token punctuation">&#123;</span> secrets.GITHUB_TOKEN <span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span>
-        <span class="token key atrule">name</span><span class="token punctuation">:</span> Run GoReleaser
-        <span class="token key atrule">uses</span><span class="token punctuation">:</span> goreleaser/goreleaser<span class="token punctuation">-</span>action@v4
-        <span class="token key atrule">with</span><span class="token punctuation">:</span>
-          <span class="token key atrule">args</span><span class="token punctuation">:</span> release <span class="token punctuation">-</span><span class="token punctuation">-</span>clean
-          <span class="token comment"># either 'goreleaser' (default) or 'goreleaser-pro'</span>
-          <span class="token key atrule">distribution</span><span class="token punctuation">:</span> goreleaser
-          <span class="token key atrule">version</span><span class="token punctuation">:</span> latest<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h3 id="推送tag来运行自动化工作流程"><a href="#推送tag来运行自动化工作流程" class="headerlink" title="推送tag来运行自动化工作流程"></a>推送tag来运行自动化工作流程</h3><p>在本地设置好tag后,讲tag推送到github代码仓库</p>
-<pre class="line-numbers language-none"><code class="language-none">git push origin --tags<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<h2 id="其他的action"><a href="#其他的action" class="headerlink" title="其他的action"></a>其他的action</h2><p>如github代码仓库中的 <code>Security</code> , 在其中配置  <code>Dependabot安全警报</code></p>
-<p>如github代码仓库 <code>Actions</code> 里 <code>New workflow</code> 在里面选择需要的工作流</p>
-<hr>
-]]></content>
-      <categories>
-        <category>github</category>
-      </categories>
-      <tags>
-        <tag>github</tag>
-        <tag>actions</tag>
-        <tag>workflows</tag>
-        <tag>goreleaser</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>github actions 简单使用</title>
     <url>//post/github-actions-learn.html</url>
     <content><![CDATA[<p><strong>github代码仓库创建<code>workflows-component</code>仓库</strong></p>
@@ -1063,6 +950,119 @@ git config --local user.signingkey 3AA5C34371567BD2<span aria-hidden="true" clas
       </tags>
   </entry>
   <entry>
+    <title>github action 之 Go开源项目配置(tag release)</title>
+    <url>//post/github-actions-go1.html</url>
+    <content><![CDATA[<p><a href="https://goreleaser.com/">gorelease</a></p>
+<p>在github工作流中利用gorelease来根据tag去发布项目</p>
+<span id="more"></span>
+<h2 id="本地配置gorelease"><a href="#本地配置gorelease" class="headerlink" title="本地配置gorelease"></a>本地配置gorelease</h2><h3 id="安装gorelease"><a href="#安装gorelease" class="headerlink" title="安装gorelease"></a>安装gorelease</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">go <span class="token function">install</span> github.com/goreleaser/goreleaser@latest <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h3 id="配置gorelease以发布文件"><a href="#配置gorelease以发布文件" class="headerlink" title="配置gorelease以发布文件"></a>配置gorelease以发布文件</h3><p>在项目根目录生成 <code>.goreleaser.yml</code> 配置文件</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">goreleaser init<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>示例 <code>.goreleaser.yml</code> 文件(具体配置参考gorelease文档):</p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">before</span><span class="token punctuation">:</span>
+  <span class="token key atrule">hooks</span><span class="token punctuation">:</span>
+    <span class="token comment"># You may remove this if you don't use go modules.</span>
+    <span class="token punctuation">-</span> go mod tidy
+    <span class="token comment"># you may remove this if you don't need go generate</span>
+<span class="token comment">#    - go generate ./...</span>
+<span class="token key atrule">builds</span><span class="token punctuation">:</span>
+  <span class="token comment"># main.go 文件位置</span>
+  <span class="token punctuation">-</span> <span class="token key atrule">main</span><span class="token punctuation">:</span> ./cmd
+    <span class="token key atrule">ldflags</span><span class="token punctuation">:</span> <span class="token comment"># build构建时 ldflags 这里利用项目的version包进行注入</span>
+      <span class="token punctuation">-</span> <span class="token punctuation">-</span>X github.com/gzwillyy/mini/pkg/version.GitVersion=<span class="token punctuation">&#123;</span><span class="token punctuation">&#123;</span>.Version<span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span>
+      <span class="token punctuation">-</span> <span class="token punctuation">-</span>X github.com/gzwillyy/mini/pkg/version.GitCommit=<span class="token punctuation">&#123;</span><span class="token punctuation">&#123;</span>.ShortCommit<span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span>
+      <span class="token punctuation">-</span> <span class="token punctuation">-</span>X github.com/gzwillyy/mini/pkg/version.GitTreeState=<span class="token punctuation">&#123;</span><span class="token punctuation">&#123;</span>.Summary<span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span>
+      <span class="token punctuation">-</span> <span class="token punctuation">-</span>X github.com/gzwillyy/mini/pkg/version.BuildDate=<span class="token punctuation">&#123;</span><span class="token punctuation">&#123;</span>.CommitDate<span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span>
+    <span class="token key atrule">env</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> CGO_ENABLED=0
+    <span class="token key atrule">goos</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> linux
+      <span class="token punctuation">-</span> darwin
+
+<span class="token key atrule">archives</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> <span class="token key atrule">format</span><span class="token punctuation">:</span> tar.gz
+    <span class="token comment"># this name template makes the OS and Arch compatible with the results of uname.</span>
+    <span class="token key atrule">name_template</span><span class="token punctuation">:</span> <span class="token punctuation">></span><span class="token punctuation">-</span>
+      <span class="token punctuation">&#123;</span><span class="token punctuation">&#123;</span> .ProjectName <span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span>_
+      <span class="token punctuation">&#123;</span><span class="token punctuation">&#123;</span><span class="token punctuation">-</span> title .Os <span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span>_
+      <span class="token punctuation">&#123;</span><span class="token punctuation">&#123;</span><span class="token punctuation">-</span> if eq .Arch "amd64" <span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span>x86_64
+      <span class="token punctuation">&#123;</span><span class="token punctuation">&#123;</span><span class="token punctuation">-</span> else if eq .Arch "386" <span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span>i386
+      <span class="token punctuation">&#123;</span><span class="token punctuation">&#123;</span><span class="token punctuation">-</span> else <span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span><span class="token punctuation">&#123;</span><span class="token punctuation">&#123;</span> .Arch <span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span><span class="token punctuation">&#123;</span><span class="token punctuation">&#123;</span> end <span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span>
+      <span class="token punctuation">&#123;</span><span class="token punctuation">&#123;</span><span class="token punctuation">-</span> if .Arm <span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span>v<span class="token punctuation">&#123;</span><span class="token punctuation">&#123;</span> .Arm <span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span><span class="token punctuation">&#123;</span><span class="token punctuation">&#123;</span> end <span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span>
+    <span class="token comment"># use zip for windows archives</span>
+    <span class="token key atrule">format_overrides</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token key atrule">goos</span><span class="token punctuation">:</span> windows
+        <span class="token key atrule">format</span><span class="token punctuation">:</span> zip
+<span class="token key atrule">checksum</span><span class="token punctuation">:</span>
+  <span class="token key atrule">name_template</span><span class="token punctuation">:</span> <span class="token string">'checksums.txt'</span>
+<span class="token key atrule">snapshot</span><span class="token punctuation">:</span>
+  <span class="token key atrule">name_template</span><span class="token punctuation">:</span> <span class="token string">"&#123;&#123; incpatch .Version &#125;&#125;-next"</span>
+<span class="token key atrule">changelog</span><span class="token punctuation">:</span>
+  <span class="token key atrule">sort</span><span class="token punctuation">:</span> desc
+  <span class="token key atrule">filters</span><span class="token punctuation">:</span>
+    <span class="token key atrule">exclude</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token string">'^docs:'</span>
+      <span class="token punctuation">-</span> <span class="token string">'^test:'</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h2 id="本地利用tag发布项目文件"><a href="#本地利用tag发布项目文件" class="headerlink" title="本地利用tag发布项目文件"></a>本地利用tag发布项目文件</h2><h3 id="创建tag"><a href="#创建tag" class="headerlink" title="创建tag"></a>创建tag</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 列出历史提交</span>
+<span class="token function">git</span> log <span class="token parameter variable">--pretty</span><span class="token operator">=</span>oneline
+<span class="token comment"># 为指定提交创建tag</span>
+<span class="token function">git</span> tag v0.6.0 <span class="token parameter variable">-m</span> <span class="token string">"v0.6.0 版本"</span>  4b9a14b8c0e7b305d258cd87658ba5e3d34fe480
+<span class="token comment"># 当前最先提交创建tag</span>
+<span class="token function">git</span> tag v0.6.0 <span class="token parameter variable">-m</span> <span class="token string">"v0.6.0 版本"</span> <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="本地发布文件"><a href="#本地发布文件" class="headerlink" title="本地发布文件"></a>本地发布文件</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">goreleaser release <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h2 id="自动化发布"><a href="#自动化发布" class="headerlink" title="自动化发布"></a>自动化发布</h2><h3 id="使用GitHub-Actions"><a href="#使用GitHub-Actions" class="headerlink" title="使用GitHub Actions"></a>使用GitHub Actions</h3><p>在代码目录创建workflows文件定义工作流程</p>
+<pre class="line-numbers language-none"><code class="language-none">mkdir -p .github&#x2F;workflows&#x2F;gorelease.yml<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>示例<code>gorelease.yml</code>文件：</p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">name</span><span class="token punctuation">:</span> Go releaser
+<span class="token key atrule">on</span><span class="token punctuation">:</span>
+  <span class="token key atrule">push</span><span class="token punctuation">:</span>
+    <span class="token key atrule">tags</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token string">'*'</span>
+<span class="token key atrule">permissions</span><span class="token punctuation">:</span>
+  <span class="token key atrule">contents</span><span class="token punctuation">:</span> write
+<span class="token key atrule">jobs</span><span class="token punctuation">:</span>
+  <span class="token key atrule">goreleaser</span><span class="token punctuation">:</span>
+    <span class="token key atrule">name</span><span class="token punctuation">:</span> workflows at release
+    <span class="token key atrule">runs-on</span><span class="token punctuation">:</span> ubuntu<span class="token punctuation">-</span>latest
+    <span class="token key atrule">steps</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Checkout
+        <span class="token key atrule">uses</span><span class="token punctuation">:</span> actions/checkout@v3
+        <span class="token key atrule">with</span><span class="token punctuation">:</span>
+          <span class="token key atrule">fetch-depth</span><span class="token punctuation">:</span> <span class="token number">0</span>
+      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Set up Go
+        <span class="token key atrule">uses</span><span class="token punctuation">:</span> actions/setup<span class="token punctuation">-</span>go@v3.5.0
+        <span class="token key atrule">with</span><span class="token punctuation">:</span>
+          <span class="token key atrule">go-version</span><span class="token punctuation">:</span> <span class="token string">'1.20'</span>
+      <span class="token punctuation">-</span> <span class="token key atrule">env</span><span class="token punctuation">:</span>
+          <span class="token key atrule">GITHUB_TOKEN</span><span class="token punctuation">:</span> $<span class="token punctuation">&#123;</span><span class="token punctuation">&#123;</span> secrets.GITHUB_TOKEN <span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span>
+        <span class="token key atrule">name</span><span class="token punctuation">:</span> Run GoReleaser
+        <span class="token key atrule">uses</span><span class="token punctuation">:</span> goreleaser/goreleaser<span class="token punctuation">-</span>action@v4
+        <span class="token key atrule">with</span><span class="token punctuation">:</span>
+          <span class="token key atrule">args</span><span class="token punctuation">:</span> release <span class="token punctuation">-</span><span class="token punctuation">-</span>clean
+          <span class="token comment"># either 'goreleaser' (default) or 'goreleaser-pro'</span>
+          <span class="token key atrule">distribution</span><span class="token punctuation">:</span> goreleaser
+          <span class="token key atrule">version</span><span class="token punctuation">:</span> latest<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="推送tag来运行自动化工作流程"><a href="#推送tag来运行自动化工作流程" class="headerlink" title="推送tag来运行自动化工作流程"></a>推送tag来运行自动化工作流程</h3><p>在本地设置好tag后,讲tag推送到github代码仓库</p>
+<pre class="line-numbers language-none"><code class="language-none">git push origin --tags<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<h2 id="其他的action"><a href="#其他的action" class="headerlink" title="其他的action"></a>其他的action</h2><p>如github代码仓库中的 <code>Security</code> , 在其中配置  <code>Dependabot安全警报</code></p>
+<p>如github代码仓库 <code>Actions</code> 里 <code>New workflow</code> 在里面选择需要的工作流</p>
+<hr>
+]]></content>
+      <categories>
+        <category>github</category>
+      </categories>
+      <tags>
+        <tag>github</tag>
+        <tag>actions</tag>
+        <tag>workflows</tag>
+        <tag>goreleaser</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Go语言项目开发规范 之 接口规范</title>
     <url>//post/go-api-lint.html</url>
     <content><![CDATA[<h2 id="接口规范"><a href="#接口规范" class="headerlink" title="接口规范"></a>接口规范</h2><p><a href="https://spec.openapis.org/oas/latest.html">OpenAPI 3.0</a> 接口规范。</p>
@@ -1080,30 +1080,6 @@ git config --local user.signingkey 3AA5C34371567BD2<span aria-hidden="true" clas
       </tags>
   </entry>
   <entry>
-    <title>Go语言项目开发规范 之 错误规范</title>
-    <url>//post/go-errorcode-lint.html</url>
-    <content><![CDATA[<h2 id="错误码规范"><a href="#错误码规范" class="headerlink" title="错误码规范"></a>错误码规范</h2><p>错误码是用户定位及解决问题的重要手段之一，当应用发生异常时，用户根据错误码及文档中的错误码描述和解决方案就可以快速定位并解决问题。</p>
-<h3 id="错误码命名规范"><a href="#错误码命名规范" class="headerlink" title="错误码命名规范"></a>错误码命名规范</h3><ul>
-<li>遵循驼峰命名法；</li>
-<li>错误码分为两级。例如，<code>InvalidParameter.BindError</code>，以 <code>.</code> 号分隔。其中，第一级错误码为平台级，第二级错误码为资源级别，可根据场景自定义；</li>
-<li>第二级错误码只能使用英文字母或数字（[a-zA-Z0-9]），应使用英文单词规范拼写、规范缩写、RFC 术语缩写等；</li>
-<li>错误码应避免同一语义多种定义，例如：<code>InvalidParameter.ErrorBind</code>, <code>InvalidParameter.BindError</code>。<span id="more"></span></li>
-</ul>
-<h3 id="第一级公共错误码"><a href="#第一级公共错误码" class="headerlink" title="第一级公共错误码"></a>第一级公共错误码</h3><p>| 错误码 | 错误描述 | 错误类型 |<br>| —- | —- |<br>| InternalError | 内部错误 | 1 |<br>| InvalidParameter | 参数错误（包括参数类型、格式、值等错误） | 0 |<br>| AuthFailure | 认证 &#x2F; 授权错误 | 0 |<br>| ResourceNotFound | 资源不存在 | 0 |<br>| FailedOperation | 操作失败 | 2 |</p>
-<blockquote>
-<p>错误类型：0 代表客户端，1 代表服务端，2 代表客户端 &#x2F; 服务端。</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Golang</category>
-      </categories>
-      <tags>
-        <tag>开发规范</tag>
-        <tag>Golang</tag>
-        <tag>错误规范</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Go语言项目开发规范 之 Commit规范</title>
     <url>//post/go-commit-lint.html</url>
     <content><![CDATA[<h2 id="Commit-规范"><a href="#Commit-规范" class="headerlink" title="Commit 规范"></a>Commit 规范</h2><p><a href="https://www.conventionalcommits.org/en/v1.0.0">Conventional Commits</a> 规范。</p>
@@ -1118,6 +1094,20 @@ git config --local user.signingkey 3AA5C34371567BD2<span aria-hidden="true" clas
         <tag>开发规范</tag>
         <tag>Golang</tag>
         <tag>Commit规范</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Go语言项目开发规范 之 目录规范</title>
+    <url>//post/go-directory-lint.html</url>
+    <content><![CDATA[<h2 id="目录规范"><a href="#目录规范" class="headerlink" title="目录规范"></a>目录规范</h2><p><a href="https://github.com/golang-standards/project-layout">project-layout</a> 目录规范。</p>
+<span id="more"></span>]]></content>
+      <categories>
+        <category>Golang</category>
+      </categories>
+      <tags>
+        <tag>开发规范</tag>
+        <tag>Golang</tag>
+        <tag>目录规范</tag>
       </tags>
   </entry>
   <entry>
@@ -1916,159 +1906,27 @@ u2 <span class="token operator">:=</span> user<span class="token punctuation">&#
       </tags>
   </entry>
   <entry>
-    <title>Go语言项目开发规范 之 目录规范</title>
-    <url>//post/go-directory-lint.html</url>
-    <content><![CDATA[<h2 id="目录规范"><a href="#目录规范" class="headerlink" title="目录规范"></a>目录规范</h2><p><a href="https://github.com/golang-standards/project-layout">project-layout</a> 目录规范。</p>
-<span id="more"></span>]]></content>
+    <title>Go语言项目开发规范 之 错误规范</title>
+    <url>//post/go-errorcode-lint.html</url>
+    <content><![CDATA[<h2 id="错误码规范"><a href="#错误码规范" class="headerlink" title="错误码规范"></a>错误码规范</h2><p>错误码是用户定位及解决问题的重要手段之一，当应用发生异常时，用户根据错误码及文档中的错误码描述和解决方案就可以快速定位并解决问题。</p>
+<h3 id="错误码命名规范"><a href="#错误码命名规范" class="headerlink" title="错误码命名规范"></a>错误码命名规范</h3><ul>
+<li>遵循驼峰命名法；</li>
+<li>错误码分为两级。例如，<code>InvalidParameter.BindError</code>，以 <code>.</code> 号分隔。其中，第一级错误码为平台级，第二级错误码为资源级别，可根据场景自定义；</li>
+<li>第二级错误码只能使用英文字母或数字（[a-zA-Z0-9]），应使用英文单词规范拼写、规范缩写、RFC 术语缩写等；</li>
+<li>错误码应避免同一语义多种定义，例如：<code>InvalidParameter.ErrorBind</code>, <code>InvalidParameter.BindError</code>。<span id="more"></span></li>
+</ul>
+<h3 id="第一级公共错误码"><a href="#第一级公共错误码" class="headerlink" title="第一级公共错误码"></a>第一级公共错误码</h3><p>| 错误码 | 错误描述 | 错误类型 |<br>| —- | —- |<br>| InternalError | 内部错误 | 1 |<br>| InvalidParameter | 参数错误（包括参数类型、格式、值等错误） | 0 |<br>| AuthFailure | 认证 &#x2F; 授权错误 | 0 |<br>| ResourceNotFound | 资源不存在 | 0 |<br>| FailedOperation | 操作失败 | 2 |</p>
+<blockquote>
+<p>错误类型：0 代表客户端，1 代表服务端，2 代表客户端 &#x2F; 服务端。</p>
+</blockquote>
+]]></content>
       <categories>
         <category>Golang</category>
       </categories>
       <tags>
         <tag>开发规范</tag>
         <tag>Golang</tag>
-        <tag>目录规范</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Go语言开发环境(二) GO编译工具安装配置</title>
-    <url>//post/go-install-centos8.html</url>
-    <content><![CDATA[<table>
-<thead>
-<tr>
-<th>环境&#x2F;组件</th>
-<th>版本</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Mac M1虚拟机</td>
-<td>Centos8.4</td>
-</tr>
-<tr>
-<td>Golang</td>
-<td>1.18.3 linux-arm64</td>
-</tr>
-</tbody></table>
-<p>对于Windows和Mac用户，只需双击下载的安装程序，然后按照提示完成安装<br>对于Linux用户，需要手动安装，具体方法可以查看官方文档</p>
-<h2 id="下载GO二进制文件或源代码"><a href="#下载GO二进制文件或源代码" class="headerlink" title="下载GO二进制文件或源代码"></a>下载GO二进制文件或源代码</h2><p>选择适合你的操作系统的版本，比如Windows、Mac或Linux</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">cd</span> /tmp
-<span class="token function">wget</span> https://go.dev/dl/go1.18.3.linux-arm64.tar.gz<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-<h2 id="解压并安装"><a href="#解压并安装" class="headerlink" title="解压并安装"></a>解压并安装</h2><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">mkdir</span> <span class="token parameter variable">-p</span> <span class="token environment constant">$HOME</span>/go
-<span class="token function">tar</span> <span class="token parameter variable">-zxvf</span> go1.18.3.linux-arm64.tar.gz <span class="token parameter variable">-C</span> <span class="token environment constant">$HOME</span>/go
-<span class="token function">mv</span> <span class="token environment constant">$HOME</span>/go/go <span class="token environment constant">$HOME</span>/go/go1.18.3<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-<span id="more"></span>
-
-<h2 id="配置环境变量"><a href="#配置环境变量" class="headerlink" title="配置环境变量"></a>配置环境变量</h2><p><strong>配置<code>$HOME/.bashrc</code>，将环境变量追加到<code>$HOME/.bashrc</code></strong></p>
-<p>需要将GO编译器的二进制文件路径添加到PATH环境变量中<br>对于Windows用户，在“系统属性”中设置环境变量<br>对于Linux和Mac用户，需要编辑bashrc或bash_profile文件</p>
-<pre class="line-numbers language-none"><code class="language-none"># 文件末尾追加
-tee -a $HOME&#x2F;.bashrc &lt;&lt;&#39;EOF&#39;
-export GOVERSION&#x3D;go1.18.3   # Go版本设置
-export GO_INSTALL_DIR&#x3D;$HOME&#x2F;go  # Go安装目录
-export GOROOT&#x3D;$GO_INSTALL_DIR&#x2F;$GOVERSION   # GOROOT设置
-export GOPATH&#x3D;$WORKSPACE&#x2F;golang # GOPATH设置
-
-# 将GO语言自带的和通过go install安装的二进制文件加入PATH路径中
-export PATH&#x3D;$GOROOT&#x2F;bin:$GOPATH&#x2F;bin:$PATH
-export GO111MODULE&#x3D;&quot;on&quot; # 开启go moudles特性
-export GOPROXY&#x3D;https:&#x2F;&#x2F;goproxy.io,direct    # 安装go模块时代理服务器设置
-export GOPRIVATE&#x3D;
-export GOSUMDB&#x3D;sum.golang.org # 校验go依赖包的哈希值
-EOF
-
-bash  # 加载 .bashrc 文件<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h2 id="测试安装是否成功"><a href="#测试安装是否成功" class="headerlink" title="测试安装是否成功"></a>测试安装是否成功</h2><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">go version <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-
-<h2 id="初始化工作区"><a href="#初始化工作区" class="headerlink" title="初始化工作区"></a>初始化工作区</h2><p>使用的 Go 版本为 ​​go1.18.3​​​，​​go1.18.3​​ 支持多模块工作区，所以这里也需要初始化工作区。初始化命令如下:</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">mkdir</span> <span class="token parameter variable">-p</span> <span class="token variable">$GOPATH</span> <span class="token operator">&amp;&amp;</span> <span class="token builtin class-name">cd</span> <span class="token variable">$GOPATH</span>
-go work init
-go <span class="token function">env</span> GOWORK <span class="token comment"># 执行此命令，查看 go.work 工作区文件路径</span>
-/home/going/workspace/golang/go.work<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h2 id="使用Go编译器"><a href="#使用Go编译器" class="headerlink" title="使用Go编译器"></a>使用Go编译器</h2><p>创建一个Go项目<br>编写代码并保存为.go文件<br>在终端或命令行界面中使用<code>go build</code>命令编译项目<br>使用<code>go run</code>命令运行项目<br>使用<code>go install</code>命令安装项目</p>
-<p>注意事项：<br><em><strong>安装过程可能因为操作系统和版本的不同而有所区别<br>需要注意Go的版本和操作系统的兼容性<br>需要熟悉常用的Go编译器命令</strong></em></p>
-<hr>
-<blockquote>
-<p>go 环境变量 中文翻译</p>
-</blockquote>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">go <span class="token builtin class-name">help</span> environment   
-<span class="token comment"># go 命令及其调用的工具参考环境变量进行配置. </span>
-<span class="token comment"># 如果未设置环境变量，go 命令使用合理的默认设置. </span>
-<span class="token comment"># 查看变量的有效设置 &lt;NAME>, 请运行 'go env &lt;NAME>'. </span>
-<span class="token comment"># 要更改默认设置，请运行 'go env -w &lt;NAME>=&lt;VALUE>'. </span>
-<span class="token comment"># 根据 os.UserConfigDir 的报告，使用'go env -w' 更改的默认值记录在存储在每个用户配置目录中的 Go 环境配置文件中.</span>
-<span class="token comment"># 配置文件的位置可以通过设置环境变量GOENV来改变，'go env GOENV'打印有效位置，但是'go env -w'不能改变默认位置。</span>
-<span class="token comment"># 详见'go help env'</span>
-
-<span class="token comment"># 通用环境变量:</span>
-
-        <span class="token comment"># GO111MODULE</span>
-              <span class="token comment">#  控制 go 命令是在模块感知模式下运行还是在 GOPATH 模式下运行.</span>
-              <span class="token comment">#  可以是 "off", "on", or "auto".</span>
-              <span class="token comment">#  请参阅 https://golang.org/ref/mod#mod-commands.</span>
-        <span class="token comment"># GCCGO</span>
-              <span class="token comment">#  为'go build -compiler=gccgo'运行的 gccgo 命令</span>
-        <span class="token comment"># GOARCH</span>
-              <span class="token comment">#  要为其编译代码的体系结构或处理器.</span>
-              <span class="token comment">#  例如 amd64、386、arm、ppc64.</span>
-        <span class="token comment"># GOBIN</span>
-              <span class="token comment">#  'go install'的安装目录.</span>
-        <span class="token comment"># GOCACHE</span>
-              <span class="token comment">#  go 命令将存储缓存信息以供在未来构建中重用的目录.</span>
-        <span class="token comment"># GOMODCACHE</span>
-              <span class="token comment">#  go 命令将存储下载模块的目录.</span>
-        <span class="token comment"># GODEBUG</span>
-              <span class="token comment">#  启用各种调试工具。 有关详细信息，请参阅'go doc runtime'.</span>
-        <span class="token comment"># GOENV</span>
-              <span class="token comment">#  Go 环境配置文件的位置.</span>
-              <span class="token comment">#  无法使用'go env -w'设置.</span>
-              <span class="token comment">#  在环境中设置 GOENV=off 将禁用默认配置文件.</span>
-        <span class="token comment"># GOFLAGS</span>
-              <span class="token comment">#  当前命令已知给定标志时，默认情况下应用于 go 命令的 -flag=value 设置的空格分隔列表. </span>
-              <span class="token comment">#  每个条目必须是一个独立的标志.</span>
-              <span class="token comment">#  因为条目是用空格分隔的，所以标志值不能包含空格. </span>
-              <span class="token comment">#  命令行上列出的标志在此列表之后应用，因此覆盖它.</span>
-        <span class="token comment"># GOINSECURE</span>
-              <span class="token comment">#  逗号分隔的 glob 模式列表（在 Go 的 path.Match 语法中）应该始终以不安全的方式获取的模块路径前缀. </span>
-              <span class="token comment">#  仅适用于直接获取的依赖项.</span>
-              <span class="token comment">#  GOINSECURE 不会禁用校验和数据库验证. 可以使用 GOPRIVATE 或 GONOSUMDB 来实现这一点.</span>
-        <span class="token comment"># GOOS</span>
-              <span class="token comment">#  为其编译代码的操作系统.</span>
-              <span class="token comment">#  例如 linux、darwin、windows、netbsd.</span>
-        <span class="token comment"># GOPATH</span>
-              <span class="token comment">#  有关详细信息，请参阅：'go help gopath'.</span>
-        <span class="token comment"># GOPROXY</span>
-              <span class="token comment">#  UGo 模块代理的 RL. </span>
-              <span class="token comment">#  请参阅 https://golang.org/ref/mod#environment-variables</span>
-              <span class="token comment">#  和 https://golang.org/ref/mod#module-proxy 了解详情.</span>
-        <span class="token comment"># GOPRIVATE, GONOPROXY, GONOSUMDB</span>
-              <span class="token comment">#  以逗号分隔的 glob 模式列表（在 Go 的 path.Match 语法中）</span>
-              <span class="token comment">#  应该始终直接获取或不应与校验和数据库进行比较的模块路径前缀.</span>
-              <span class="token comment">#  See https://golang.org/ref/mod#private-modules.</span>
-        <span class="token comment"># GOROOT</span>
-              <span class="token comment">#  Go语言编译工具，标准库等的安装路径.</span>
-        <span class="token comment"># GOSUMDB</span>
-              <span class="token comment">#  要使用的校验和数据库的名称以及可选的公钥和 URL。 请参阅 https://golang.org/ref/mod#authenticating.</span>
-        <span class="token comment"># GOTMPDIR</span>
-              <span class="token comment">#  go 命令将写入临时源文件、包和二进制文件的目录.</span>
-        <span class="token comment"># GOVCS</span>
-              <span class="token comment">#  列出可用于匹配服务器的版本控制命令. 请参阅“帮助 vcs”.</span>
-        <span class="token comment"># GOWORK</span>
-              <span class="token comment">#  在模块感知模式下，使用给定的 go.work 文件作为工作区文件.</span>
-              <span class="token comment">#  默认情况下或当 GOWORK 为'auto'时，go 命令会在当前目录中搜索名为 go.work 的文件，然后搜索包含的目录，直到找到一个. </span>
-              <span class="token comment">#  如果找到有效的 go.work 文件，则指定的模块将共同用作主要模块.</span>
-              <span class="token comment">#  如果 GOWORK 处于“关闭”状态，或者在“自动”模式下找不到 go.work 文件，则工作空间模式将被禁用.</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-
-
-]]></content>
-      <categories>
-        <category>Golang</category>
-      </categories>
-      <tags>
-        <tag>CentOS8</tag>
-        <tag>Golang</tag>
-        <tag>开发环境</tag>
-        <tag>Git</tag>
+        <tag>错误规范</tag>
       </tags>
   </entry>
   <entry>
@@ -2316,6 +2174,148 @@ miniblog  pkg<span aria-hidden="true" class="line-numbers-rows"><span></span><sp
       <tags>
         <tag>Golang</tag>
         <tag>项目设计</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Go语言开发环境(二) GO编译工具安装配置</title>
+    <url>//post/go-install-centos8.html</url>
+    <content><![CDATA[<table>
+<thead>
+<tr>
+<th>环境&#x2F;组件</th>
+<th>版本</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Mac M1虚拟机</td>
+<td>Centos8.4</td>
+</tr>
+<tr>
+<td>Golang</td>
+<td>1.18.3 linux-arm64</td>
+</tr>
+</tbody></table>
+<p>对于Windows和Mac用户，只需双击下载的安装程序，然后按照提示完成安装<br>对于Linux用户，需要手动安装，具体方法可以查看官方文档</p>
+<h2 id="下载GO二进制文件或源代码"><a href="#下载GO二进制文件或源代码" class="headerlink" title="下载GO二进制文件或源代码"></a>下载GO二进制文件或源代码</h2><p>选择适合你的操作系统的版本，比如Windows、Mac或Linux</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">cd</span> /tmp
+<span class="token function">wget</span> https://go.dev/dl/go1.18.3.linux-arm64.tar.gz<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<h2 id="解压并安装"><a href="#解压并安装" class="headerlink" title="解压并安装"></a>解压并安装</h2><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">mkdir</span> <span class="token parameter variable">-p</span> <span class="token environment constant">$HOME</span>/go
+<span class="token function">tar</span> <span class="token parameter variable">-zxvf</span> go1.18.3.linux-arm64.tar.gz <span class="token parameter variable">-C</span> <span class="token environment constant">$HOME</span>/go
+<span class="token function">mv</span> <span class="token environment constant">$HOME</span>/go/go <span class="token environment constant">$HOME</span>/go/go1.18.3<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<span id="more"></span>
+
+<h2 id="配置环境变量"><a href="#配置环境变量" class="headerlink" title="配置环境变量"></a>配置环境变量</h2><p><strong>配置<code>$HOME/.bashrc</code>，将环境变量追加到<code>$HOME/.bashrc</code></strong></p>
+<p>需要将GO编译器的二进制文件路径添加到PATH环境变量中<br>对于Windows用户，在“系统属性”中设置环境变量<br>对于Linux和Mac用户，需要编辑bashrc或bash_profile文件</p>
+<pre class="line-numbers language-none"><code class="language-none"># 文件末尾追加
+tee -a $HOME&#x2F;.bashrc &lt;&lt;&#39;EOF&#39;
+export GOVERSION&#x3D;go1.18.3   # Go版本设置
+export GO_INSTALL_DIR&#x3D;$HOME&#x2F;go  # Go安装目录
+export GOROOT&#x3D;$GO_INSTALL_DIR&#x2F;$GOVERSION   # GOROOT设置
+export GOPATH&#x3D;$WORKSPACE&#x2F;golang # GOPATH设置
+
+# 将GO语言自带的和通过go install安装的二进制文件加入PATH路径中
+export PATH&#x3D;$GOROOT&#x2F;bin:$GOPATH&#x2F;bin:$PATH
+export GO111MODULE&#x3D;&quot;on&quot; # 开启go moudles特性
+export GOPROXY&#x3D;https:&#x2F;&#x2F;goproxy.io,direct    # 安装go模块时代理服务器设置
+export GOPRIVATE&#x3D;
+export GOSUMDB&#x3D;sum.golang.org # 校验go依赖包的哈希值
+EOF
+
+bash  # 加载 .bashrc 文件<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h2 id="测试安装是否成功"><a href="#测试安装是否成功" class="headerlink" title="测试安装是否成功"></a>测试安装是否成功</h2><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">go version <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+
+<h2 id="初始化工作区"><a href="#初始化工作区" class="headerlink" title="初始化工作区"></a>初始化工作区</h2><p>使用的 Go 版本为 ​​go1.18.3​​​，​​go1.18.3​​ 支持多模块工作区，所以这里也需要初始化工作区。初始化命令如下:</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">mkdir</span> <span class="token parameter variable">-p</span> <span class="token variable">$GOPATH</span> <span class="token operator">&amp;&amp;</span> <span class="token builtin class-name">cd</span> <span class="token variable">$GOPATH</span>
+go work init
+go <span class="token function">env</span> GOWORK <span class="token comment"># 执行此命令，查看 go.work 工作区文件路径</span>
+/home/going/workspace/golang/go.work<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h2 id="使用Go编译器"><a href="#使用Go编译器" class="headerlink" title="使用Go编译器"></a>使用Go编译器</h2><p>创建一个Go项目<br>编写代码并保存为.go文件<br>在终端或命令行界面中使用<code>go build</code>命令编译项目<br>使用<code>go run</code>命令运行项目<br>使用<code>go install</code>命令安装项目</p>
+<p>注意事项：<br><em><strong>安装过程可能因为操作系统和版本的不同而有所区别<br>需要注意Go的版本和操作系统的兼容性<br>需要熟悉常用的Go编译器命令</strong></em></p>
+<hr>
+<blockquote>
+<p>go 环境变量 中文翻译</p>
+</blockquote>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">go <span class="token builtin class-name">help</span> environment   
+<span class="token comment"># go 命令及其调用的工具参考环境变量进行配置. </span>
+<span class="token comment"># 如果未设置环境变量，go 命令使用合理的默认设置. </span>
+<span class="token comment"># 查看变量的有效设置 &lt;NAME>, 请运行 'go env &lt;NAME>'. </span>
+<span class="token comment"># 要更改默认设置，请运行 'go env -w &lt;NAME>=&lt;VALUE>'. </span>
+<span class="token comment"># 根据 os.UserConfigDir 的报告，使用'go env -w' 更改的默认值记录在存储在每个用户配置目录中的 Go 环境配置文件中.</span>
+<span class="token comment"># 配置文件的位置可以通过设置环境变量GOENV来改变，'go env GOENV'打印有效位置，但是'go env -w'不能改变默认位置。</span>
+<span class="token comment"># 详见'go help env'</span>
+
+<span class="token comment"># 通用环境变量:</span>
+
+        <span class="token comment"># GO111MODULE</span>
+              <span class="token comment">#  控制 go 命令是在模块感知模式下运行还是在 GOPATH 模式下运行.</span>
+              <span class="token comment">#  可以是 "off", "on", or "auto".</span>
+              <span class="token comment">#  请参阅 https://golang.org/ref/mod#mod-commands.</span>
+        <span class="token comment"># GCCGO</span>
+              <span class="token comment">#  为'go build -compiler=gccgo'运行的 gccgo 命令</span>
+        <span class="token comment"># GOARCH</span>
+              <span class="token comment">#  要为其编译代码的体系结构或处理器.</span>
+              <span class="token comment">#  例如 amd64、386、arm、ppc64.</span>
+        <span class="token comment"># GOBIN</span>
+              <span class="token comment">#  'go install'的安装目录.</span>
+        <span class="token comment"># GOCACHE</span>
+              <span class="token comment">#  go 命令将存储缓存信息以供在未来构建中重用的目录.</span>
+        <span class="token comment"># GOMODCACHE</span>
+              <span class="token comment">#  go 命令将存储下载模块的目录.</span>
+        <span class="token comment"># GODEBUG</span>
+              <span class="token comment">#  启用各种调试工具。 有关详细信息，请参阅'go doc runtime'.</span>
+        <span class="token comment"># GOENV</span>
+              <span class="token comment">#  Go 环境配置文件的位置.</span>
+              <span class="token comment">#  无法使用'go env -w'设置.</span>
+              <span class="token comment">#  在环境中设置 GOENV=off 将禁用默认配置文件.</span>
+        <span class="token comment"># GOFLAGS</span>
+              <span class="token comment">#  当前命令已知给定标志时，默认情况下应用于 go 命令的 -flag=value 设置的空格分隔列表. </span>
+              <span class="token comment">#  每个条目必须是一个独立的标志.</span>
+              <span class="token comment">#  因为条目是用空格分隔的，所以标志值不能包含空格. </span>
+              <span class="token comment">#  命令行上列出的标志在此列表之后应用，因此覆盖它.</span>
+        <span class="token comment"># GOINSECURE</span>
+              <span class="token comment">#  逗号分隔的 glob 模式列表（在 Go 的 path.Match 语法中）应该始终以不安全的方式获取的模块路径前缀. </span>
+              <span class="token comment">#  仅适用于直接获取的依赖项.</span>
+              <span class="token comment">#  GOINSECURE 不会禁用校验和数据库验证. 可以使用 GOPRIVATE 或 GONOSUMDB 来实现这一点.</span>
+        <span class="token comment"># GOOS</span>
+              <span class="token comment">#  为其编译代码的操作系统.</span>
+              <span class="token comment">#  例如 linux、darwin、windows、netbsd.</span>
+        <span class="token comment"># GOPATH</span>
+              <span class="token comment">#  有关详细信息，请参阅：'go help gopath'.</span>
+        <span class="token comment"># GOPROXY</span>
+              <span class="token comment">#  UGo 模块代理的 RL. </span>
+              <span class="token comment">#  请参阅 https://golang.org/ref/mod#environment-variables</span>
+              <span class="token comment">#  和 https://golang.org/ref/mod#module-proxy 了解详情.</span>
+        <span class="token comment"># GOPRIVATE, GONOPROXY, GONOSUMDB</span>
+              <span class="token comment">#  以逗号分隔的 glob 模式列表（在 Go 的 path.Match 语法中）</span>
+              <span class="token comment">#  应该始终直接获取或不应与校验和数据库进行比较的模块路径前缀.</span>
+              <span class="token comment">#  See https://golang.org/ref/mod#private-modules.</span>
+        <span class="token comment"># GOROOT</span>
+              <span class="token comment">#  Go语言编译工具，标准库等的安装路径.</span>
+        <span class="token comment"># GOSUMDB</span>
+              <span class="token comment">#  要使用的校验和数据库的名称以及可选的公钥和 URL。 请参阅 https://golang.org/ref/mod#authenticating.</span>
+        <span class="token comment"># GOTMPDIR</span>
+              <span class="token comment">#  go 命令将写入临时源文件、包和二进制文件的目录.</span>
+        <span class="token comment"># GOVCS</span>
+              <span class="token comment">#  列出可用于匹配服务器的版本控制命令. 请参阅“帮助 vcs”.</span>
+        <span class="token comment"># GOWORK</span>
+              <span class="token comment">#  在模块感知模式下，使用给定的 go.work 文件作为工作区文件.</span>
+              <span class="token comment">#  默认情况下或当 GOWORK 为'auto'时，go 命令会在当前目录中搜索名为 go.work 的文件，然后搜索包含的目录，直到找到一个. </span>
+              <span class="token comment">#  如果找到有效的 go.work 文件，则指定的模块将共同用作主要模块.</span>
+              <span class="token comment">#  如果 GOWORK 处于“关闭”状态，或者在“自动”模式下找不到 go.work 文件，则工作空间模式将被禁用.</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+
+
+]]></content>
+      <categories>
+        <category>Golang</category>
+      </categories>
+      <tags>
+        <tag>CentOS8</tag>
+        <tag>Golang</tag>
+        <tag>开发环境</tag>
+        <tag>Git</tag>
       </tags>
   </entry>
   <entry>
@@ -2761,195 +2761,6 @@ total:                                                        (statements)      
       </tags>
   </entry>
   <entry>
-    <title>Go语言 work 工作区模式</title>
-    <url>//post/go-work-note.html</url>
-    <content><![CDATA[<ul>
-<li>本文摘自 <a href="https://polarisxu.studygolang.com/posts/go/workspace/">https://polarisxu.studygolang.com/posts/go/workspace</a></li>
-</ul>
-<p>工作区模式（Workspace mode），可不是之前 GOPATH 时代的 Workspace，而是希望在本地开发时支持多 Module。</p>
-<h2 id="缘起"><a href="#缘起" class="headerlink" title="缘起"></a>缘起</h2><p>为了大家全面理解工作区模式，通过一个具体例子讲解。</p>
-<p>本地有两个项目，分别是两个 module：mypkg 和 example。（Windows 系统请按自己方式创建目录）</p>
-<span id="more"></span>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">cd</span> ~/
-<span class="token function">mkdir</span> polarisxu
-<span class="token builtin class-name">cd</span> polarisxu
-<span class="token function">mkdir</span> mypkg example
-<span class="token builtin class-name">cd</span> mypkg
-go mod init github.com/polaris1119/mypkg
-<span class="token function">touch</span> bar.go<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p>在 bar.go 中增加如下示例代码：</p>
-<pre class="line-numbers language-go" data-language="go"><code class="language-go"><span class="token keyword">package</span> mypkg
-
-<span class="token keyword">func</span> <span class="token function">Bar</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
-    <span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"This is package mypkg"</span><span class="token punctuation">)</span>
-<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p>接着，在 example 模块中处理：</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">cd</span> ~/polarisxu/example
-go mod init github.com/polaris1119/example
-<span class="token function">touch</span> main.go<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-
-<p>在 main.go 中增加如下内容：</p>
-<pre class="line-numbers language-go" data-language="go"><code class="language-go"><span class="token keyword">package</span> main
-
-<span class="token keyword">import</span> <span class="token punctuation">(</span>
-    <span class="token string">"github.com/polaris1119/mypkg"</span>
-<span class="token punctuation">)</span>
-
-<span class="token keyword">func</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
-    mypkg<span class="token punctuation">.</span><span class="token function">Bar</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
-<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p>这时候，如果我们运行 go mod tidy，肯定会报错，因为我们的 mypkg 包根本没有提交到 github 上，肯定找不到。</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">go mod tidy
-<span class="token punctuation">..</span><span class="token punctuation">..</span>
-fatal: repository <span class="token string">'https://github.com/polaris1119/mypkg/'</span> not found<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-
-<p><code>go run main.go</code> 也就不成功。</p>
-<p>我们当然可以提交 mypkg 到 github，但我们每修改一次 mypkg，就需要提交（而且每次提交之后需要在 example 中 go get 最新版本），否则 example 中就没法使用上最新的。</p>
-<p>针对这种情况，目前是建议通过 replace 来解决，即在 example 中的 go.mod 增加如下 replace：（v1.0.0 根据具体情况修改，还未提交，可以使用 v1.0.0）</p>
-<pre class="line-numbers language-go" data-language="go"><code class="language-go">module github<span class="token punctuation">.</span>com<span class="token operator">/</span>polaris1119<span class="token operator">/</span>example
-
-<span class="token keyword">go</span> <span class="token number">1.19</span>
-
-require github<span class="token punctuation">.</span>com<span class="token operator">/</span>polaris1119<span class="token operator">/</span>mypkg v1<span class="token punctuation">.</span><span class="token number">0.0</span>
-
-replace github<span class="token punctuation">.</span>com<span class="token operator">/</span>polaris1119<span class="token operator">/</span>mypkg <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token operator">/</span>mypkg<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p>再次运行 go run main.go，输出如下：</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">go run main.go
-This is package mypkg<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-
-<p>当都开发完成时，我们需要手动删除 replace，并执行 go mod tidy 后提交，否则别人使用就报错了。</p>
-<p>这还是挺不方便的，如果本地有多个 module，每一个都得这么处理。</p>
-<h2 id="工作区模式"><a href="#工作区模式" class="headerlink" title="工作区模式"></a>工作区模式</h2><p>针对上面的这个问题，Michael Matloob 提出了 Workspace Mode（工作区模式）。相关 issue 讨论：<a href="https://github.com/golang/go/issues/45713">cmd&#x2F;go: add a workspace mode</a> ，<a href="https://go.googlesource.com/proposal/+/master/design/45713-workspace.md">这里是 Proposal</a> 。并在 Go1.18 中发布了。</p>
-<p>因此，要使用工作区，请确保 Go 版本在 1.18+。</p>
-<p>我本地当前版本：</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">go version
-go version go1.19.2 darwin/arm64<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-
-<p>通过 go help work 可以看到 work 相关命令：</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">go <span class="token builtin class-name">help</span> work
-Work provides access to operations on workspaces.
-
-Note that support <span class="token keyword">for</span> workspaces is built into many other commands, not
-just <span class="token string">'go work'</span><span class="token builtin class-name">.</span>
-
-See <span class="token string">'go help modules'</span> <span class="token keyword">for</span> information about Go<span class="token string">'s module system of which
-workspaces are a part.
-
-See https://go.dev/ref/mod#workspaces for an in-depth reference on
-workspaces.
-
-See https://go.dev/doc/tutorial/workspaces for an introductory
-tutorial on workspaces.
-
-A workspace is specified by a go.work file that specifies a set of
-module directories with the "use" directive. These modules are used as
-root modules by the go command for builds and related operations.  A
-workspace that does not specify modules to be used cannot be used to do
-builds from local modules.
-
-go.work files are line-oriented. Each line holds a single directive,
-made up of a keyword followed by arguments. For example:
-
-    go 1.18
-
-    use ../foo/bar
-    use ./baz
-
-    replace example.com/foo v1.2.3 => example.com/bar v1.4.5
-
-The leading keyword can be factored out of adjacent lines to create a block,
-like in Go imports.
-
-    use (
-      ../foo/bar
-      ./baz
-    )
-
-The use directive specifies a module to be included in the workspace'</span>s
-<span class="token builtin class-name">set</span> of main modules. The argument to the use directive is the directory
-containing the module's go.mod file.
-
-The go directive specifies the version of Go the <span class="token function">file</span> was written at. It
-is possible there may be future changes <span class="token keyword">in</span> the semantics of workspaces
-that could be controlled by this version, but <span class="token keyword">for</span> now the version
-specified has no effect.
-
-The replace directive has the same syntax as the replace directive <span class="token keyword">in</span> a
-go.mod <span class="token function">file</span> and takes precedence over replaces <span class="token keyword">in</span> go.mod files.  It is
-primarily intended to override conflicting replaces <span class="token keyword">in</span> different workspace
-modules.
-
-To determine whether the go <span class="token builtin class-name">command</span> is operating <span class="token keyword">in</span> workspace mode, use
-the <span class="token string">"go env GOWORK"</span> command. This will specify the workspace <span class="token function">file</span> being
-used.
-
-Usage:
-
-    go work <span class="token operator">&lt;</span>command<span class="token operator">></span> <span class="token punctuation">[</span>arguments<span class="token punctuation">]</span>
-
-The commands are:
-
-    edit        edit go.work from tools or scripts
-    init        initialize workspace <span class="token function">file</span>
-    <span class="token function">sync</span>        <span class="token function">sync</span> workspace build list to modules
-    use         <span class="token function">add</span> modules to workspace <span class="token function">file</span>
-
-Use <span class="token string">"go help work &lt;command>"</span> <span class="token keyword">for</span> <span class="token function">more</span> information about a command.<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p><strong>注意：上文中提到，工作区不只是 go work 相关命令，Go 其他命令也会涉及工作区内容，比如 go run、go build 等。</strong></p>
-<p>根据这个提示，我们初始化 workspace：</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">cd</span> ~/polarisxu
-go work init mypkg example
-tree
-<span class="token builtin class-name">.</span>
-├── example
-│   ├── go.mod
-│   └── main.go
-├── go.work
-└── mypkg
-    ├── bar.go
-    └── go.mod<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p>注意几点：</p>
-<ul>
-<li>多个子模块应该在一个目录下（或其子目录）。比如这里的 polarisxu 目录；（这不是必须的，但更好管理，否则 go work init 需要提供正确的子模块路径）</li>
-<li>go work init 需要在 polarisxu 目录执行；</li>
-<li>go work init 之后跟上需要本地开发的子模块目录名；</li>
-</ul>
-<p>打开 go.work 看看长什么样：</p>
-<pre class="line-numbers language-go" data-language="go"><code class="language-go"><span class="token keyword">go</span> <span class="token number">1.19</span>
-
-use <span class="token punctuation">(</span>
-    <span class="token punctuation">.</span><span class="token operator">/</span>example
-    <span class="token punctuation">.</span><span class="token operator">/</span>mypkg
-<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p>go.work 文件的语法和 go.mod 类似（go.work 优先级高于 go.mod），因此也支持 replace。</p>
-<p><strong>注意：实际项目中，多个模块之间可能还依赖第三方包，其他模块，建议在 go.work 所在目录执行 <code>go work sync</code>。</strong></p>
-<p>现在，我们将 example&#x2F;go.mod 中的 replace 语句删除，再次执行 go run main.go（在 example 目录下），得到了正常的输出。也可以在 polarisxu 目录下，这么运行：go run example&#x2F;main.go，也能正常。</p>
-<p><strong>注意，go.work 不需要提交到 Git 中，因为它只是你本地开发使用的。</strong></p>
-<p>当你开发完成，应该先提交 mypkg 包到 GitHub，然后在 example 下面执行 go get：</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">go get <span class="token parameter variable">-u</span> github.com/polaris1119/mypkg@latest<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>然后禁用 workspace（通过 GOWORK&#x3D;off 禁用），再次运行 example 模块，是否正确：</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">cd</span> ~/polarisxu/example
-<span class="token assign-left variable">GOWORK</span><span class="token operator">=</span>off go run main.go<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-
-]]></content>
-      <categories>
-        <category>Golang</category>
-      </categories>
-      <tags>
-        <tag>Golang</tag>
-        <tag>work</tag>
-        <tag>工作区模式</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Go语言开发环境(一) linux 服务器配置</title>
     <url>//post/go-workspace-centos8.html</url>
     <content><![CDATA[<table>
@@ -3152,6 +2963,195 @@ EOF</span>
         <tag>Golang</tag>
         <tag>开发环境</tag>
         <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Go语言 work 工作区模式</title>
+    <url>//post/go-work-note.html</url>
+    <content><![CDATA[<ul>
+<li>本文摘自 <a href="https://polarisxu.studygolang.com/posts/go/workspace/">https://polarisxu.studygolang.com/posts/go/workspace</a></li>
+</ul>
+<p>工作区模式（Workspace mode），可不是之前 GOPATH 时代的 Workspace，而是希望在本地开发时支持多 Module。</p>
+<h2 id="缘起"><a href="#缘起" class="headerlink" title="缘起"></a>缘起</h2><p>为了大家全面理解工作区模式，通过一个具体例子讲解。</p>
+<p>本地有两个项目，分别是两个 module：mypkg 和 example。（Windows 系统请按自己方式创建目录）</p>
+<span id="more"></span>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">cd</span> ~/
+<span class="token function">mkdir</span> polarisxu
+<span class="token builtin class-name">cd</span> polarisxu
+<span class="token function">mkdir</span> mypkg example
+<span class="token builtin class-name">cd</span> mypkg
+go mod init github.com/polaris1119/mypkg
+<span class="token function">touch</span> bar.go<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>在 bar.go 中增加如下示例代码：</p>
+<pre class="line-numbers language-go" data-language="go"><code class="language-go"><span class="token keyword">package</span> mypkg
+
+<span class="token keyword">func</span> <span class="token function">Bar</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+    <span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"This is package mypkg"</span><span class="token punctuation">)</span>
+<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>接着，在 example 模块中处理：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">cd</span> ~/polarisxu/example
+go mod init github.com/polaris1119/example
+<span class="token function">touch</span> main.go<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<p>在 main.go 中增加如下内容：</p>
+<pre class="line-numbers language-go" data-language="go"><code class="language-go"><span class="token keyword">package</span> main
+
+<span class="token keyword">import</span> <span class="token punctuation">(</span>
+    <span class="token string">"github.com/polaris1119/mypkg"</span>
+<span class="token punctuation">)</span>
+
+<span class="token keyword">func</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+    mypkg<span class="token punctuation">.</span><span class="token function">Bar</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>这时候，如果我们运行 go mod tidy，肯定会报错，因为我们的 mypkg 包根本没有提交到 github 上，肯定找不到。</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">go mod tidy
+<span class="token punctuation">..</span><span class="token punctuation">..</span>
+fatal: repository <span class="token string">'https://github.com/polaris1119/mypkg/'</span> not found<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<p><code>go run main.go</code> 也就不成功。</p>
+<p>我们当然可以提交 mypkg 到 github，但我们每修改一次 mypkg，就需要提交（而且每次提交之后需要在 example 中 go get 最新版本），否则 example 中就没法使用上最新的。</p>
+<p>针对这种情况，目前是建议通过 replace 来解决，即在 example 中的 go.mod 增加如下 replace：（v1.0.0 根据具体情况修改，还未提交，可以使用 v1.0.0）</p>
+<pre class="line-numbers language-go" data-language="go"><code class="language-go">module github<span class="token punctuation">.</span>com<span class="token operator">/</span>polaris1119<span class="token operator">/</span>example
+
+<span class="token keyword">go</span> <span class="token number">1.19</span>
+
+require github<span class="token punctuation">.</span>com<span class="token operator">/</span>polaris1119<span class="token operator">/</span>mypkg v1<span class="token punctuation">.</span><span class="token number">0.0</span>
+
+replace github<span class="token punctuation">.</span>com<span class="token operator">/</span>polaris1119<span class="token operator">/</span>mypkg <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token operator">/</span>mypkg<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>再次运行 go run main.go，输出如下：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">go run main.go
+This is package mypkg<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<p>当都开发完成时，我们需要手动删除 replace，并执行 go mod tidy 后提交，否则别人使用就报错了。</p>
+<p>这还是挺不方便的，如果本地有多个 module，每一个都得这么处理。</p>
+<h2 id="工作区模式"><a href="#工作区模式" class="headerlink" title="工作区模式"></a>工作区模式</h2><p>针对上面的这个问题，Michael Matloob 提出了 Workspace Mode（工作区模式）。相关 issue 讨论：<a href="https://github.com/golang/go/issues/45713">cmd&#x2F;go: add a workspace mode</a> ，<a href="https://go.googlesource.com/proposal/+/master/design/45713-workspace.md">这里是 Proposal</a> 。并在 Go1.18 中发布了。</p>
+<p>因此，要使用工作区，请确保 Go 版本在 1.18+。</p>
+<p>我本地当前版本：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">go version
+go version go1.19.2 darwin/arm64<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<p>通过 go help work 可以看到 work 相关命令：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">go <span class="token builtin class-name">help</span> work
+Work provides access to operations on workspaces.
+
+Note that support <span class="token keyword">for</span> workspaces is built into many other commands, not
+just <span class="token string">'go work'</span><span class="token builtin class-name">.</span>
+
+See <span class="token string">'go help modules'</span> <span class="token keyword">for</span> information about Go<span class="token string">'s module system of which
+workspaces are a part.
+
+See https://go.dev/ref/mod#workspaces for an in-depth reference on
+workspaces.
+
+See https://go.dev/doc/tutorial/workspaces for an introductory
+tutorial on workspaces.
+
+A workspace is specified by a go.work file that specifies a set of
+module directories with the "use" directive. These modules are used as
+root modules by the go command for builds and related operations.  A
+workspace that does not specify modules to be used cannot be used to do
+builds from local modules.
+
+go.work files are line-oriented. Each line holds a single directive,
+made up of a keyword followed by arguments. For example:
+
+    go 1.18
+
+    use ../foo/bar
+    use ./baz
+
+    replace example.com/foo v1.2.3 => example.com/bar v1.4.5
+
+The leading keyword can be factored out of adjacent lines to create a block,
+like in Go imports.
+
+    use (
+      ../foo/bar
+      ./baz
+    )
+
+The use directive specifies a module to be included in the workspace'</span>s
+<span class="token builtin class-name">set</span> of main modules. The argument to the use directive is the directory
+containing the module's go.mod file.
+
+The go directive specifies the version of Go the <span class="token function">file</span> was written at. It
+is possible there may be future changes <span class="token keyword">in</span> the semantics of workspaces
+that could be controlled by this version, but <span class="token keyword">for</span> now the version
+specified has no effect.
+
+The replace directive has the same syntax as the replace directive <span class="token keyword">in</span> a
+go.mod <span class="token function">file</span> and takes precedence over replaces <span class="token keyword">in</span> go.mod files.  It is
+primarily intended to override conflicting replaces <span class="token keyword">in</span> different workspace
+modules.
+
+To determine whether the go <span class="token builtin class-name">command</span> is operating <span class="token keyword">in</span> workspace mode, use
+the <span class="token string">"go env GOWORK"</span> command. This will specify the workspace <span class="token function">file</span> being
+used.
+
+Usage:
+
+    go work <span class="token operator">&lt;</span>command<span class="token operator">></span> <span class="token punctuation">[</span>arguments<span class="token punctuation">]</span>
+
+The commands are:
+
+    edit        edit go.work from tools or scripts
+    init        initialize workspace <span class="token function">file</span>
+    <span class="token function">sync</span>        <span class="token function">sync</span> workspace build list to modules
+    use         <span class="token function">add</span> modules to workspace <span class="token function">file</span>
+
+Use <span class="token string">"go help work &lt;command>"</span> <span class="token keyword">for</span> <span class="token function">more</span> information about a command.<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p><strong>注意：上文中提到，工作区不只是 go work 相关命令，Go 其他命令也会涉及工作区内容，比如 go run、go build 等。</strong></p>
+<p>根据这个提示，我们初始化 workspace：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">cd</span> ~/polarisxu
+go work init mypkg example
+tree
+<span class="token builtin class-name">.</span>
+├── example
+│   ├── go.mod
+│   └── main.go
+├── go.work
+└── mypkg
+    ├── bar.go
+    └── go.mod<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>注意几点：</p>
+<ul>
+<li>多个子模块应该在一个目录下（或其子目录）。比如这里的 polarisxu 目录；（这不是必须的，但更好管理，否则 go work init 需要提供正确的子模块路径）</li>
+<li>go work init 需要在 polarisxu 目录执行；</li>
+<li>go work init 之后跟上需要本地开发的子模块目录名；</li>
+</ul>
+<p>打开 go.work 看看长什么样：</p>
+<pre class="line-numbers language-go" data-language="go"><code class="language-go"><span class="token keyword">go</span> <span class="token number">1.19</span>
+
+use <span class="token punctuation">(</span>
+    <span class="token punctuation">.</span><span class="token operator">/</span>example
+    <span class="token punctuation">.</span><span class="token operator">/</span>mypkg
+<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>go.work 文件的语法和 go.mod 类似（go.work 优先级高于 go.mod），因此也支持 replace。</p>
+<p><strong>注意：实际项目中，多个模块之间可能还依赖第三方包，其他模块，建议在 go.work 所在目录执行 <code>go work sync</code>。</strong></p>
+<p>现在，我们将 example&#x2F;go.mod 中的 replace 语句删除，再次执行 go run main.go（在 example 目录下），得到了正常的输出。也可以在 polarisxu 目录下，这么运行：go run example&#x2F;main.go，也能正常。</p>
+<p><strong>注意，go.work 不需要提交到 Git 中，因为它只是你本地开发使用的。</strong></p>
+<p>当你开发完成，应该先提交 mypkg 包到 GitHub，然后在 example 下面执行 go get：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">go get <span class="token parameter variable">-u</span> github.com/polaris1119/mypkg@latest<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>然后禁用 workspace（通过 GOWORK&#x3D;off 禁用），再次运行 example 模块，是否正确：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">cd</span> ~/polarisxu/example
+<span class="token assign-left variable">GOWORK</span><span class="token operator">=</span>off go run main.go<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+]]></content>
+      <categories>
+        <category>Golang</category>
+      </categories>
+      <tags>
+        <tag>Golang</tag>
+        <tag>work</tag>
+        <tag>工作区模式</tag>
       </tags>
   </entry>
   <entry>
@@ -3509,7 +3509,7 @@ db.auth<span class="token punctuation">(</span><span class="token string">"iam"<
 <li>创建<code>CA</code>根证书和密钥</li>
 <li>配置 <code>hosts</code></li>
 </ol>
-<h4 id="初始化-MariaDB数据库"><a href="#初始化-MariaDB数据库" class="headerlink" title="初始化 MariaDB数据库"></a>初始化 MariaDB数据库</h4><p><strong>需要再<code>MariaDB</code>数据库中创建<code>IAM</code>系统需要的数据库 表 和存储过程</strong><br>**<em>创建<code>SQL</code>语句保存在<code>configs/iam.sql</code>文件中，具体创建步骤如下：</em></p>
+<h4 id="初始化-MariaDB数据库"><a href="#初始化-MariaDB数据库" class="headerlink" title="初始化 MariaDB数据库"></a>初始化 MariaDB数据库</h4><p><strong>需要再<code>MariaDB</code>数据库中创建<code>IAM</code>系统需要的数据库 表 和存储过程</strong><br><em><strong>创建<code>SQL</code>语句保存在<code>configs/iam.sql</code>文件中，具体创建步骤如下：</strong></em></p>
 <ol>
 <li><p>登录数据库并创建<code>iam</code>用户:</p>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">cd</span> <span class="token variable">$IAM_ROOT</span>
@@ -3518,12 +3518,12 @@ grant all on iam.* TO iam@127.0.0.1 identified by <span class="token string">'11
 flush privileges<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 </li>
 <li><p>用<code>iam</code>用户登录<code>MariaDB</code>，执行<code>configs/iam.sql</code>文件。从而创建<code>iam</code>数据库</p>
-</li>
-</ol>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">mysql <span class="token parameter variable">-h127.0.0.1</span> <span class="token parameter variable">-P3306</span> <span class="token parameter variable">-uiam</span> -p<span class="token string">'112233'</span>
 <span class="token builtin class-name">source</span> configs/iam.sql<span class="token punctuation">;</span>
 show databases<span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 <p><strong>上面的命令除了创建<code>iam</code>数据库之外 ， 也会在<code>iam</code>数据库中创建以下资源：</strong></p>
+</li>
+</ol>
 <blockquote>
 <p><em><strong><code>表：</code></strong></em></p>
 </blockquote>
