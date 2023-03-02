@@ -1,25 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>//post/hello-world.html</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-<h3 id="Clean"><a href="#Clean" class="headerlink" title="Clean"></a>Clean</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo clean<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-]]></content>
-  </entry>
-  <entry>
     <title>dnf 命令的使用</title>
     <url>//post/centos8-dnf.html</url>
     <content><![CDATA[<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 查看 `dnf` 的版本</span>
@@ -73,6 +54,25 @@ dnf distro-sync
       </tags>
   </entry>
   <entry>
+    <title>Hello World</title>
+    <url>//post/hello-world.html</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<h3 id="Clean"><a href="#Clean" class="headerlink" title="Clean"></a>Clean</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo clean<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+]]></content>
+  </entry>
+  <entry>
     <title>CentOS8 安装 Docker Engine(Docker CE) 及 Docker Compose</title>
     <url>//post/centos8-install-docker.html</url>
     <content><![CDATA[<blockquote>
@@ -114,44 +114,6 @@ firewall-cmd <span class="token parameter variable">--reload</span><span aria-hi
         <tag>CentOS8</tag>
         <tag>Docker</tag>
         <tag>Docker Compose</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>pyenv进行Python版本管理</title>
-    <url>//post/centos8-install-pyenv.html</url>
-    <content><![CDATA[<h2 id="安装-pyenv"><a href="#安装-pyenv" class="headerlink" title="安装  pyenv"></a>安装  <em><a href="https://github.com/pyenv/pyenv"><code>pyenv</code></a></em></h2><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">curl</span> https://pyenv.run <span class="token operator">|</span> <span class="token function">bash</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<h2 id="pyenv-基本命令"><a href="#pyenv-基本命令" class="headerlink" title="pyenv 基本命令"></a><em><a href="https://github.com/pyenv/pyenv"><code>pyenv</code></a></em> 基本命令</h2><span id="more"></span>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 查看pyenv命令</span>
-pyenv commands
-<span class="token comment"># 查看可安装的python版本</span>
-pyenv <span class="token function">install</span> <span class="token parameter variable">--list</span> 
-<span class="token comment"># 查看已安装版本</span>
-pyenv versions 
-<span class="token comment"># 查看当前使用的python版本</span>
-pyenv version 
-<span class="token comment"># 安装python</span>
-pyenv <span class="token function">install</span> <span class="token parameter variable">-v</span> 版本号 
-<span class="token comment"># 刷新python已安装列表</span>
-pyenv rehash 
-<span class="token comment"># 删除python</span>
-pyenv uninstall 版本号 
-<span class="token comment"># 设置当前全局python版本</span>
-pyenv global 版本号 
-<span class="token comment"># 设置局部python版本</span>
-pyenv <span class="token builtin class-name">local</span> 版本号 
-<span class="token comment"># 取消局部python版本设置,或者删除当前目录下的.python-version文件</span>
-pyenv <span class="token builtin class-name">local</span> <span class="token parameter variable">--unset</span> 
-<span class="token comment"># help</span>
-<span class="token comment"># pyenv help</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<hr>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>CentOS8</tag>
-        <tag>Pyenv</tag>
       </tags>
   </entry>
   <entry>
@@ -228,27 +190,41 @@ pyenv <span class="token builtin class-name">local</span> <span class="token par
       </tags>
   </entry>
   <entry>
-    <title>微服务 之 高可用保障 - 链路追踪、熔断、限流、降级</title>
-    <url>//post/micro-high-availability.html</url>
-    <content><![CDATA[<p><strong>微服务是一种将应用程序作为独立服务的集合结构的架构风格。这些服务通过API互相通信，设计为具有高度的可扩展性、灵活性和弹性。<br>为了保证微服务环境的高可用性，实施几个关键策略是非常重要的，包括链路追踪、熔断、限流和降级。</strong></p>
-<span id="more"></span>
-<h2 id="链路追踪"><a href="#链路追踪" class="headerlink" title="链路追踪"></a>链路追踪</h2><p>链路追踪是追踪请求在应用中穿过不同微服务的路径的能力。这对于故障排除和调试问题以及监测性能非常重要。</p>
-<p>通过实施链路追踪，开发人员可以快速识别问题的根源并采取纠正措施。这也可以通过优化单个服务来提高应用的整体性能。</p>
-<h2 id="熔断"><a href="#熔断" class="headerlink" title="熔断"></a>熔断</h2><p>熔断是一种防止微服务因故障导致整个应用瘫痪的技术。当一个服务不可用时，熔断器会自动打开，阻止请求传递到该服务，并返回预定义的响应。</p>
-<p>通过实施熔断，开发人员可以保证即使一个服务出现故障，整个应用也不会停止工作。这有助于保证整个应用的可用性和稳定性。</p>
-<h2 id="限流"><a href="#限流" class="headerlink" title="限流"></a>限流</h2><p>限流是一种限制单位时间内请求数量的技术。当请求速率超过预定的阈值时，限流器会阻止进一步的请求，以避免服务器过载。</p>
-<p>通过实施限流，开发人员可以保证服务器性能不会因请求速率过快而受到影响。这有助于保证应用的稳定性和可用性。</p>
-<h2 id="降级"><a href="#降级" class="headerlink" title="降级"></a>降级</h2><p>降级是一种在服务不可用时降低功能级别的技术。当一个服务不可用时，降级策略会自动启用，以降低应用的功能级别。</p>
-<p>通过实施降级，开发人员可以在服务不可用时保证应用仍然可以继续提供部分功能。这有助于保证应用的可用性。</p>
+    <title>pyenv进行Python版本管理</title>
+    <url>//post/centos8-install-pyenv.html</url>
+    <content><![CDATA[<h2 id="安装-pyenv"><a href="#安装-pyenv" class="headerlink" title="安装  pyenv"></a>安装  <em><a href="https://github.com/pyenv/pyenv"><code>pyenv</code></a></em></h2><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">curl</span> https://pyenv.run <span class="token operator">|</span> <span class="token function">bash</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h2 id="pyenv-基本命令"><a href="#pyenv-基本命令" class="headerlink" title="pyenv 基本命令"></a><em><a href="https://github.com/pyenv/pyenv"><code>pyenv</code></a></em> 基本命令</h2><span id="more"></span>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 查看pyenv命令</span>
+pyenv commands
+<span class="token comment"># 查看可安装的python版本</span>
+pyenv <span class="token function">install</span> <span class="token parameter variable">--list</span> 
+<span class="token comment"># 查看已安装版本</span>
+pyenv versions 
+<span class="token comment"># 查看当前使用的python版本</span>
+pyenv version 
+<span class="token comment"># 安装python</span>
+pyenv <span class="token function">install</span> <span class="token parameter variable">-v</span> 版本号 
+<span class="token comment"># 刷新python已安装列表</span>
+pyenv rehash 
+<span class="token comment"># 删除python</span>
+pyenv uninstall 版本号 
+<span class="token comment"># 设置当前全局python版本</span>
+pyenv global 版本号 
+<span class="token comment"># 设置局部python版本</span>
+pyenv <span class="token builtin class-name">local</span> 版本号 
+<span class="token comment"># 取消局部python版本设置,或者删除当前目录下的.python-version文件</span>
+pyenv <span class="token builtin class-name">local</span> <span class="token parameter variable">--unset</span> 
+<span class="token comment"># help</span>
+<span class="token comment"># pyenv help</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<hr>
 ]]></content>
       <categories>
-        <category>Micro</category>
+        <category>Notes</category>
       </categories>
       <tags>
-        <tag>链路追踪</tag>
-        <tag>熔断</tag>
-        <tag>限流</tag>
-        <tag>降级</tag>
+        <tag>CentOS8</tag>
+        <tag>Pyenv</tag>
       </tags>
   </entry>
   <entry>
@@ -438,96 +414,27 @@ vi &#x2F;root&#x2F;prometheus&#x2F;prometheus-2.41.0.linux-arm64&#x2F;prometheus
       </tags>
   </entry>
   <entry>
-    <title>排名前 8 位的容器仓库</title>
-    <url>//post/container-rank.html</url>
-    <content><![CDATA[<table>
-<thead>
-<tr>
-<th>排名</th>
-<th>仓库</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1</td>
-<td>Docker Hub</td>
-</tr>
-<tr>
-<td>2</td>
-<td>Amazon ECR</td>
-</tr>
-<tr>
-<td>3</td>
-<td>Harbor</td>
-</tr>
-<tr>
-<td>4</td>
-<td>Azure Container Registry</td>
-</tr>
-<tr>
-<td>5</td>
-<td>GitHub Container Registry</td>
-</tr>
-<tr>
-<td>6</td>
-<td>Google Container Registry</td>
-</tr>
-<tr>
-<td>7</td>
-<td>JFrog Container Registry</td>
-</tr>
-<tr>
-<td>8</td>
-<td>Red Hat Quay</td>
-</tr>
-</tbody></table>
+    <title>微服务 之 高可用保障 - 链路追踪、熔断、限流、降级</title>
+    <url>//post/micro-high-availability.html</url>
+    <content><![CDATA[<p><strong>微服务是一种将应用程序作为独立服务的集合结构的架构风格。这些服务通过API互相通信，设计为具有高度的可扩展性、灵活性和弹性。<br>为了保证微服务环境的高可用性，实施几个关键策略是非常重要的，包括链路追踪、熔断、限流和降级。</strong></p>
 <span id="more"></span>
-<p>容器registry 经常对它们的存储库对应物感到困惑，即使它们服务于不同的目的。</p>
-<p>容器存储库是容器化应用程序映像的存储。如今，大多数镜像存储库都专注于“OCI”格式，基于 Docker 普及并向所有人开放的容器格式。</p>
-<p>事实上，“OCI 映像”和“Docker 映像”在registry 提供者的营销中经常可以互换使用。</p>
-<blockquote>
-<p>OCI 代表开放容器倡议。该倡议是一种容器结构，旨在充当行业标准格式。技术、开发和云服务领域的大多数主要参与者都支持该计划并支持 OCI格式。在 <a href="https://opencontainers.org/">Open Container Initiative</a> 网站上阅读有关它的更多信息。</p>
-</blockquote>
-<p>因此，容器registry 既充当容器存储库的集合，又充当您管理和部署映像的可搜索目录。</p>
-<p>市场上有许多容器注册选项，为不同类型、规模和需求的客户提供服务。让我们看看我们的前 8 名以及他们为什么会吸引人。</p>
-<h2 id="Docker-Hub"><a href="#Docker-Hub" class="headerlink" title="Docker Hub"></a>Docker Hub</h2><p>鉴于 Docker 发明了用于容器交付的标准 OCI 格式，以及所有主要操作系统的采用， <a href="https://hub.docker.com/">Docker Hub</a>也是镜像管理的标准registry 是有道理的。如果您正在开发中，那么您很可能已经使用过 Docker Hub，尤其是如果您曾经遵循我们的技术指南或博客之一。</p>
-<p>尽管此列表中的所有registry 服务都可以帮助您管理 Docker 的格式，但 Docker Hub 作为registry 仍然值得在这里占有一席之地。尤其是因为它提供了一个巨大的公共registry ，您可以使用它来部署来自大小供应商的应用程序，还可以交付您自己的应用程序。</p>
-<h2 id="Amazon-ECR"><a href="#Amazon-ECR" class="headerlink" title="Amazon ECR"></a>Amazon ECR</h2><p>如果您已经在使用 Amazon Web Services (AWS) 来托管应用程序， <a href="https://aws.amazon.com/ecr/">Amazon 的 Elastic Container Registry (ECR)将非常有用</a>，因为它具有集成和团队管理选项。</p>
-<p>Amazon 的 ECR 已融入其所有容器托管服务，因此您可以轻松管理镜像并将其推送到：</p>
-<ul>
-<li>弹性容器服务 (ECS)</li>
-<li>弹性 Kubernetes 服务 (EKS)</li>
-<li>AWS Lambda</li>
-</ul>
-<p>（当然，前提是你能理解所有这些相似的首字母缩略词。）</p>
-<p>与 Docker Hub 一样，他们的公共注册中心和市场也物有所值，允许部署许多产品、免费软件和开源项目。您永远不会缺少可以构建的现有环境</p>
-<h2 id="Harbor"><a href="#Harbor" class="headerlink" title="Harbor"></a>Harbor</h2><p> <a href="https://goharbor.io/">Harbor</a>是一个开源registry ，您几乎可以在任何地方安装，但特别适合 Kubernetes。</p>
-<p>在某些服务将其注册中心与自己的服务紧密联系在一起的情况下，Harbor 的自由度使其成为一种多功能选择。它与大多数云服务和持续集成和持续交付 (CI&#x2F;CD) 平台兼容，也是一个很好的本地解决方案。</p>
-<h2 id="Azure-Container-Registry"><a href="#Azure-Container-Registry" class="headerlink" title="Azure Container Registry"></a>Azure Container Registry</h2><p>在提供与 AWS 类似的服务的同时，微软的 <a href="https://azure.microsoft.com/en-au/products/container-registry/">Azure 容器registry (ACR)</a>还拥有对 Docker 和 OCI 映像以及 Helm 图表的支持。</p>
-<p>然而，Azure 最大的卖点是它的registry 异地复制。这确保每个人都可以以他们习惯的速度，无论他们身在何处，都能以相同的速度访问镜像。</p>
-<h2 id="GitHub-Container-Registry"><a href="#GitHub-Container-Registry" class="headerlink" title="GitHub Container Registry"></a>GitHub Container Registry</h2><p>鉴于 GitHub 的影响力，并且它已经可供所有用户使用， <a href="https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry">GitHub 的 Container Registry</a> （称为GitHub Packages的更大功能的一部分）是最平易近人的选择之一。</p>
-<p>考虑使用 GitHub Packages 进行容器管理的好处包括：</p>
-<ul>
-<li>简化的用户管理 - 您的大多数用户已经拥有帐户</li>
-<li>用于推送、发布和部署镜像的 GitHub Actions 集成</li>
-<li>相对于其他服务的成本</li>
-</ul>
-<h2 id="Google-Container-Registry"><a href="#Google-Container-Registry" class="headerlink" title="Google Container Registry"></a>Google Container Registry</h2><p>由于其他服务将承诺重点放在对部分潜在客户很重要的某些功能上， <a href="https://cloud.google.com/container-registry/">谷歌云的容器registry (GCR)</a>是一个可靠的多面手。它可以从容器registry 中完成您想要的一切，并且做得非常好。</p>
-<p>与云服务中的其他大牌一样，您可能会被锁定在 GCR 中，具体取决于您使用的 Google Cloud 产品。例如，Google Cloud Run 将仅使用存储在 GCR 中的镜像，因此在选择registry 服务时请记住这一点。</p>
-<p>它不像 AWS 或 Azure 那样拥有丰富的功能，但 Google Cloud 的 GCR 是云提供商“三大巨头”之一提供的物有所值的产品。</p>
-<h2 id="JFrog-Container-Registry"><a href="#JFrog-Container-Registry" class="headerlink" title="JFrog Container Registry"></a>JFrog Container Registry</h2><p>基于另一个 JFrog 产品 <code>Artifactory</code>， <a href="https://jfrog.com/container-registry/">JFrog Container Registry</a>支持 Docker 镜像和<code>Helm Charts</code>。JFrog Container Registry 还提供了存储任何包类型的选项，这要归功于其通用存储库。</p>
-<p>JFrog 具有云和自托管选项（如果您愿意，也可以混合），并承诺具有出色的可扩展性。</p>
-<h2 id="Red-Hat-Quay"><a href="#Red-Hat-Quay" class="headerlink" title="Red Hat Quay"></a>Red Hat Quay</h2><p>与其他选项不同， <a href="https://www.redhat.com/en/technologies/cloud-computing/quay">Red Hat Quay</a>仅提供私有容器registry 。这使其成为特别适合企业级客户的选择。</p>
-<p>与云提供商无关，Quay 可以轻松连接到 DevOps 管道两端的系统。与 Azure 一样，Quay 也包括地理位置选项，有趣的是，它支持 BitTorrent 进行容器分发。</p>
-<p>红帽还在其 Kubernetes 平台 OpenShift 中包含一个精简的registry 解决方案。然而，他们确实向较大的团队和组织推荐 Quay。</p>
-<p>翻译来源：<br> <a href="https://octopus.com/blog/top-8-container-registries">https://octopus.com/blog/top-8-container-registries</a></p>
+<h2 id="链路追踪"><a href="#链路追踪" class="headerlink" title="链路追踪"></a>链路追踪</h2><p>链路追踪是追踪请求在应用中穿过不同微服务的路径的能力。这对于故障排除和调试问题以及监测性能非常重要。</p>
+<p>通过实施链路追踪，开发人员可以快速识别问题的根源并采取纠正措施。这也可以通过优化单个服务来提高应用的整体性能。</p>
+<h2 id="熔断"><a href="#熔断" class="headerlink" title="熔断"></a>熔断</h2><p>熔断是一种防止微服务因故障导致整个应用瘫痪的技术。当一个服务不可用时，熔断器会自动打开，阻止请求传递到该服务，并返回预定义的响应。</p>
+<p>通过实施熔断，开发人员可以保证即使一个服务出现故障，整个应用也不会停止工作。这有助于保证整个应用的可用性和稳定性。</p>
+<h2 id="限流"><a href="#限流" class="headerlink" title="限流"></a>限流</h2><p>限流是一种限制单位时间内请求数量的技术。当请求速率超过预定的阈值时，限流器会阻止进一步的请求，以避免服务器过载。</p>
+<p>通过实施限流，开发人员可以保证服务器性能不会因请求速率过快而受到影响。这有助于保证应用的稳定性和可用性。</p>
+<h2 id="降级"><a href="#降级" class="headerlink" title="降级"></a>降级</h2><p>降级是一种在服务不可用时降低功能级别的技术。当一个服务不可用时，降级策略会自动启用，以降低应用的功能级别。</p>
+<p>通过实施降级，开发人员可以在服务不可用时保证应用仍然可以继续提供部分功能。这有助于保证应用的可用性。</p>
 ]]></content>
       <categories>
-        <category>Notes</category>
+        <category>Micro</category>
       </categories>
       <tags>
-        <tag>Docker</tag>
-        <tag>Kubernetes容器</tag>
-        <tag>Azure</tag>
+        <tag>链路追踪</tag>
+        <tag>熔断</tag>
+        <tag>限流</tag>
+        <tag>降级</tag>
       </tags>
   </entry>
   <entry>
@@ -753,65 +660,6 @@ vi &#x2F;root&#x2F;prometheus&#x2F;prometheus-2.41.0.linux-arm64&#x2F;prometheus
       </tags>
   </entry>
   <entry>
-    <title>github actions 简单使用</title>
-    <url>//post/github-actions-learn.html</url>
-    <content><![CDATA[<p><strong>github代码仓库创建<code>workflows-component</code>仓库</strong></p>
-<span id="more"></span>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">mkdir</span> workflows-component <span class="token operator">&amp;&amp;</span> <span class="token builtin class-name">cd</span> workflows-component
-<span class="token function">touch</span> README.md
-<span class="token builtin class-name">echo</span> <span class="token string">"# workflows-component"</span> <span class="token operator">>></span> README.md
-<span class="token function">git</span> init
-<span class="token function">git</span> <span class="token function">add</span> README.md
-<span class="token function">git</span> commit <span class="token parameter variable">-m</span> <span class="token string">"first commit"</span>
-<span class="token function">git</span> branch <span class="token parameter variable">-M</span> main
-<span class="token function">git</span> remote <span class="token function">add</span> origin 远程仓库地址
-<span class="token function">git</span> push <span class="token parameter variable">-u</span> origin main
-<span class="token function">mkdir</span> <span class="token parameter variable">-p</span> .github/workflows <span class="token operator">&amp;&amp;</span> <span class="token builtin class-name">cd</span> .github/workflows
-<span class="token function">touch</span> learn-github-actions.yml<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-
-<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token punctuation">---</span>
-<span class="token comment"># 将工作流中运行的所有作业组合在一起</span>
-<span class="token key atrule">jobs</span><span class="token punctuation">:</span>
-  <span class="token comment"># 定义一个名为 的作业check-bats-version。子键将定义作业的属性</span>
-  <span class="token key atrule">check-go-version</span><span class="token punctuation">:</span>
-    <span class="token comment"># 配置作业以在最新版本的 Ubuntu Linux 运行器上运行。这意味着作业将在 GitHub 托管的新虚拟机上执行</span>
-    <span class="token key atrule">runs-on</span><span class="token punctuation">:</span> ubuntu<span class="token punctuation">-</span>latest
-    <span class="token comment"># 将作业中运行的所有步骤组合在一起 。嵌套在该部分下的每个项目都是一个单独的操作或 shell 脚本</span>
-    <span class="token key atrule">steps</span><span class="token punctuation">:</span>
-      <span class="token comment"># 关键字uses指定此步骤将运行v3操作actions/checkout。这是一个将您的存储库签出到运行器上的操作，允许您针对您的代码运行脚本或其他操作（例如构建和测试工具）。</span>
-      <span class="token comment"># 任何时候您的工作流将针对存储库的代码运行时，您都应该使用 checkout 操作。</span>
-      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> 签出存储库
-        <span class="token key atrule">uses</span><span class="token punctuation">:</span> actions/checkout@v3
-      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> 设置Go环境
-        <span class="token key atrule">uses</span><span class="token punctuation">:</span> actions/setup<span class="token punctuation">-</span>go@v3.5.0
-        <span class="token key atrule">with</span><span class="token punctuation">:</span>
-          <span class="token key atrule">go-version</span><span class="token punctuation">:</span> ^1.20.0
-      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> 输出 Go Version
-        <span class="token key atrule">run</span><span class="token punctuation">:</span> go version
-      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> 运行 hello.go
-        <span class="token key atrule">run</span><span class="token punctuation">:</span> go run hello.go
-<span class="token comment"># 工作流的名称，因为它将出现在 GitHub 存储库的“操作”选项卡中</span>
-<span class="token key atrule">name</span><span class="token punctuation">:</span> learn<span class="token punctuation">-</span>github<span class="token punctuation">-</span>actions
-<span class="token comment"># 工作流触发条件</span>
-<span class="token key atrule">'on'</span><span class="token punctuation">:</span>
-  <span class="token punctuation">-</span> push
-<span class="token comment"># 从工作流生成的工作流运行的名称，它将显示在存储库的“操作”选项卡上的工作流运行列表中。此示例使用带有上下文的表达式github来显示触发工作流运行的参与者的用户名</span>
-<span class="token key atrule">run-name</span><span class="token punctuation">:</span> $<span class="token punctuation">&#123;</span><span class="token punctuation">&#123;</span> github.actor <span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span> is learning GitHub Actions<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-
-
-
-]]></content>
-      <categories>
-        <category>github</category>
-      </categories>
-      <tags>
-        <tag>github</tag>
-        <tag>actions</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>github action 之 Go开源项目配置(tag release)</title>
     <url>//post/github-actions-go1.html</url>
     <content><![CDATA[<p><a href="https://goreleaser.com/">gorelease</a></p>
@@ -922,6 +770,99 @@ vi &#x2F;root&#x2F;prometheus&#x2F;prometheus-2.41.0.linux-arm64&#x2F;prometheus
         <tag>actions</tag>
         <tag>workflows</tag>
         <tag>goreleaser</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>排名前 8 位的容器仓库</title>
+    <url>//post/container-rank.html</url>
+    <content><![CDATA[<table>
+<thead>
+<tr>
+<th>排名</th>
+<th>仓库</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>Docker Hub</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Amazon ECR</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Harbor</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Azure Container Registry</td>
+</tr>
+<tr>
+<td>5</td>
+<td>GitHub Container Registry</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Google Container Registry</td>
+</tr>
+<tr>
+<td>7</td>
+<td>JFrog Container Registry</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Red Hat Quay</td>
+</tr>
+</tbody></table>
+<span id="more"></span>
+<p>容器registry 经常对它们的存储库对应物感到困惑，即使它们服务于不同的目的。</p>
+<p>容器存储库是容器化应用程序映像的存储。如今，大多数镜像存储库都专注于“OCI”格式，基于 Docker 普及并向所有人开放的容器格式。</p>
+<p>事实上，“OCI 映像”和“Docker 映像”在registry 提供者的营销中经常可以互换使用。</p>
+<blockquote>
+<p>OCI 代表开放容器倡议。该倡议是一种容器结构，旨在充当行业标准格式。技术、开发和云服务领域的大多数主要参与者都支持该计划并支持 OCI格式。在 <a href="https://opencontainers.org/">Open Container Initiative</a> 网站上阅读有关它的更多信息。</p>
+</blockquote>
+<p>因此，容器registry 既充当容器存储库的集合，又充当您管理和部署映像的可搜索目录。</p>
+<p>市场上有许多容器注册选项，为不同类型、规模和需求的客户提供服务。让我们看看我们的前 8 名以及他们为什么会吸引人。</p>
+<h2 id="Docker-Hub"><a href="#Docker-Hub" class="headerlink" title="Docker Hub"></a>Docker Hub</h2><p>鉴于 Docker 发明了用于容器交付的标准 OCI 格式，以及所有主要操作系统的采用， <a href="https://hub.docker.com/">Docker Hub</a>也是镜像管理的标准registry 是有道理的。如果您正在开发中，那么您很可能已经使用过 Docker Hub，尤其是如果您曾经遵循我们的技术指南或博客之一。</p>
+<p>尽管此列表中的所有registry 服务都可以帮助您管理 Docker 的格式，但 Docker Hub 作为registry 仍然值得在这里占有一席之地。尤其是因为它提供了一个巨大的公共registry ，您可以使用它来部署来自大小供应商的应用程序，还可以交付您自己的应用程序。</p>
+<h2 id="Amazon-ECR"><a href="#Amazon-ECR" class="headerlink" title="Amazon ECR"></a>Amazon ECR</h2><p>如果您已经在使用 Amazon Web Services (AWS) 来托管应用程序， <a href="https://aws.amazon.com/ecr/">Amazon 的 Elastic Container Registry (ECR)将非常有用</a>，因为它具有集成和团队管理选项。</p>
+<p>Amazon 的 ECR 已融入其所有容器托管服务，因此您可以轻松管理镜像并将其推送到：</p>
+<ul>
+<li>弹性容器服务 (ECS)</li>
+<li>弹性 Kubernetes 服务 (EKS)</li>
+<li>AWS Lambda</li>
+</ul>
+<p>（当然，前提是你能理解所有这些相似的首字母缩略词。）</p>
+<p>与 Docker Hub 一样，他们的公共注册中心和市场也物有所值，允许部署许多产品、免费软件和开源项目。您永远不会缺少可以构建的现有环境</p>
+<h2 id="Harbor"><a href="#Harbor" class="headerlink" title="Harbor"></a>Harbor</h2><p> <a href="https://goharbor.io/">Harbor</a>是一个开源registry ，您几乎可以在任何地方安装，但特别适合 Kubernetes。</p>
+<p>在某些服务将其注册中心与自己的服务紧密联系在一起的情况下，Harbor 的自由度使其成为一种多功能选择。它与大多数云服务和持续集成和持续交付 (CI&#x2F;CD) 平台兼容，也是一个很好的本地解决方案。</p>
+<h2 id="Azure-Container-Registry"><a href="#Azure-Container-Registry" class="headerlink" title="Azure Container Registry"></a>Azure Container Registry</h2><p>在提供与 AWS 类似的服务的同时，微软的 <a href="https://azure.microsoft.com/en-au/products/container-registry/">Azure 容器registry (ACR)</a>还拥有对 Docker 和 OCI 映像以及 Helm 图表的支持。</p>
+<p>然而，Azure 最大的卖点是它的registry 异地复制。这确保每个人都可以以他们习惯的速度，无论他们身在何处，都能以相同的速度访问镜像。</p>
+<h2 id="GitHub-Container-Registry"><a href="#GitHub-Container-Registry" class="headerlink" title="GitHub Container Registry"></a>GitHub Container Registry</h2><p>鉴于 GitHub 的影响力，并且它已经可供所有用户使用， <a href="https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry">GitHub 的 Container Registry</a> （称为GitHub Packages的更大功能的一部分）是最平易近人的选择之一。</p>
+<p>考虑使用 GitHub Packages 进行容器管理的好处包括：</p>
+<ul>
+<li>简化的用户管理 - 您的大多数用户已经拥有帐户</li>
+<li>用于推送、发布和部署镜像的 GitHub Actions 集成</li>
+<li>相对于其他服务的成本</li>
+</ul>
+<h2 id="Google-Container-Registry"><a href="#Google-Container-Registry" class="headerlink" title="Google Container Registry"></a>Google Container Registry</h2><p>由于其他服务将承诺重点放在对部分潜在客户很重要的某些功能上， <a href="https://cloud.google.com/container-registry/">谷歌云的容器registry (GCR)</a>是一个可靠的多面手。它可以从容器registry 中完成您想要的一切，并且做得非常好。</p>
+<p>与云服务中的其他大牌一样，您可能会被锁定在 GCR 中，具体取决于您使用的 Google Cloud 产品。例如，Google Cloud Run 将仅使用存储在 GCR 中的镜像，因此在选择registry 服务时请记住这一点。</p>
+<p>它不像 AWS 或 Azure 那样拥有丰富的功能，但 Google Cloud 的 GCR 是云提供商“三大巨头”之一提供的物有所值的产品。</p>
+<h2 id="JFrog-Container-Registry"><a href="#JFrog-Container-Registry" class="headerlink" title="JFrog Container Registry"></a>JFrog Container Registry</h2><p>基于另一个 JFrog 产品 <code>Artifactory</code>， <a href="https://jfrog.com/container-registry/">JFrog Container Registry</a>支持 Docker 镜像和<code>Helm Charts</code>。JFrog Container Registry 还提供了存储任何包类型的选项，这要归功于其通用存储库。</p>
+<p>JFrog 具有云和自托管选项（如果您愿意，也可以混合），并承诺具有出色的可扩展性。</p>
+<h2 id="Red-Hat-Quay"><a href="#Red-Hat-Quay" class="headerlink" title="Red Hat Quay"></a>Red Hat Quay</h2><p>与其他选项不同， <a href="https://www.redhat.com/en/technologies/cloud-computing/quay">Red Hat Quay</a>仅提供私有容器registry 。这使其成为特别适合企业级客户的选择。</p>
+<p>与云提供商无关，Quay 可以轻松连接到 DevOps 管道两端的系统。与 Azure 一样，Quay 也包括地理位置选项，有趣的是，它支持 BitTorrent 进行容器分发。</p>
+<p>红帽还在其 Kubernetes 平台 OpenShift 中包含一个精简的registry 解决方案。然而，他们确实向较大的团队和组织推荐 Quay。</p>
+<p>翻译来源：<br> <a href="https://octopus.com/blog/top-8-container-registries">https://octopus.com/blog/top-8-container-registries</a></p>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>Docker</tag>
+        <tag>Kubernetes容器</tag>
+        <tag>Azure</tag>
       </tags>
   </entry>
   <entry>
@@ -1063,6 +1004,65 @@ git config --local user.signingkey 3AA5C34371567BD2<span aria-hidden="true" clas
       </tags>
   </entry>
   <entry>
+    <title>github actions 简单使用</title>
+    <url>//post/github-actions-learn.html</url>
+    <content><![CDATA[<p><strong>github代码仓库创建<code>workflows-component</code>仓库</strong></p>
+<span id="more"></span>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">mkdir</span> workflows-component <span class="token operator">&amp;&amp;</span> <span class="token builtin class-name">cd</span> workflows-component
+<span class="token function">touch</span> README.md
+<span class="token builtin class-name">echo</span> <span class="token string">"# workflows-component"</span> <span class="token operator">>></span> README.md
+<span class="token function">git</span> init
+<span class="token function">git</span> <span class="token function">add</span> README.md
+<span class="token function">git</span> commit <span class="token parameter variable">-m</span> <span class="token string">"first commit"</span>
+<span class="token function">git</span> branch <span class="token parameter variable">-M</span> main
+<span class="token function">git</span> remote <span class="token function">add</span> origin 远程仓库地址
+<span class="token function">git</span> push <span class="token parameter variable">-u</span> origin main
+<span class="token function">mkdir</span> <span class="token parameter variable">-p</span> .github/workflows <span class="token operator">&amp;&amp;</span> <span class="token builtin class-name">cd</span> .github/workflows
+<span class="token function">touch</span> learn-github-actions.yml<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token punctuation">---</span>
+<span class="token comment"># 将工作流中运行的所有作业组合在一起</span>
+<span class="token key atrule">jobs</span><span class="token punctuation">:</span>
+  <span class="token comment"># 定义一个名为 的作业check-bats-version。子键将定义作业的属性</span>
+  <span class="token key atrule">check-go-version</span><span class="token punctuation">:</span>
+    <span class="token comment"># 配置作业以在最新版本的 Ubuntu Linux 运行器上运行。这意味着作业将在 GitHub 托管的新虚拟机上执行</span>
+    <span class="token key atrule">runs-on</span><span class="token punctuation">:</span> ubuntu<span class="token punctuation">-</span>latest
+    <span class="token comment"># 将作业中运行的所有步骤组合在一起 。嵌套在该部分下的每个项目都是一个单独的操作或 shell 脚本</span>
+    <span class="token key atrule">steps</span><span class="token punctuation">:</span>
+      <span class="token comment"># 关键字uses指定此步骤将运行v3操作actions/checkout。这是一个将您的存储库签出到运行器上的操作，允许您针对您的代码运行脚本或其他操作（例如构建和测试工具）。</span>
+      <span class="token comment"># 任何时候您的工作流将针对存储库的代码运行时，您都应该使用 checkout 操作。</span>
+      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> 签出存储库
+        <span class="token key atrule">uses</span><span class="token punctuation">:</span> actions/checkout@v3
+      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> 设置Go环境
+        <span class="token key atrule">uses</span><span class="token punctuation">:</span> actions/setup<span class="token punctuation">-</span>go@v3.5.0
+        <span class="token key atrule">with</span><span class="token punctuation">:</span>
+          <span class="token key atrule">go-version</span><span class="token punctuation">:</span> ^1.20.0
+      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> 输出 Go Version
+        <span class="token key atrule">run</span><span class="token punctuation">:</span> go version
+      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> 运行 hello.go
+        <span class="token key atrule">run</span><span class="token punctuation">:</span> go run hello.go
+<span class="token comment"># 工作流的名称，因为它将出现在 GitHub 存储库的“操作”选项卡中</span>
+<span class="token key atrule">name</span><span class="token punctuation">:</span> learn<span class="token punctuation">-</span>github<span class="token punctuation">-</span>actions
+<span class="token comment"># 工作流触发条件</span>
+<span class="token key atrule">'on'</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> push
+<span class="token comment"># 从工作流生成的工作流运行的名称，它将显示在存储库的“操作”选项卡上的工作流运行列表中。此示例使用带有上下文的表达式github来显示触发工作流运行的参与者的用户名</span>
+<span class="token key atrule">run-name</span><span class="token punctuation">:</span> $<span class="token punctuation">&#123;</span><span class="token punctuation">&#123;</span> github.actor <span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span> is learning GitHub Actions<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+
+
+
+]]></content>
+      <categories>
+        <category>github</category>
+      </categories>
+      <tags>
+        <tag>github</tag>
+        <tag>actions</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Go语言项目开发规范 之 接口规范</title>
     <url>//post/go-api-lint.html</url>
     <content><![CDATA[<h2 id="接口规范"><a href="#接口规范" class="headerlink" title="接口规范"></a>接口规范</h2><p><a href="https://spec.openapis.org/oas/latest.html">OpenAPI 3.0</a> 接口规范。</p>
@@ -1077,61 +1077,6 @@ git config --local user.signingkey 3AA5C34371567BD2<span aria-hidden="true" clas
         <tag>开发规范</tag>
         <tag>Golang</tag>
         <tag>接口规范</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Go语言项目开发规范 之 Commit规范</title>
-    <url>//post/go-commit-lint.html</url>
-    <content><![CDATA[<h2 id="Commit-规范"><a href="#Commit-规范" class="headerlink" title="Commit 规范"></a>Commit 规范</h2><p><a href="https://www.conventionalcommits.org/en/v1.0.0">Conventional Commits</a> 规范。</p>
-<blockquote>
-<p>中文翻译版：<a href="https://tool.lu/en_US/article/2ac/preview">Conventional Commits：一份让代码提交记录人机友好的规范</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Golang</category>
-      </categories>
-      <tags>
-        <tag>开发规范</tag>
-        <tag>Golang</tag>
-        <tag>Commit规范</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Go语言项目开发规范 之 目录规范</title>
-    <url>//post/go-directory-lint.html</url>
-    <content><![CDATA[<h2 id="目录规范"><a href="#目录规范" class="headerlink" title="目录规范"></a>目录规范</h2><p><a href="https://github.com/golang-standards/project-layout">project-layout</a> 目录规范。</p>
-<span id="more"></span>]]></content>
-      <categories>
-        <category>Golang</category>
-      </categories>
-      <tags>
-        <tag>开发规范</tag>
-        <tag>Golang</tag>
-        <tag>目录规范</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Go语言项目开发规范 之 错误规范</title>
-    <url>//post/go-errorcode-lint.html</url>
-    <content><![CDATA[<h2 id="错误码规范"><a href="#错误码规范" class="headerlink" title="错误码规范"></a>错误码规范</h2><p>错误码是用户定位及解决问题的重要手段之一，当应用发生异常时，用户根据错误码及文档中的错误码描述和解决方案就可以快速定位并解决问题。</p>
-<h3 id="错误码命名规范"><a href="#错误码命名规范" class="headerlink" title="错误码命名规范"></a>错误码命名规范</h3><ul>
-<li>遵循驼峰命名法；</li>
-<li>错误码分为两级。例如，<code>InvalidParameter.BindError</code>，以 <code>.</code> 号分隔。其中，第一级错误码为平台级，第二级错误码为资源级别，可根据场景自定义；</li>
-<li>第二级错误码只能使用英文字母或数字（[a-zA-Z0-9]），应使用英文单词规范拼写、规范缩写、RFC 术语缩写等；</li>
-<li>错误码应避免同一语义多种定义，例如：<code>InvalidParameter.ErrorBind</code>, <code>InvalidParameter.BindError</code>。<span id="more"></span></li>
-</ul>
-<h3 id="第一级公共错误码"><a href="#第一级公共错误码" class="headerlink" title="第一级公共错误码"></a>第一级公共错误码</h3><p>| 错误码 | 错误描述 | 错误类型 |<br>| —- | —- |<br>| InternalError | 内部错误 | 1 |<br>| InvalidParameter | 参数错误（包括参数类型、格式、值等错误） | 0 |<br>| AuthFailure | 认证 &#x2F; 授权错误 | 0 |<br>| ResourceNotFound | 资源不存在 | 0 |<br>| FailedOperation | 操作失败 | 2 |</p>
-<blockquote>
-<p>错误类型：0 代表客户端，1 代表服务端，2 代表客户端 &#x2F; 服务端。</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Golang</category>
-      </categories>
-      <tags>
-        <tag>开发规范</tag>
-        <tag>Golang</tag>
-        <tag>错误规范</tag>
       </tags>
   </entry>
   <entry>
@@ -1930,33 +1875,12 @@ u2 <span class="token operator">:=</span> user<span class="token punctuation">&#
       </tags>
   </entry>
   <entry>
-    <title>Go语言项目开发规范 之 日志规范</title>
-    <url>//post/go-logging-lint.html</url>
-    <content><![CDATA[<ul>
-<li>本文摘自<a href="https://juejin.cn/book/7176608782871429175">《从零开发企业级 Go 应用》</a></li>
-</ul>
-<h2 id="日志规范"><a href="#日志规范" class="headerlink" title="日志规范"></a>日志规范</h2><h3 id="日志规范-1"><a href="#日志规范-1" class="headerlink" title="日志规范"></a>日志规范</h3><ul>
-<li>日志包统一使用 <code>github.com/marmotedu/miniblog/internal/pkg/log</code>;</li>
-<li>使用结构化的日志打印格式：<code>log.Infow</code>, <code>log.Warnw</code>, <code>log.Errorw</code> 等; 例如：<code>log.Infow(&quot;Update post function called&quot;)</code>;</li>
-<li>日志均以大写开头，结尾不跟 <code>.</code>，例如：<code>log.Infow(&quot;Update post function called&quot;)</code>;</li>
-<li>使用过去时，例如：<code>Could not delete B</code> 而不是 <code>Cannot delete B</code>;<span id="more"></span></li>
-<li>遵循日志级别规范：<ul>
-<li>Debug 级别的日志使用 <code>log.Debugw</code>;</li>
-<li>Info 级别的日志使用 <code>log.Infow</code>;</li>
-<li>Warning 级别的日志使用 <code>log.Warnw</code>;</li>
-<li>Error 级别的日志使用 <code>log.Errorw</code>;</li>
-<li>Panic 级别的日志使用 <code>log.Panicw</code>;</li>
-<li>Fatal 级别的日志使用 <code>log.Fatalw</code>.</li>
-</ul>
-</li>
-<li>日志设置：<ul>
-<li>开发测试环境：日志级别设置为 <code>debug</code>、日志格式可根据需要设置为 <code>console</code> &#x2F; <code>json</code>、开启 caller；</li>
-<li>生产环境：日志级别设置为 <code>info</code>、日志格式设置为 <code>json</code>、开启 caller。（注意：上线初期，为了方便现网排障，日志级别可以设置为 <code>debug</code>）</li>
-</ul>
-</li>
-<li>在记录日志时，不要输出一些敏感信息，例如密码、密钥等。</li>
-<li>如果在具有 <code>context.Context</code> 参数的函数&#x2F;方法中，调用日志函数，建议使用 <code>log.L(ctx).Infow()</code> 进行日志记录。</li>
-</ul>
+    <title>Go语言项目开发规范 之 Commit规范</title>
+    <url>//post/go-commit-lint.html</url>
+    <content><![CDATA[<h2 id="Commit-规范"><a href="#Commit-规范" class="headerlink" title="Commit 规范"></a>Commit 规范</h2><p><a href="https://www.conventionalcommits.org/en/v1.0.0">Conventional Commits</a> 规范。</p>
+<blockquote>
+<p>中文翻译版：<a href="https://tool.lu/en_US/article/2ac/preview">Conventional Commits：一份让代码提交记录人机友好的规范</a></p>
+</blockquote>
 ]]></content>
       <categories>
         <category>Golang</category>
@@ -1964,7 +1888,21 @@ u2 <span class="token operator">:=</span> user<span class="token punctuation">&#
       <tags>
         <tag>开发规范</tag>
         <tag>Golang</tag>
-        <tag>日志规范</tag>
+        <tag>Commit规范</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Go语言项目开发规范 之 目录规范</title>
+    <url>//post/go-directory-lint.html</url>
+    <content><![CDATA[<h2 id="目录规范"><a href="#目录规范" class="headerlink" title="目录规范"></a>目录规范</h2><p><a href="https://github.com/golang-standards/project-layout">project-layout</a> 目录规范。</p>
+<span id="more"></span>]]></content>
+      <categories>
+        <category>Golang</category>
+      </categories>
+      <tags>
+        <tag>开发规范</tag>
+        <tag>Golang</tag>
+        <tag>目录规范</tag>
       </tags>
   </entry>
   <entry>
@@ -2110,6 +2048,277 @@ go <span class="token function">env</span> GOWORK <span class="token comment"># 
       </tags>
   </entry>
   <entry>
+    <title>Go语言项目开发规范 之 错误规范</title>
+    <url>//post/go-errorcode-lint.html</url>
+    <content><![CDATA[<h2 id="错误码规范"><a href="#错误码规范" class="headerlink" title="错误码规范"></a>错误码规范</h2><p>错误码是用户定位及解决问题的重要手段之一，当应用发生异常时，用户根据错误码及文档中的错误码描述和解决方案就可以快速定位并解决问题。</p>
+<h3 id="错误码命名规范"><a href="#错误码命名规范" class="headerlink" title="错误码命名规范"></a>错误码命名规范</h3><ul>
+<li>遵循驼峰命名法；</li>
+<li>错误码分为两级。例如，<code>InvalidParameter.BindError</code>，以 <code>.</code> 号分隔。其中，第一级错误码为平台级，第二级错误码为资源级别，可根据场景自定义；</li>
+<li>第二级错误码只能使用英文字母或数字（[a-zA-Z0-9]），应使用英文单词规范拼写、规范缩写、RFC 术语缩写等；</li>
+<li>错误码应避免同一语义多种定义，例如：<code>InvalidParameter.ErrorBind</code>, <code>InvalidParameter.BindError</code>。<span id="more"></span></li>
+</ul>
+<h3 id="第一级公共错误码"><a href="#第一级公共错误码" class="headerlink" title="第一级公共错误码"></a>第一级公共错误码</h3><p>| 错误码 | 错误描述 | 错误类型 |<br>| —- | —- |<br>| InternalError | 内部错误 | 1 |<br>| InvalidParameter | 参数错误（包括参数类型、格式、值等错误） | 0 |<br>| AuthFailure | 认证 &#x2F; 授权错误 | 0 |<br>| ResourceNotFound | 资源不存在 | 0 |<br>| FailedOperation | 操作失败 | 2 |</p>
+<blockquote>
+<p>错误类型：0 代表客户端，1 代表服务端，2 代表客户端 &#x2F; 服务端。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Golang</category>
+      </categories>
+      <tags>
+        <tag>开发规范</tag>
+        <tag>Golang</tag>
+        <tag>错误规范</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Go语言 之 项目设计(汇总)</title>
+    <url>//post/go-project-design-lint.html</url>
+    <content><![CDATA[<ul>
+<li>本文摘自<a href="https://juejin.cn/book/7176608782871429175">《从零开发企业级 Go 应用》</a></li>
+</ul>
+<p>如何构建出一个完整的 Go 项目，并且尽可能地说明开发过程中我的思考。希望能够通过这些思考让你知道如何开发 Go 项目，并且了解其他开发者的开发思路。</p>
+<span id="more"></span>
+<h2 id="项目研发流程介绍"><a href="#项目研发流程介绍" class="headerlink" title="项目研发流程介绍"></a>项目研发流程介绍</h2><p>在动手撸代码之前，你最好先鸟瞰整个 Go 项目开发流程，通过对流程的了解，可以减少你在初次进行完整 Go 项目开发中的那种“不知所措”的感觉，可以让你掌握业界最优、也是最标准的项目开发流程，增强你的自信。</p>
+<p>业界通常把研发流程分为六个阶段，分别是需求阶段、设计阶段、开发阶段、测试阶段、发布阶段、运营阶段。其中，开发人员需要参与的阶段有 4 个：设计阶段、开发阶段、测试阶段和发布阶段。研发流程及流程中每个阶段的具体内容，如下图所示：</p>
+<p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4d1c206d83f642feb5877279343c8832~tplv-k3u1fbpfcp-zoom-in-crop-mark:3024:0:0:0.awebp">  </p>
+<p>作为一名开发人员，在设计阶段也会有一些设计类工作需要你去完成，例如：规范设计、目录结构设计、工作流设计、研发流程设计、Go 代码结构设计等，其中比较重要的设计是规范设计、目录结构设计、Go 代码结构设计。接下来，我会详细介绍如何来设计这些内容。</p>
+<h2 id="规范设计"><a href="#规范设计" class="headerlink" title="规范设计"></a>规范设计</h2><p>规范设计内容也比较多，通常包含代码规范、Commit 规范、版本规范、接口规范、日志规范、错误码规范等。</p>
+<ul>
+<li><p><strong>代码规范：</strong> <a href="./go-code-lint">Go 代码开发规范</a>。</p>
+</li>
+<li><p><strong>Commit 规范：</strong> <a href="./go-commit-lint">Commit 规范</a>。</p>
+</li>
+<li><p><strong>版本规范：</strong> <a href="./go-version-lint">版本规范</a>。</p>
+</li>
+<li><p><strong>接口规范：</strong> <a href="./go-api-lint">接口规范</a>。</p>
+</li>
+<li><p><strong>日志规范：</strong> <a href="./go-logging-lint">日志规范</a>。</p>
+</li>
+<li><p><strong>错误码规范：</strong> <a href="./go-errorcode-lint">错误码规范</a>。</p>
+</li>
+</ul>
+<p>上面只列举了一些常用的规范，对于一个项目来说，如果有需要可以制定更多的规范，例如：开发流程规范、发布规范、校验规范等。这些规范不仅可以提高代码质量，还可以提高研发效率，降低后期的代码维护成本和学习成本。</p>
+<blockquote>
+<p>提示：在实际开发中，大部分团队和项目其实也只用到了这些规范。甚至，我所见过的更多的团队，包括腾讯、阿里内部的不少团队都没有制定过开发规范，或者说一些团队只是在项目开始时曾经制定过规范，但随着项目的迭代，会遗忘这些规范。</p>
+</blockquote>
+<p>规范是开发人员制定的软约束，靠开发人员自觉的去遵守，并不太可行。在实际开发中，我们要多思考怎么通过工具去保证这些规范被遵守，例如：可以通过 <code>golangci-lint</code> 进行静态代码检查，来保证代码规范；通过 <code>gitlint</code> 工具来保证 Commit 规范；通过 <code>gsemver</code> 工具来生 SemVer 格式的版本号；通过 OpenAPI 编辑器来编写 OpenAPI 接口文档；通过调用统一的请求返回方法，来确保错误码规范；通过开发规范化的日志包，来保证日志规范等。</p>
+<h2 id="目录结构设计"><a href="#目录结构设计" class="headerlink" title="目录结构设计"></a>目录结构设计</h2><p>目录结构是一个项目的门面。很多时候，根据目录结构就能看出开发者对这门语言的掌握程度。所以，在我看来，遵循一个好的目录规范，把代码目录设计的可维护、可扩展，甚至比文档规范、Commit 规范都要重要。通常，根据功能，可以将目录结构分为以下两种。</p>
+<ul>
+<li><p><strong>平铺式目录结构：</strong> 主要用在 Go 包中，相对简单。</p>
+</li>
+<li><p><strong>结构化目录结构：</strong> 主要用在 Go 应用中，相对复杂。</p>
+</li>
+</ul>
+<h3 id="平铺式目录结构"><a href="#平铺式目录结构" class="headerlink" title="平铺式目录结构"></a>平铺式目录结构</h3><p>一个 Go 项目可以是一个应用，也可以是一个代码库，当项目是代码库时，比较适合采用平铺式目录结构。</p>
+<p>平铺方式就是在项目的根目录下存放项目的代码，整个目录结构看起来更像是一层的，这种方式在很多库中存在，使用这种方式的好处是引用路径长度明显减少。例如 <a href="https://github.com/golang/glog">glog</a> 包就是平铺式的，目录内容如下：</p>
+<pre class="line-numbers language-none"><code class="language-none">$ ls glog&#x2F;
+glog_file.go  glog.go  glog_test.go  go.mod  LICENSE  README.md<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<p>对于一些功能简单的工具或项目，也可以采用平铺式的目录结构，以减小开发者的理解成本和编写复杂度。</p>
+<h3 id="结构化目录结构"><a href="#结构化目录结构" class="headerlink" title="结构化目录结构"></a>结构化目录结构</h3><p>当前 Go 社区比较推荐的结构化目录结构是 <a href="https://link.juejin.cn/?target=https://github.com/golang-standards/project-layout" title="https://github.com/golang-standards/project-layout">project-layout</a>。虽然它并不是官方和社区的规范，但因为组织方式比较合理，被很多 Go 开发人员接受。所以，我们可以把它当作是一个事实上的规范。本实战项目 miniblog 目录也遵循了 project-layout 项目的目录规范。</p>
+<h3 id="miniblog-目录结构设计"><a href="#miniblog-目录结构设计" class="headerlink" title="miniblog 目录结构设计"></a>miniblog 目录结构设计</h3><ul>
+<li><a href="https://github.com/marmotedu/miniblog"> https://github.com/marmotedu/miniblog</a></li>
+</ul>
+<p>miniblog 目录结构遵循了 project-layout 的目录结构设计。项目目录及功能介绍如下：</p>
+<pre class="line-numbers language-none"><code class="language-none">├── api # Swagger &#x2F; OpenAPI 文档存放目录
+│   └── openapi
+│       └── openapi.yaml # OpenAPI 3.0 API 接口文档
+├── cmd # main 文件存放目录
+│   └── miniblog
+│       └── miniblog.go
+├── configs # 配置文件存放目录
+│   ├── miniblog.sql # 数据库初始化 SQL
+│   ├── miniblog.yaml # miniblog 配置文件
+│   └── nginx.conf # Nginx 配置
+├── docs # 项目文档
+│   ├── devel # 开发文档
+│   │   ├── en-US # 英文文档
+│   │   └── zh-CN # 中文文档
+│   │       ├── architecture.md # miniblog 架构介绍
+│   │       ├── conversions # 规范文档存放目录
+│   │       │   ├── api.md # 接口规范
+│   │       │   ├── commit.md # Commit 规范
+│   │       │   ├── directory.md # 目录结构规范
+│   │       │   ├── error_code.md # 错误码规范
+│   │       │   ├── go_code.md # 代码规范
+│   │       │   ├── log.md # 日志规范
+│   │       │   └── version.md # 版本规范
+│   │       └── README.md
+│   ├── guide # 用户文档
+│   │   ├── en-US # 英文文档
+│   │   └── zh-CN # 中文文档
+│   │       ├── announcements.md # 动态与公告
+│   │       ├── best-practice # 最佳实践
+│   │       ├── faq # 常见问题
+│   │       ├── installation # 安装指南
+│   │       ├── introduction # 产品介绍
+│   │       ├── operation-guide # 操作指南
+│   │       ├── quickstart # 快速入门
+│   │       └── README.md
+│   └── images # 项目图片存放目录
+├── examples # 示例源码
+├── go.mod
+├── go.sum
+├── init # Systemd Unit 文件保存目录
+│   ├── miniblog.service # miniblog systemd unit
+├── internal # 内部代码保存目录，这里面的代码不能被外部程序引用
+│   ├── miniblog # miniblog 代码实现目录
+│   │   ├── biz # biz 层代码
+│   │   ├── controller # controller 层代码
+│   │   │   └── v1 # API 接口版本
+│   │   │       ├── post # 博客相关代码实现
+│   │   │       │   ├── create.go # 创建博客
+│   │   │       │   ├── delete_collection.go #批量删除博客
+│   │   │       │   ├── delete.go # 删除博客
+│   │   │       │   ├── get.go # 获取博客详情
+│   │   │       │   ├── list.go # 获取博客列表
+│   │   │       │   ├── post.go # 博客 Controller 结构定义、创建
+│   │   │       │   └── update.go # 更新博客
+│   │   │       └── user
+│   │   │           ├── change_password.go # 修改用户密码
+│   │   │           ├── create.go #创建用户
+│   │   │           ├── delete.go # 删除用户
+│   │   │           ├── get.go # 获取用户详情
+│   │   │           ├── list.go # 获取用户列表
+│   │   │           ├── login.go # 用户登录
+│   │   │           ├── update.go  # 更新用户
+│   │   │           └── user.go # 用户 Controller 结构定义、创建
+│   │   ├── helper.go # 工具类代码存放文件
+│   │   ├── miniblog.go # miniblog 主业务逻辑实现代码
+│   │   ├── router.go # Gin 路由加载代码
+│   │   └── store # store 层代码
+│   └── pkg # 内部包保存目录
+│       ├── core # core 包，用来保存一些核心的函数
+│       ├── errno # errno 包，实现了 miniblog 的错误码功能
+│       │   ├── code.go # 错误码定义文件
+│       │   └── errno.go # errno 包功能函数文件
+│       ├── known # 存放项目级的常量定义
+│       ├── log # miniblog 自定义 log 包
+│       ├── middleware # Gin 中间件包
+│       │   ├── authn.go # 认证中间件
+│       │   ├── authz.go # 授权中间件
+│       │   ├── header.go # 指定 HTTP Response Header
+│       │   └── requestid.go # 请求 &#x2F; 返回头中添加 X-Request-ID
+│       └── model # GORM Model
+├── LICENSE # 声明代码所遵循的开源协议
+├── Makefile # Makefile 文件，一般大型软件系统都是采用 make 来作为编译工具
+├── _output # 临时文件存放目录
+├── pkg # 可供外部程序直接使用的 Go 包存放目录
+│   ├── api # REST API 接口定义存放目录
+│   ├── proto # Protobuf 接口定义存放目录
+│   ├── auth # auth 包，用来完成认证、授权功能
+│   │   ├── authn.go # 认证功能
+│   │   └── authz.go # 授权功能
+│   ├── db # db 包，用来完成 MySQL 数据库连接
+│   ├── token # JWT Token 的签发和解析
+│   ├── util # 工具类包存放目录
+│   │   └── id # id 包，用来生成唯一短 ID
+│   └── version # version 包，用来保存 &#x2F; 输出版本信息
+├── README-en.md # 英文 README
+├── README.md # 中文 README
+├── scripts # 脚本文件
+│   ├── boilerplate.txt # 指定版权头信息
+│   ├── coverage.awk # awk 脚本，用来计算覆盖率
+│   ├── make-rules # 子 Makefile 保存目录
+│   │   ├── common.mk # 存放通用的 Makefile 变量
+│   │   ├── golang.mk # 用来编译源码
+│   │   └── tools.mk # 用来完成工具的安装
+│   └── wrktest.sh # wrk 性能测试脚本
+└── third_party # 第三方 Go 包存放目录<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>跟 project-layout 目录规范唯一不一样的地方是，miniblog 将具体的实现目录 miniblog 放在 <code>internal/</code> 目录下，而非 <code>internal/app/</code> 目录下，例如：</p>
+<pre class="line-numbers language-none"><code class="language-none">$ ls internal&#x2F;         
+miniblog  pkg<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<p>这样做既可以保证 <code>internal</code> 目录下的文件功能清晰、整齐，又能缩短引用路径。</p>
+<h2 id="代码结构设计"><a href="#代码结构设计" class="headerlink" title="代码结构设计"></a>代码结构设计</h2><p>项目代码设计遵循简洁架构设计，一个简洁架构具有以下 5 个特性：</p>
+<ul>
+<li><p><strong>独立于框架：</strong> 该架构不会依赖于某些功能强大的软件库存在。这可以让你使用这样的框架作为工具，而不是让你的系统陷入到框架的约束中。</p>
+</li>
+<li><p><strong>可测试性：</strong> 业务规则可以在没有 UI、数据库、Web 服务或其他外部元素的情况下进行测试，在实际的开发中，我们通过 Mock 来解耦这些依赖。</p>
+</li>
+<li><p><strong>独立于UI ：</strong> 在无需改变系统其他部分的情况下，UI 可以轻松地改变。例如，在没有改变业务规则的情况下，Web UI 可以替换为控制台 UI。</p>
+</li>
+<li><p><strong>独立于数据库：</strong> 你可以用 Mongo、Oracle、Etcd 或者其他数据库来替换 MariaDB，你的业务规则不要绑定到数据库。</p>
+</li>
+<li><p><strong>独立于外部媒介：</strong> 实际上，你的业务规则可以简单到根本不去了解外部世界。</p>
+</li>
+</ul>
+<p><strong>所以，基于这些约束，每一层都必须是独立的和可测试的。代码架构分为 4 层：模型层（Model）、控制层（Controller）、业务层 （Biz）、仓库层（Store）。从控制层、业务层到仓库层，从左到右层级依次加深。模型层独立于其他层，可供其他层引用。代码架构如下图所示：</strong></p>
+<p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2da85aa1405945519dbf5f645587fb5f~tplv-k3u1fbpfcp-zoom-in-crop-mark:3024:0:0:0.awebp"></p>
+<p><strong>层与层之间导入包时，都有严格的导入关系，这可以防止包的循环导入问题。导入关系如下：</strong></p>
+<ul>
+<li>模型层的包可以被仓库层、业务层和控制层导入。</li>
+<li>控制层能够导入业务层和仓库层的包。这里需要注意，如果没有特殊需求，控制层要避免导入仓库层的包，控制层需要完成的业务功能都通过业务层来完成。</li>
+<li>业务层能够导入仓库层的包。</li>
+</ul>
+<h3 id="四层架构"><a href="#四层架构" class="headerlink" title="四层架构"></a>四层架构</h3><p><strong>接下来，我们就来详细看下每一层所完成的功能，以及其中的一些注意点：</strong></p>
+<ol>
+<li>模型层（Model）：模型层在有些软件架构中也叫做实体层（Entities），模型会在每一层中使用，在这一层中存储对象的结构和它的方法。</li>
+<li>控制层（Controller）：控制层接收 HTTP 请求，并进行参数解析、参数校验、逻辑分发处理、请求返回这些操作。控制层会将逻辑分发给业务层，业务层处理后返回，返回数据在控制层中被整合再加工，最终返回给请求方。控制层相当于实现了业务路由的功能。具体流程如下图所示：</li>
+<li>业务层 (Biz)：业务层主要用来完成业务逻辑处理，我们可以把所有的业务逻辑处理代码放在业务层。业务层会处理来自控制层的请求，并根据需要请求仓库层完成数据的 CURD 操作。业务层功能如下图所示：</li>
+<li>仓库层（Store)：仓库层用来跟数据库&#x2F;第三方服务进行 CURD 交互，作为应用程序的数据引擎进行应用数据的输入和输出。这里需要注意，仓库层仅对数据库&#x2F;第三方服务执行 CRUD 操作，不封装任何业务逻辑。这一层也会起到数据转换的作用：将从数据库&#x2F;微服务中获取的数据转换为控制层、业务层能识别的数据结构，将控制层、业务层的数据格式转换为数据库或微服务能识别的数据格式。</li>
+</ol>
+<p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cf1b54fea8bd4e2e9a059b4b10599787~tplv-k3u1fbpfcp-zoom-in-crop-mark:3024:0:0:0.awebp"><br><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/89451e92ff3f4f888e56f16c638bbc55~tplv-k3u1fbpfcp-zoom-in-crop-mark:3024:0:0:0.awebp"></p>
+<h3 id="层之间的通信"><a href="#层之间的通信" class="headerlink" title="层之间的通信"></a>层之间的通信</h3><p>上面介绍了 4 层结构，接下来我们再看看每一层之间是如何通信的。</p>
+<p>除了模型层，控制层、业务层、仓库层之间都是通过接口进行通信的。通过接口通信，一方面可以使相同的功能支持不同的实现（也就是说具有插件化能力），另一方面也使得每一层的代码变得可测试。</p>
+<h3 id="代码测试"><a href="#代码测试" class="headerlink" title="代码测试"></a>代码测试</h3><p>控制层、业务层和仓库层之间是通过接口来通信的。通过接口通信有一个好处，就是可以让各层变得可测。那接下来，我们就来看下如何测试各层的代码。这里只介绍下测试思路。</p>
+<ol>
+<li>模型层: 因为模型层不依赖其他任何层，我们只需要测试其中定义的结构及其函数和方法即可。</li>
+<li>控制层: 控制层依赖于业务层，意味着该层需要业务层来支持测试。你可以通过 <code>golang/mock</code> 来 mock 业务层</li>
+<li>业务层: 因为该层依赖于仓库层，意味着该层需要仓库层来支持测试。你可以通过 <code>golang/mock</code> 来 mock 仓库层</li>
+<li>仓库层: 仓库层依赖于数据库，如果调用了其他微服务，那还会依赖第三方服务。我们可以通过 <a href="https://github.com/DATA-DOG/go-sqlmock">sqlmock</a> 来模拟数据库连接，通过 <a href="https://github.com/jarcoal/httpmock">httpmock</a> 来模拟 HTTP 请求。</li>
+</ol>
+<h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2><p>比较重要的工作有：规范设计、目录结构设计和代码结构设计。其中规范类，本课程采用了业界的最佳规范实践，目录结构采用了当前最受 Go 开发者欢迎的 <code>project-layout</code> 目录结构，代码结构采用了简洁架构。</p>
+]]></content>
+      <categories>
+        <category>Golang</category>
+      </categories>
+      <tags>
+        <tag>Golang</tag>
+        <tag>项目设计</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Go语言项目开发规范 之 日志规范</title>
+    <url>//post/go-logging-lint.html</url>
+    <content><![CDATA[<ul>
+<li>本文摘自<a href="https://juejin.cn/book/7176608782871429175">《从零开发企业级 Go 应用》</a></li>
+</ul>
+<h2 id="日志规范"><a href="#日志规范" class="headerlink" title="日志规范"></a>日志规范</h2><h3 id="日志规范-1"><a href="#日志规范-1" class="headerlink" title="日志规范"></a>日志规范</h3><ul>
+<li>日志包统一使用 <code>github.com/marmotedu/miniblog/internal/pkg/log</code>;</li>
+<li>使用结构化的日志打印格式：<code>log.Infow</code>, <code>log.Warnw</code>, <code>log.Errorw</code> 等; 例如：<code>log.Infow(&quot;Update post function called&quot;)</code>;</li>
+<li>日志均以大写开头，结尾不跟 <code>.</code>，例如：<code>log.Infow(&quot;Update post function called&quot;)</code>;</li>
+<li>使用过去时，例如：<code>Could not delete B</code> 而不是 <code>Cannot delete B</code>;<span id="more"></span></li>
+<li>遵循日志级别规范：<ul>
+<li>Debug 级别的日志使用 <code>log.Debugw</code>;</li>
+<li>Info 级别的日志使用 <code>log.Infow</code>;</li>
+<li>Warning 级别的日志使用 <code>log.Warnw</code>;</li>
+<li>Error 级别的日志使用 <code>log.Errorw</code>;</li>
+<li>Panic 级别的日志使用 <code>log.Panicw</code>;</li>
+<li>Fatal 级别的日志使用 <code>log.Fatalw</code>.</li>
+</ul>
+</li>
+<li>日志设置：<ul>
+<li>开发测试环境：日志级别设置为 <code>debug</code>、日志格式可根据需要设置为 <code>console</code> &#x2F; <code>json</code>、开启 caller；</li>
+<li>生产环境：日志级别设置为 <code>info</code>、日志格式设置为 <code>json</code>、开启 caller。（注意：上线初期，为了方便现网排障，日志级别可以设置为 <code>debug</code>）</li>
+</ul>
+</li>
+<li>在记录日志时，不要输出一些敏感信息，例如密码、密钥等。</li>
+<li>如果在具有 <code>context.Context</code> 参数的函数&#x2F;方法中，调用日志函数，建议使用 <code>log.L(ctx).Infow()</code> 进行日志记录。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Golang</category>
+      </categories>
+      <tags>
+        <tag>开发规范</tag>
+        <tag>Golang</tag>
+        <tag>日志规范</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Go语言开发环境(三) ProtoBuf 编译环境安装</title>
     <url>//post/go-protobuf-centos8.html</url>
     <content><![CDATA[<p>安装 <code>​​protobuf​​​</code> 的编译器 <code>​​protoc​​​</code>。<code>​​protoc</code>​​​ 需要 ​<code>​protoc-gen-go</code>​​​ 来完成 <code>Go</code> 语言的代码转换。<br>因此需要安装 <code>​​protoc​​​</code> 和 ​<code>​protoc-gen-go</code>​​ 这 2 个工具。</p>
@@ -2162,6 +2371,414 @@ protoc <span class="token parameter variable">--version</span>
         <tag>ProtoBuf</tag>
         <tag>​​protoc-gen-go</tag>
         <tag>protoc</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Go语言项目开发规范 之 版本规范</title>
+    <url>//post/go-version-lint.html</url>
+    <content><![CDATA[<h2 id="版本规范"><a href="#版本规范" class="headerlink" title="版本规范"></a>版本规范</h2><p><a href="https://semver.org/lang/zh-CN/">语义化版本 2.0.0</a> 规范。</p>
+<span id="more"></span>]]></content>
+      <categories>
+        <category>Golang</category>
+      </categories>
+      <tags>
+        <tag>开发规范</tag>
+        <tag>Golang</tag>
+        <tag>版本规范</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Go语言开发环境(一) linux 服务器配置</title>
+    <url>//post/go-workspace-centos8.html</url>
+    <content><![CDATA[<table>
+<thead>
+<tr>
+<th>环境&#x2F;组件</th>
+<th>版本</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Mac M1虚拟机</td>
+<td>Centos8.4</td>
+</tr>
+<tr>
+<td>Git</td>
+<td>2.39.2</td>
+</tr>
+</tbody></table>
+<h3 id="添加普通用户"><a href="#添加普通用户" class="headerlink" title="添加普通用户"></a>添加普通用户</h3><p>使用<code>root</code>用户登录Linux服务器，并创建普通用户</p>
+<p>一般来说， 一个项目会由多个开发人员协作完成 。 为了节省企业成本，公司不会为每个开发人员都配备一台服务器 ， 而是让所有的开发人员共用一个开发机，并以普通用户的身份登录开发机进行开发。</p>
+<p>尽量避免使用<code>root</code>账户 ， 以普通用户登录和操作开发机可以保证系统的安全性</p>
+<span id="more"></span>
+<p><strong>命令</strong></p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">useradd</span> going  <span class="token comment"># 创建用户</span>
+<span class="token function">passwd</span> going    <span class="token comment"># 设置密码</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<p><strong>演示</strong></p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token punctuation">[</span>root@localhost ~<span class="token punctuation">]</span><span class="token comment"># useradd going</span>
+<span class="token punctuation">[</span>root@localhost ~<span class="token punctuation">]</span><span class="token comment"># passwd going</span>
+Changing password <span class="token keyword">for</span> user going.
+New password:
+BAD PASSWORD: The password is shorter than <span class="token number">8</span> characters
+Retype new password:
+passwd: all authentication tokens updated successfully.<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h3 id="添加sudoers"><a href="#添加sudoers" class="headerlink" title="添加sudoers"></a>添加<code>sudoers</code></h3><p><strong>命令</strong></p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 把用户going添加/etc/sudoers文件</span>
+<span class="token function">sed</span> <span class="token parameter variable">-i</span> <span class="token string">'/^root.*ALL=(ALL)/a\going\tALL=(ALL) \tALL'</span>  /etc/sudoers
+<span class="token comment"># 在/etc/sudoers文件中查找</span>
+<span class="token comment"># root	ALL=(ALL) 	ALL</span>
+<span class="token comment"># 在此行下添加</span>
+<span class="token comment"># going	ALL=(ALL) 	ALL</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>或者</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 把用户going添加wheel组</span>
+<span class="token function">usermod</span> <span class="token parameter variable">-aG</span> wheel going   
+<span class="token comment"># -a 添加用户到基本的组，仅和 -G选项一起使用</span>
+<span class="token comment"># -G 用户也是其成员的补充组列表。 每个组之间用逗号分隔，中间没有空格。如果用户当前是未列出的组的成员，则该用户将从该组中删除。</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<p><strong>测试</strong></p>
+<pre class="line-numbers language-none"><code class="language-none">sudo -i<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h3 id="替换CentOS8-4系统自带的Yum源"><a href="#替换CentOS8-4系统自带的Yum源" class="headerlink" title="替换CentOS8.4系统自带的Yum源"></a>替换<code>CentOS8.4</code>系统自带的<code>Yum</code>源</h3><p>官方的Yum源已不可用</p>
+<p><code>阿里镜像源</code> <a href="https://mirrors.aliyun.com/repo/">https://mirrors.aliyun.com/repo/</a></p>
+<p><strong>命令</strong></p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">mv</span> /etc/yum.repos.d/ /etc/yum.repos.d.bak
+<span class="token function">mkdir</span> <span class="token parameter variable">-p</span> /etc/yum.repos.d/
+<span class="token function">wget</span> <span class="token parameter variable">-O</span> /etc/yum.repos.d/CentOS-Base.repo https://mirrors.aliyun.com/repo/Centos-vault-8.5.2111.repo
+dnf clean all <span class="token operator">&amp;&amp;</span> dnf makecache<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p><strong>演示</strong></p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token punctuation">[</span>root@localhost ~<span class="token punctuation">]</span><span class="token comment"># mv /etc/yum.repos.d/ /etc/yum.repos.d.bak</span>
+<span class="token punctuation">[</span>root@localhost ~<span class="token punctuation">]</span><span class="token comment"># mkdir -p /etc/yum.repos.d/</span>
+<span class="token punctuation">[</span>root@localhost ~<span class="token punctuation">]</span><span class="token comment"># wget -O /etc/yum.repos.d/CentOS-Base.repo https://mirrors.aliyun.com/repo/Centos-vault-8.5.2111.repo</span>
+--2023-02-23 09:39:05--  https://mirrors.aliyun.com/repo/Centos-vault-8.5.2111.repo
+Resolving mirrors.aliyun.com <span class="token punctuation">(</span>mirrors.aliyun.com<span class="token punctuation">)</span><span class="token punctuation">..</span>. <span class="token number">198.18</span>.0.49
+Connecting to mirrors.aliyun.com <span class="token punctuation">(</span>mirrors.aliyun.com<span class="token punctuation">)</span><span class="token operator">|</span><span class="token number">198.18</span>.0.49<span class="token operator">|</span>:443<span class="token punctuation">..</span>. connected.
+HTTP request sent, awaiting response<span class="token punctuation">..</span>. <span class="token number">200</span> OK
+Length: <span class="token number">2495</span> <span class="token punctuation">(</span><span class="token number">2</span>.4K<span class="token punctuation">)</span> <span class="token punctuation">[</span>application/octet-stream<span class="token punctuation">]</span>
+Saving to: <span class="token string">'/etc/yum.repos.d/CentOS-Base.repo'</span>
+
+/etc/yum.repos.d/CentOS-Base.repo              <span class="token number">100</span>%<span class="token punctuation">[</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">=</span><span class="token operator">></span><span class="token punctuation">]</span>   <span class="token number">2</span>.44K  --.-KB/s    <span class="token keyword">in</span> 0s
+
+<span class="token number">2023</span>-02-23 09:39:05 <span class="token punctuation">(</span><span class="token number">6.01</span> MB/s<span class="token punctuation">)</span> - <span class="token string">'/etc/yum.repos.d/CentOS-Base.repo'</span> saved <span class="token punctuation">[</span><span class="token number">2495</span>/2495<span class="token punctuation">]</span>
+
+<span class="token punctuation">[</span>root@localhost ~<span class="token punctuation">]</span><span class="token comment"># dnf clean all &amp;&amp; dnf makecache</span>
+Failed to <span class="token builtin class-name">set</span> locale, defaulting to C.UTF-8
+<span class="token number">18</span> files removed
+Failed to <span class="token builtin class-name">set</span> locale, defaulting to C.UTF-8
+CentOS-8.5.2111 - Base - mirrors.aliyun.com                                                                                                              <span class="token number">897</span> kB/s <span class="token operator">|</span> <span class="token number">3.7</span> MB     00:04
+CentOS-8.5.2111 - Extras - mirrors.aliyun.com                                                                                                             <span class="token number">27</span> kB/s <span class="token operator">|</span>  <span class="token number">10</span> kB     00:00
+CentOS-8.5.2111 - AppStream - mirrors.aliyun.com                                                                                                         <span class="token number">590</span> kB/s <span class="token operator">|</span> <span class="token number">7.2</span> MB     00:12
+Metadata cache created.
+<span class="token punctuation">[</span>root@localhost ~<span class="token punctuation">]</span><span class="token comment">#</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h3 id="配置-HOME-bashrc文件"><a href="#配置-HOME-bashrc文件" class="headerlink" title="配置$HOME/.bashrc文件"></a>配置<code>$HOME/.bashrc</code>文件</h3><p>使用<code>going</code>用户登录</p>
+<p>配置$HOME&#x2F;.bashrc文件，使Linux Shell更加易用</p>
+<p><code>vim $HOME/.bashrc</code><br>原文件内容：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># .bashrc</span>
+<span class="token comment"># Source global definitions</span>
+<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token parameter variable">-f</span> /etc/bashrc <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+        <span class="token builtin class-name">.</span> /etc/bashrc
+<span class="token keyword">fi</span>
+
+<span class="token comment"># User specific environment</span>
+<span class="token keyword">if</span> <span class="token operator">!</span> <span class="token punctuation">[</span><span class="token punctuation">[</span> <span class="token string">"<span class="token environment constant">$PATH</span>"</span> <span class="token operator">=~</span> <span class="token string">"<span class="token environment constant">$HOME</span>/.local/bin:<span class="token environment constant">$HOME</span>/bin:"</span> <span class="token punctuation">]</span><span class="token punctuation">]</span>
+<span class="token keyword">then</span>
+    <span class="token assign-left variable"><span class="token environment constant">PATH</span></span><span class="token operator">=</span><span class="token string">"<span class="token environment constant">$HOME</span>/.local/bin:<span class="token environment constant">$HOME</span>/bin:<span class="token environment constant">$PATH</span>"</span>
+<span class="token keyword">fi</span>
+<span class="token builtin class-name">export</span> <span class="token environment constant">PATH</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>配置后内容如下：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># .bashrc</span>
+<span class="token comment"># Source global definitions</span>
+<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token parameter variable">-f</span> /etc/bashrc <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+        <span class="token builtin class-name">.</span> /etc/bashrc
+<span class="token keyword">fi</span>
+
+<span class="token comment"># User specific environment</span>
+<span class="token keyword">if</span> <span class="token operator">!</span> <span class="token punctuation">[</span><span class="token punctuation">[</span> <span class="token string">"<span class="token environment constant">$PATH</span>"</span> <span class="token operator">=~</span> <span class="token string">"<span class="token environment constant">$HOME</span>/.local/bin:<span class="token environment constant">$HOME</span>/bin:"</span> <span class="token punctuation">]</span><span class="token punctuation">]</span>
+<span class="token keyword">then</span>
+    <span class="token assign-left variable"><span class="token environment constant">PATH</span></span><span class="token operator">=</span><span class="token string">"<span class="token environment constant">$HOME</span>/.local/bin:<span class="token environment constant">$HOME</span>/bin:<span class="token environment constant">$PATH</span>"</span>
+<span class="token keyword">fi</span>
+<span class="token builtin class-name">export</span> <span class="token environment constant">PATH</span>
+
+<span class="token comment"># 用户特定的别名函数</span>
+<span class="token comment"># 操作前询问</span>
+<span class="token builtin class-name">alias</span> <span class="token function">rm</span> <span class="token operator">=</span><span class="token string">'rm -i'</span>
+<span class="token builtin class-name">alias</span> <span class="token function">cp</span> <span class="token operator">=</span><span class="token string">'cp -i'</span>
+<span class="token builtin class-name">alias</span> <span class="token function">mv</span> <span class="token operator">=</span><span class="token string">'mv -i'</span>
+
+<span class="token comment"># 源全局定义</span>
+<span class="token comment"># 判断/etc/bashrc这个文件是否存在，如果存在执行这个文件</span>
+<span class="token comment">#if [ -f /etc/bashrc ]; then</span>
+<span class="token comment">#    . /etc/bashrc</span>
+<span class="token comment">#fi</span>
+<span class="token comment"># 判断$HOME/workspace是否为目录,不是则创建</span>
+<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token operator">!</span> <span class="token parameter variable">-d</span> <span class="token environment constant">$HOME</span>/workspace <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+    <span class="token function">mkdir</span> <span class="token parameter variable">-p</span> <span class="token environment constant">$HOME</span>/workspace
+<span class="token keyword">fi</span>
+
+<span class="token comment"># 用户特定环境</span>
+<span class="token comment"># Basic envs</span>
+
+<span class="token builtin class-name">export</span> <span class="token assign-left variable"><span class="token environment constant">LANG</span></span><span class="token operator">=</span><span class="token string">"en_US.UTF-8"</span>   <span class="token comment"># 设置系统语言为en_US.UTF-8 避免中断出现中文乱码</span>
+<span class="token builtin class-name">export</span> <span class="token assign-left variable"><span class="token environment constant">PS1</span></span><span class="token operator">=</span><span class="token string">'[\u@dev \w]\$ '</span>    <span class="token comment"># 默认的PS1设置会展示全部的路径，为防止过长，这里只展示: "用户名 @dev 最后的目录名"</span>
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">WORKSPACE</span><span class="token operator">=</span><span class="token string">"<span class="token environment constant">$HOME</span>/workspace"</span>  <span class="token comment"># 设置工作目录</span>
+
+<span class="token builtin class-name">export</span> <span class="token assign-left variable"><span class="token environment constant">PATH</span></span><span class="token operator">=</span><span class="token environment constant">$HOME</span>/bin:<span class="token environment constant">$PATH</span> <span class="token comment"># 将$HOME/bin目录加入PATH变量中</span>
+
+<span class="token comment"># 设置默认入口目录</span>
+<span class="token builtin class-name">cd</span> <span class="token variable">$WORKSPACE</span>   <span class="token comment"># 登录系统 默认进入workspace目录</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>配置好后</p>
+<pre class="line-numbers language-none"><code class="language-none">bash<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p><strong>注意</strong></p>
+<p><code>export PATH</code> 时，最好把<code>$PATH</code>放在最后，一维添加到<code>$HOME/bin</code>目录中的命令是期望被优先搜索并使用的</p>
+<p><code>$HOME/.bashrc</code>会自动创建目录<code>workspace</code>，所有的工作都在这个目录下展开:</p>
+<ul>
+<li>可以使<code>$HOME</code>保持整洁</li>
+<li>分区空间不足，可以移动<code>workspace</code>到另一个分区，并在分区中保留软连接，如：<code>/home/going/workspace -&gt; /data/workspace/</code></li>
+<li>备份所有工作文件，直接备份<code>workspace</code></li>
+</ul>
+<h3 id="依赖安装和配置"><a href="#依赖安装和配置" class="headerlink" title="依赖安装和配置"></a>依赖安装和配置</h3><h4 id="安装依赖"><a href="#安装依赖" class="headerlink" title="安装依赖"></a>安装依赖</h4><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">dnf <span class="token function">install</span> <span class="token parameter variable">-y</span> <span class="token function">make</span> cmake autoconf automake cmake perl-CPAN libcurl-devel libtool gcc gcc-c++ glibc-headers zlib-devel git-lfs telnet lrzsz jq expat-devel openssl-devel<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<h4 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h4><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">cd</span> /tmp
+<span class="token function">wget</span> --no-check-certificate https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.39.2.tar.gz
+<span class="token function">tar</span> <span class="token parameter variable">-zxvf</span> git-2.39.2.tar.gz
+<span class="token builtin class-name">cd</span> git-2.39.2
+./configure
+<span class="token function">make</span>
+<span class="token function">sudo</span> <span class="token function">make</span> <span class="token function">install</span>
+
+<span class="token comment"># 将Git二进制目录添加到 PATH 路径中 </span>
+<span class="token function">tee</span> <span class="token parameter variable">-a</span> <span class="token environment constant">$HOME</span>/.bashrc <span class="token operator">&lt;&lt;</span><span class="token string">'EOF'
+export PATH=/usr/local/libexec/git-core:$PATH
+EOF</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h4 id="配置Git"><a href="#配置Git" class="headerlink" title="配置Git"></a>配置Git</h4><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 修改用户名</span>
+<span class="token function">git</span> config <span class="token parameter variable">--global</span> user.name <span class="token string">"gzwillyy"</span>
+<span class="token comment"># 修改邮箱</span>
+<span class="token function">git</span> config <span class="token parameter variable">--global</span> user.email <span class="token string">"gzwillyy@gmail.com"</span>
+<span class="token comment"># 设置git，保存用户名和密码</span>
+<span class="token function">git</span> config <span class="token parameter variable">--global</span> credential.helper store 
+<span class="token comment"># 解决git中 'Filename too lang' 的错误</span>
+<span class="token function">git</span> config <span class="token parameter variable">--global</span> core.longpaths <span class="token boolean">true</span> 
+<span class="token comment"># 防止乱码</span>
+<span class="token function">git</span> config <span class="token parameter variable">--global</span> core.quotepath off
+<span class="token comment"># github限制最大克隆 需要安装 Git Large File Storage</span>
+<span class="token function">git</span> lfs <span class="token function">install</span> --skip-repo
+<span class="token comment"># 设置自动更正</span>
+<span class="token function">git</span> config <span class="token parameter variable">--global</span> help.autocorrect <span class="token number">15</span>
+<span class="token comment"># Git 中设置 GPG 签名主键,替换要使用的 GPG 密钥ID： 3AA5C34371567BD2</span>
+<span class="token function">git</span> config <span class="token parameter variable">--global</span> user.signingkey 3AA5C34371567BD2
+<span class="token comment"># 将 Git 配置为默认对所有提交进行签名</span>
+<span class="token function">git</span> config <span class="token parameter variable">--global</span> commit.gpgsign <span class="token boolean">true</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+
+
+
+
+
+
+
+]]></content>
+      <categories>
+        <category>Golang</category>
+      </categories>
+      <tags>
+        <tag>CentOS8</tag>
+        <tag>Golang</tag>
+        <tag>开发环境</tag>
+        <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Go语言 work 工作区模式</title>
+    <url>//post/go-work-note.html</url>
+    <content><![CDATA[<ul>
+<li>本文摘自 <a href="https://polarisxu.studygolang.com/posts/go/workspace/">https://polarisxu.studygolang.com/posts/go/workspace</a></li>
+</ul>
+<p>工作区模式（Workspace mode），可不是之前 GOPATH 时代的 Workspace，而是希望在本地开发时支持多 Module。</p>
+<h2 id="缘起"><a href="#缘起" class="headerlink" title="缘起"></a>缘起</h2><p>为了大家全面理解工作区模式，通过一个具体例子讲解。</p>
+<p>本地有两个项目，分别是两个 module：mypkg 和 example。（Windows 系统请按自己方式创建目录）</p>
+<span id="more"></span>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">cd</span> ~/
+<span class="token function">mkdir</span> polarisxu
+<span class="token builtin class-name">cd</span> polarisxu
+<span class="token function">mkdir</span> mypkg example
+<span class="token builtin class-name">cd</span> mypkg
+go mod init github.com/polaris1119/mypkg
+<span class="token function">touch</span> bar.go<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>在 bar.go 中增加如下示例代码：</p>
+<pre class="line-numbers language-go" data-language="go"><code class="language-go"><span class="token keyword">package</span> mypkg
+
+<span class="token keyword">func</span> <span class="token function">Bar</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+    <span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"This is package mypkg"</span><span class="token punctuation">)</span>
+<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>接着，在 example 模块中处理：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">cd</span> ~/polarisxu/example
+go mod init github.com/polaris1119/example
+<span class="token function">touch</span> main.go<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<p>在 main.go 中增加如下内容：</p>
+<pre class="line-numbers language-go" data-language="go"><code class="language-go"><span class="token keyword">package</span> main
+
+<span class="token keyword">import</span> <span class="token punctuation">(</span>
+    <span class="token string">"github.com/polaris1119/mypkg"</span>
+<span class="token punctuation">)</span>
+
+<span class="token keyword">func</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+    mypkg<span class="token punctuation">.</span><span class="token function">Bar</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>这时候，如果我们运行 go mod tidy，肯定会报错，因为我们的 mypkg 包根本没有提交到 github 上，肯定找不到。</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">go mod tidy
+<span class="token punctuation">..</span><span class="token punctuation">..</span>
+fatal: repository <span class="token string">'https://github.com/polaris1119/mypkg/'</span> not found<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<p><code>go run main.go</code> 也就不成功。</p>
+<p>我们当然可以提交 mypkg 到 github，但我们每修改一次 mypkg，就需要提交（而且每次提交之后需要在 example 中 go get 最新版本），否则 example 中就没法使用上最新的。</p>
+<p>针对这种情况，目前是建议通过 replace 来解决，即在 example 中的 go.mod 增加如下 replace：（v1.0.0 根据具体情况修改，还未提交，可以使用 v1.0.0）</p>
+<pre class="line-numbers language-go" data-language="go"><code class="language-go">module github<span class="token punctuation">.</span>com<span class="token operator">/</span>polaris1119<span class="token operator">/</span>example
+
+<span class="token keyword">go</span> <span class="token number">1.19</span>
+
+require github<span class="token punctuation">.</span>com<span class="token operator">/</span>polaris1119<span class="token operator">/</span>mypkg v1<span class="token punctuation">.</span><span class="token number">0.0</span>
+
+replace github<span class="token punctuation">.</span>com<span class="token operator">/</span>polaris1119<span class="token operator">/</span>mypkg <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token operator">/</span>mypkg<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>再次运行 go run main.go，输出如下：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">go run main.go
+This is package mypkg<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<p>当都开发完成时，我们需要手动删除 replace，并执行 go mod tidy 后提交，否则别人使用就报错了。</p>
+<p>这还是挺不方便的，如果本地有多个 module，每一个都得这么处理。</p>
+<h2 id="工作区模式"><a href="#工作区模式" class="headerlink" title="工作区模式"></a>工作区模式</h2><p>针对上面的这个问题，Michael Matloob 提出了 Workspace Mode（工作区模式）。相关 issue 讨论：<a href="https://github.com/golang/go/issues/45713">cmd&#x2F;go: add a workspace mode</a> ，<a href="https://go.googlesource.com/proposal/+/master/design/45713-workspace.md">这里是 Proposal</a> 。并在 Go1.18 中发布了。</p>
+<p>因此，要使用工作区，请确保 Go 版本在 1.18+。</p>
+<p>我本地当前版本：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">go version
+go version go1.19.2 darwin/arm64<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<p>通过 go help work 可以看到 work 相关命令：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">go <span class="token builtin class-name">help</span> work
+Work provides access to operations on workspaces.
+
+Note that support <span class="token keyword">for</span> workspaces is built into many other commands, not
+just <span class="token string">'go work'</span><span class="token builtin class-name">.</span>
+
+See <span class="token string">'go help modules'</span> <span class="token keyword">for</span> information about Go<span class="token string">'s module system of which
+workspaces are a part.
+
+See https://go.dev/ref/mod#workspaces for an in-depth reference on
+workspaces.
+
+See https://go.dev/doc/tutorial/workspaces for an introductory
+tutorial on workspaces.
+
+A workspace is specified by a go.work file that specifies a set of
+module directories with the "use" directive. These modules are used as
+root modules by the go command for builds and related operations.  A
+workspace that does not specify modules to be used cannot be used to do
+builds from local modules.
+
+go.work files are line-oriented. Each line holds a single directive,
+made up of a keyword followed by arguments. For example:
+
+    go 1.18
+
+    use ../foo/bar
+    use ./baz
+
+    replace example.com/foo v1.2.3 => example.com/bar v1.4.5
+
+The leading keyword can be factored out of adjacent lines to create a block,
+like in Go imports.
+
+    use (
+      ../foo/bar
+      ./baz
+    )
+
+The use directive specifies a module to be included in the workspace'</span>s
+<span class="token builtin class-name">set</span> of main modules. The argument to the use directive is the directory
+containing the module's go.mod file.
+
+The go directive specifies the version of Go the <span class="token function">file</span> was written at. It
+is possible there may be future changes <span class="token keyword">in</span> the semantics of workspaces
+that could be controlled by this version, but <span class="token keyword">for</span> now the version
+specified has no effect.
+
+The replace directive has the same syntax as the replace directive <span class="token keyword">in</span> a
+go.mod <span class="token function">file</span> and takes precedence over replaces <span class="token keyword">in</span> go.mod files.  It is
+primarily intended to override conflicting replaces <span class="token keyword">in</span> different workspace
+modules.
+
+To determine whether the go <span class="token builtin class-name">command</span> is operating <span class="token keyword">in</span> workspace mode, use
+the <span class="token string">"go env GOWORK"</span> command. This will specify the workspace <span class="token function">file</span> being
+used.
+
+Usage:
+
+    go work <span class="token operator">&lt;</span>command<span class="token operator">></span> <span class="token punctuation">[</span>arguments<span class="token punctuation">]</span>
+
+The commands are:
+
+    edit        edit go.work from tools or scripts
+    init        initialize workspace <span class="token function">file</span>
+    <span class="token function">sync</span>        <span class="token function">sync</span> workspace build list to modules
+    use         <span class="token function">add</span> modules to workspace <span class="token function">file</span>
+
+Use <span class="token string">"go help work &lt;command>"</span> <span class="token keyword">for</span> <span class="token function">more</span> information about a command.<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p><strong>注意：上文中提到，工作区不只是 go work 相关命令，Go 其他命令也会涉及工作区内容，比如 go run、go build 等。</strong></p>
+<p>根据这个提示，我们初始化 workspace：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">cd</span> ~/polarisxu
+go work init mypkg example
+tree
+<span class="token builtin class-name">.</span>
+├── example
+│   ├── go.mod
+│   └── main.go
+├── go.work
+└── mypkg
+    ├── bar.go
+    └── go.mod<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>注意几点：</p>
+<ul>
+<li>多个子模块应该在一个目录下（或其子目录）。比如这里的 polarisxu 目录；（这不是必须的，但更好管理，否则 go work init 需要提供正确的子模块路径）</li>
+<li>go work init 需要在 polarisxu 目录执行；</li>
+<li>go work init 之后跟上需要本地开发的子模块目录名；</li>
+</ul>
+<p>打开 go.work 看看长什么样：</p>
+<pre class="line-numbers language-go" data-language="go"><code class="language-go"><span class="token keyword">go</span> <span class="token number">1.19</span>
+
+use <span class="token punctuation">(</span>
+    <span class="token punctuation">.</span><span class="token operator">/</span>example
+    <span class="token punctuation">.</span><span class="token operator">/</span>mypkg
+<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>go.work 文件的语法和 go.mod 类似（go.work 优先级高于 go.mod），因此也支持 replace。</p>
+<p><strong>注意：实际项目中，多个模块之间可能还依赖第三方包，其他模块，建议在 go.work 所在目录执行 <code>go work sync</code>。</strong></p>
+<p>现在，我们将 example&#x2F;go.mod 中的 replace 语句删除，再次执行 go run main.go（在 example 目录下），得到了正常的输出。也可以在 polarisxu 目录下，这么运行：go run example&#x2F;main.go，也能正常。</p>
+<p><strong>注意，go.work 不需要提交到 Git 中，因为它只是你本地开发使用的。</strong></p>
+<p>当你开发完成，应该先提交 mypkg 包到 GitHub，然后在 example 下面执行 go get：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">go get <span class="token parameter variable">-u</span> github.com/polaris1119/mypkg@latest<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>然后禁用 workspace（通过 GOWORK&#x3D;off 禁用），再次运行 example 模块，是否正确：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">cd</span> ~/polarisxu/example
+<span class="token assign-left variable">GOWORK</span><span class="token operator">=</span>off go run main.go<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+]]></content>
+      <categories>
+        <category>Golang</category>
+      </categories>
+      <tags>
+        <tag>Golang</tag>
+        <tag>work</tag>
+        <tag>工作区模式</tag>
       </tags>
   </entry>
   <entry>
@@ -2538,418 +3155,6 @@ total:                                                        (statements)      
       </tags>
   </entry>
   <entry>
-    <title>Go语言 之 项目设计(汇总)</title>
-    <url>//post/go-project-design-lint.html</url>
-    <content><![CDATA[<ul>
-<li>本文摘自<a href="https://juejin.cn/book/7176608782871429175">《从零开发企业级 Go 应用》</a></li>
-</ul>
-<p>如何构建出一个完整的 Go 项目，并且尽可能地说明开发过程中我的思考。希望能够通过这些思考让你知道如何开发 Go 项目，并且了解其他开发者的开发思路。</p>
-<span id="more"></span>
-<h2 id="项目研发流程介绍"><a href="#项目研发流程介绍" class="headerlink" title="项目研发流程介绍"></a>项目研发流程介绍</h2><p>在动手撸代码之前，你最好先鸟瞰整个 Go 项目开发流程，通过对流程的了解，可以减少你在初次进行完整 Go 项目开发中的那种“不知所措”的感觉，可以让你掌握业界最优、也是最标准的项目开发流程，增强你的自信。</p>
-<p>业界通常把研发流程分为六个阶段，分别是需求阶段、设计阶段、开发阶段、测试阶段、发布阶段、运营阶段。其中，开发人员需要参与的阶段有 4 个：设计阶段、开发阶段、测试阶段和发布阶段。研发流程及流程中每个阶段的具体内容，如下图所示：</p>
-<p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4d1c206d83f642feb5877279343c8832~tplv-k3u1fbpfcp-zoom-in-crop-mark:3024:0:0:0.awebp">  </p>
-<p>作为一名开发人员，在设计阶段也会有一些设计类工作需要你去完成，例如：规范设计、目录结构设计、工作流设计、研发流程设计、Go 代码结构设计等，其中比较重要的设计是规范设计、目录结构设计、Go 代码结构设计。接下来，我会详细介绍如何来设计这些内容。</p>
-<h2 id="规范设计"><a href="#规范设计" class="headerlink" title="规范设计"></a>规范设计</h2><p>规范设计内容也比较多，通常包含代码规范、Commit 规范、版本规范、接口规范、日志规范、错误码规范等。</p>
-<ul>
-<li><p><strong>代码规范：</strong> <a href="./go-code-lint">Go 代码开发规范</a>。</p>
-</li>
-<li><p><strong>Commit 规范：</strong> <a href="./go-commit-lint">Commit 规范</a>。</p>
-</li>
-<li><p><strong>版本规范：</strong> <a href="./go-version-lint">版本规范</a>。</p>
-</li>
-<li><p><strong>接口规范：</strong> <a href="./go-api-lint">接口规范</a>。</p>
-</li>
-<li><p><strong>日志规范：</strong> <a href="./go-logging-lint">日志规范</a>。</p>
-</li>
-<li><p><strong>错误码规范：</strong> <a href="./go-errorcode-lint">错误码规范</a>。</p>
-</li>
-</ul>
-<p>上面只列举了一些常用的规范，对于一个项目来说，如果有需要可以制定更多的规范，例如：开发流程规范、发布规范、校验规范等。这些规范不仅可以提高代码质量，还可以提高研发效率，降低后期的代码维护成本和学习成本。</p>
-<blockquote>
-<p>提示：在实际开发中，大部分团队和项目其实也只用到了这些规范。甚至，我所见过的更多的团队，包括腾讯、阿里内部的不少团队都没有制定过开发规范，或者说一些团队只是在项目开始时曾经制定过规范，但随着项目的迭代，会遗忘这些规范。</p>
-</blockquote>
-<p>规范是开发人员制定的软约束，靠开发人员自觉的去遵守，并不太可行。在实际开发中，我们要多思考怎么通过工具去保证这些规范被遵守，例如：可以通过 <code>golangci-lint</code> 进行静态代码检查，来保证代码规范；通过 <code>gitlint</code> 工具来保证 Commit 规范；通过 <code>gsemver</code> 工具来生 SemVer 格式的版本号；通过 OpenAPI 编辑器来编写 OpenAPI 接口文档；通过调用统一的请求返回方法，来确保错误码规范；通过开发规范化的日志包，来保证日志规范等。</p>
-<h2 id="目录结构设计"><a href="#目录结构设计" class="headerlink" title="目录结构设计"></a>目录结构设计</h2><p>目录结构是一个项目的门面。很多时候，根据目录结构就能看出开发者对这门语言的掌握程度。所以，在我看来，遵循一个好的目录规范，把代码目录设计的可维护、可扩展，甚至比文档规范、Commit 规范都要重要。通常，根据功能，可以将目录结构分为以下两种。</p>
-<ul>
-<li><p><strong>平铺式目录结构：</strong> 主要用在 Go 包中，相对简单。</p>
-</li>
-<li><p><strong>结构化目录结构：</strong> 主要用在 Go 应用中，相对复杂。</p>
-</li>
-</ul>
-<h3 id="平铺式目录结构"><a href="#平铺式目录结构" class="headerlink" title="平铺式目录结构"></a>平铺式目录结构</h3><p>一个 Go 项目可以是一个应用，也可以是一个代码库，当项目是代码库时，比较适合采用平铺式目录结构。</p>
-<p>平铺方式就是在项目的根目录下存放项目的代码，整个目录结构看起来更像是一层的，这种方式在很多库中存在，使用这种方式的好处是引用路径长度明显减少。例如 <a href="https://github.com/golang/glog">glog</a> 包就是平铺式的，目录内容如下：</p>
-<pre class="line-numbers language-none"><code class="language-none">$ ls glog&#x2F;
-glog_file.go  glog.go  glog_test.go  go.mod  LICENSE  README.md<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-
-<p>对于一些功能简单的工具或项目，也可以采用平铺式的目录结构，以减小开发者的理解成本和编写复杂度。</p>
-<h3 id="结构化目录结构"><a href="#结构化目录结构" class="headerlink" title="结构化目录结构"></a>结构化目录结构</h3><p>当前 Go 社区比较推荐的结构化目录结构是 <a href="https://link.juejin.cn/?target=https://github.com/golang-standards/project-layout" title="https://github.com/golang-standards/project-layout">project-layout</a>。虽然它并不是官方和社区的规范，但因为组织方式比较合理，被很多 Go 开发人员接受。所以，我们可以把它当作是一个事实上的规范。本实战项目 miniblog 目录也遵循了 project-layout 项目的目录规范。</p>
-<h3 id="miniblog-目录结构设计"><a href="#miniblog-目录结构设计" class="headerlink" title="miniblog 目录结构设计"></a>miniblog 目录结构设计</h3><ul>
-<li><a href="https://github.com/marmotedu/miniblog"> https://github.com/marmotedu/miniblog</a></li>
-</ul>
-<p>miniblog 目录结构遵循了 project-layout 的目录结构设计。项目目录及功能介绍如下：</p>
-<pre class="line-numbers language-none"><code class="language-none">├── api # Swagger &#x2F; OpenAPI 文档存放目录
-│   └── openapi
-│       └── openapi.yaml # OpenAPI 3.0 API 接口文档
-├── cmd # main 文件存放目录
-│   └── miniblog
-│       └── miniblog.go
-├── configs # 配置文件存放目录
-│   ├── miniblog.sql # 数据库初始化 SQL
-│   ├── miniblog.yaml # miniblog 配置文件
-│   └── nginx.conf # Nginx 配置
-├── docs # 项目文档
-│   ├── devel # 开发文档
-│   │   ├── en-US # 英文文档
-│   │   └── zh-CN # 中文文档
-│   │       ├── architecture.md # miniblog 架构介绍
-│   │       ├── conversions # 规范文档存放目录
-│   │       │   ├── api.md # 接口规范
-│   │       │   ├── commit.md # Commit 规范
-│   │       │   ├── directory.md # 目录结构规范
-│   │       │   ├── error_code.md # 错误码规范
-│   │       │   ├── go_code.md # 代码规范
-│   │       │   ├── log.md # 日志规范
-│   │       │   └── version.md # 版本规范
-│   │       └── README.md
-│   ├── guide # 用户文档
-│   │   ├── en-US # 英文文档
-│   │   └── zh-CN # 中文文档
-│   │       ├── announcements.md # 动态与公告
-│   │       ├── best-practice # 最佳实践
-│   │       ├── faq # 常见问题
-│   │       ├── installation # 安装指南
-│   │       ├── introduction # 产品介绍
-│   │       ├── operation-guide # 操作指南
-│   │       ├── quickstart # 快速入门
-│   │       └── README.md
-│   └── images # 项目图片存放目录
-├── examples # 示例源码
-├── go.mod
-├── go.sum
-├── init # Systemd Unit 文件保存目录
-│   ├── miniblog.service # miniblog systemd unit
-├── internal # 内部代码保存目录，这里面的代码不能被外部程序引用
-│   ├── miniblog # miniblog 代码实现目录
-│   │   ├── biz # biz 层代码
-│   │   ├── controller # controller 层代码
-│   │   │   └── v1 # API 接口版本
-│   │   │       ├── post # 博客相关代码实现
-│   │   │       │   ├── create.go # 创建博客
-│   │   │       │   ├── delete_collection.go #批量删除博客
-│   │   │       │   ├── delete.go # 删除博客
-│   │   │       │   ├── get.go # 获取博客详情
-│   │   │       │   ├── list.go # 获取博客列表
-│   │   │       │   ├── post.go # 博客 Controller 结构定义、创建
-│   │   │       │   └── update.go # 更新博客
-│   │   │       └── user
-│   │   │           ├── change_password.go # 修改用户密码
-│   │   │           ├── create.go #创建用户
-│   │   │           ├── delete.go # 删除用户
-│   │   │           ├── get.go # 获取用户详情
-│   │   │           ├── list.go # 获取用户列表
-│   │   │           ├── login.go # 用户登录
-│   │   │           ├── update.go  # 更新用户
-│   │   │           └── user.go # 用户 Controller 结构定义、创建
-│   │   ├── helper.go # 工具类代码存放文件
-│   │   ├── miniblog.go # miniblog 主业务逻辑实现代码
-│   │   ├── router.go # Gin 路由加载代码
-│   │   └── store # store 层代码
-│   └── pkg # 内部包保存目录
-│       ├── core # core 包，用来保存一些核心的函数
-│       ├── errno # errno 包，实现了 miniblog 的错误码功能
-│       │   ├── code.go # 错误码定义文件
-│       │   └── errno.go # errno 包功能函数文件
-│       ├── known # 存放项目级的常量定义
-│       ├── log # miniblog 自定义 log 包
-│       ├── middleware # Gin 中间件包
-│       │   ├── authn.go # 认证中间件
-│       │   ├── authz.go # 授权中间件
-│       │   ├── header.go # 指定 HTTP Response Header
-│       │   └── requestid.go # 请求 &#x2F; 返回头中添加 X-Request-ID
-│       └── model # GORM Model
-├── LICENSE # 声明代码所遵循的开源协议
-├── Makefile # Makefile 文件，一般大型软件系统都是采用 make 来作为编译工具
-├── _output # 临时文件存放目录
-├── pkg # 可供外部程序直接使用的 Go 包存放目录
-│   ├── api # REST API 接口定义存放目录
-│   ├── proto # Protobuf 接口定义存放目录
-│   ├── auth # auth 包，用来完成认证、授权功能
-│   │   ├── authn.go # 认证功能
-│   │   └── authz.go # 授权功能
-│   ├── db # db 包，用来完成 MySQL 数据库连接
-│   ├── token # JWT Token 的签发和解析
-│   ├── util # 工具类包存放目录
-│   │   └── id # id 包，用来生成唯一短 ID
-│   └── version # version 包，用来保存 &#x2F; 输出版本信息
-├── README-en.md # 英文 README
-├── README.md # 中文 README
-├── scripts # 脚本文件
-│   ├── boilerplate.txt # 指定版权头信息
-│   ├── coverage.awk # awk 脚本，用来计算覆盖率
-│   ├── make-rules # 子 Makefile 保存目录
-│   │   ├── common.mk # 存放通用的 Makefile 变量
-│   │   ├── golang.mk # 用来编译源码
-│   │   └── tools.mk # 用来完成工具的安装
-│   └── wrktest.sh # wrk 性能测试脚本
-└── third_party # 第三方 Go 包存放目录<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p>跟 project-layout 目录规范唯一不一样的地方是，miniblog 将具体的实现目录 miniblog 放在 <code>internal/</code> 目录下，而非 <code>internal/app/</code> 目录下，例如：</p>
-<pre class="line-numbers language-none"><code class="language-none">$ ls internal&#x2F;         
-miniblog  pkg<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-
-<p>这样做既可以保证 <code>internal</code> 目录下的文件功能清晰、整齐，又能缩短引用路径。</p>
-<h2 id="代码结构设计"><a href="#代码结构设计" class="headerlink" title="代码结构设计"></a>代码结构设计</h2><p>项目代码设计遵循简洁架构设计，一个简洁架构具有以下 5 个特性：</p>
-<ul>
-<li><p><strong>独立于框架：</strong> 该架构不会依赖于某些功能强大的软件库存在。这可以让你使用这样的框架作为工具，而不是让你的系统陷入到框架的约束中。</p>
-</li>
-<li><p><strong>可测试性：</strong> 业务规则可以在没有 UI、数据库、Web 服务或其他外部元素的情况下进行测试，在实际的开发中，我们通过 Mock 来解耦这些依赖。</p>
-</li>
-<li><p><strong>独立于UI ：</strong> 在无需改变系统其他部分的情况下，UI 可以轻松地改变。例如，在没有改变业务规则的情况下，Web UI 可以替换为控制台 UI。</p>
-</li>
-<li><p><strong>独立于数据库：</strong> 你可以用 Mongo、Oracle、Etcd 或者其他数据库来替换 MariaDB，你的业务规则不要绑定到数据库。</p>
-</li>
-<li><p><strong>独立于外部媒介：</strong> 实际上，你的业务规则可以简单到根本不去了解外部世界。</p>
-</li>
-</ul>
-<p><strong>所以，基于这些约束，每一层都必须是独立的和可测试的。代码架构分为 4 层：模型层（Model）、控制层（Controller）、业务层 （Biz）、仓库层（Store）。从控制层、业务层到仓库层，从左到右层级依次加深。模型层独立于其他层，可供其他层引用。代码架构如下图所示：</strong></p>
-<p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2da85aa1405945519dbf5f645587fb5f~tplv-k3u1fbpfcp-zoom-in-crop-mark:3024:0:0:0.awebp"></p>
-<p><strong>层与层之间导入包时，都有严格的导入关系，这可以防止包的循环导入问题。导入关系如下：</strong></p>
-<ul>
-<li>模型层的包可以被仓库层、业务层和控制层导入。</li>
-<li>控制层能够导入业务层和仓库层的包。这里需要注意，如果没有特殊需求，控制层要避免导入仓库层的包，控制层需要完成的业务功能都通过业务层来完成。</li>
-<li>业务层能够导入仓库层的包。</li>
-</ul>
-<h3 id="四层架构"><a href="#四层架构" class="headerlink" title="四层架构"></a>四层架构</h3><p><strong>接下来，我们就来详细看下每一层所完成的功能，以及其中的一些注意点：</strong></p>
-<ol>
-<li>模型层（Model）：模型层在有些软件架构中也叫做实体层（Entities），模型会在每一层中使用，在这一层中存储对象的结构和它的方法。</li>
-<li>控制层（Controller）：控制层接收 HTTP 请求，并进行参数解析、参数校验、逻辑分发处理、请求返回这些操作。控制层会将逻辑分发给业务层，业务层处理后返回，返回数据在控制层中被整合再加工，最终返回给请求方。控制层相当于实现了业务路由的功能。具体流程如下图所示：</li>
-<li>业务层 (Biz)：业务层主要用来完成业务逻辑处理，我们可以把所有的业务逻辑处理代码放在业务层。业务层会处理来自控制层的请求，并根据需要请求仓库层完成数据的 CURD 操作。业务层功能如下图所示：</li>
-<li>仓库层（Store)：仓库层用来跟数据库&#x2F;第三方服务进行 CURD 交互，作为应用程序的数据引擎进行应用数据的输入和输出。这里需要注意，仓库层仅对数据库&#x2F;第三方服务执行 CRUD 操作，不封装任何业务逻辑。这一层也会起到数据转换的作用：将从数据库&#x2F;微服务中获取的数据转换为控制层、业务层能识别的数据结构，将控制层、业务层的数据格式转换为数据库或微服务能识别的数据格式。</li>
-</ol>
-<p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cf1b54fea8bd4e2e9a059b4b10599787~tplv-k3u1fbpfcp-zoom-in-crop-mark:3024:0:0:0.awebp"><br><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/89451e92ff3f4f888e56f16c638bbc55~tplv-k3u1fbpfcp-zoom-in-crop-mark:3024:0:0:0.awebp"></p>
-<h3 id="层之间的通信"><a href="#层之间的通信" class="headerlink" title="层之间的通信"></a>层之间的通信</h3><p>上面介绍了 4 层结构，接下来我们再看看每一层之间是如何通信的。</p>
-<p>除了模型层，控制层、业务层、仓库层之间都是通过接口进行通信的。通过接口通信，一方面可以使相同的功能支持不同的实现（也就是说具有插件化能力），另一方面也使得每一层的代码变得可测试。</p>
-<h3 id="代码测试"><a href="#代码测试" class="headerlink" title="代码测试"></a>代码测试</h3><p>控制层、业务层和仓库层之间是通过接口来通信的。通过接口通信有一个好处，就是可以让各层变得可测。那接下来，我们就来看下如何测试各层的代码。这里只介绍下测试思路。</p>
-<ol>
-<li>模型层: 因为模型层不依赖其他任何层，我们只需要测试其中定义的结构及其函数和方法即可。</li>
-<li>控制层: 控制层依赖于业务层，意味着该层需要业务层来支持测试。你可以通过 <code>golang/mock</code> 来 mock 业务层</li>
-<li>业务层: 因为该层依赖于仓库层，意味着该层需要仓库层来支持测试。你可以通过 <code>golang/mock</code> 来 mock 仓库层</li>
-<li>仓库层: 仓库层依赖于数据库，如果调用了其他微服务，那还会依赖第三方服务。我们可以通过 <a href="https://github.com/DATA-DOG/go-sqlmock">sqlmock</a> 来模拟数据库连接，通过 <a href="https://github.com/jarcoal/httpmock">httpmock</a> 来模拟 HTTP 请求。</li>
-</ol>
-<h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2><p>比较重要的工作有：规范设计、目录结构设计和代码结构设计。其中规范类，本课程采用了业界的最佳规范实践，目录结构采用了当前最受 Go 开发者欢迎的 <code>project-layout</code> 目录结构，代码结构采用了简洁架构。</p>
-]]></content>
-      <categories>
-        <category>Golang</category>
-      </categories>
-      <tags>
-        <tag>Golang</tag>
-        <tag>项目设计</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Go语言 work 工作区模式</title>
-    <url>//post/go-work-note.html</url>
-    <content><![CDATA[<ul>
-<li>本文摘自 <a href="https://polarisxu.studygolang.com/posts/go/workspace/">https://polarisxu.studygolang.com/posts/go/workspace</a></li>
-</ul>
-<p>工作区模式（Workspace mode），可不是之前 GOPATH 时代的 Workspace，而是希望在本地开发时支持多 Module。</p>
-<h2 id="缘起"><a href="#缘起" class="headerlink" title="缘起"></a>缘起</h2><p>为了大家全面理解工作区模式，通过一个具体例子讲解。</p>
-<p>本地有两个项目，分别是两个 module：mypkg 和 example。（Windows 系统请按自己方式创建目录）</p>
-<span id="more"></span>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">cd</span> ~/
-<span class="token function">mkdir</span> polarisxu
-<span class="token builtin class-name">cd</span> polarisxu
-<span class="token function">mkdir</span> mypkg example
-<span class="token builtin class-name">cd</span> mypkg
-go mod init github.com/polaris1119/mypkg
-<span class="token function">touch</span> bar.go<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p>在 bar.go 中增加如下示例代码：</p>
-<pre class="line-numbers language-go" data-language="go"><code class="language-go"><span class="token keyword">package</span> mypkg
-
-<span class="token keyword">func</span> <span class="token function">Bar</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
-    <span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"This is package mypkg"</span><span class="token punctuation">)</span>
-<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p>接着，在 example 模块中处理：</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">cd</span> ~/polarisxu/example
-go mod init github.com/polaris1119/example
-<span class="token function">touch</span> main.go<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-
-<p>在 main.go 中增加如下内容：</p>
-<pre class="line-numbers language-go" data-language="go"><code class="language-go"><span class="token keyword">package</span> main
-
-<span class="token keyword">import</span> <span class="token punctuation">(</span>
-    <span class="token string">"github.com/polaris1119/mypkg"</span>
-<span class="token punctuation">)</span>
-
-<span class="token keyword">func</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
-    mypkg<span class="token punctuation">.</span><span class="token function">Bar</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
-<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p>这时候，如果我们运行 go mod tidy，肯定会报错，因为我们的 mypkg 包根本没有提交到 github 上，肯定找不到。</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">go mod tidy
-<span class="token punctuation">..</span><span class="token punctuation">..</span>
-fatal: repository <span class="token string">'https://github.com/polaris1119/mypkg/'</span> not found<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-
-<p><code>go run main.go</code> 也就不成功。</p>
-<p>我们当然可以提交 mypkg 到 github，但我们每修改一次 mypkg，就需要提交（而且每次提交之后需要在 example 中 go get 最新版本），否则 example 中就没法使用上最新的。</p>
-<p>针对这种情况，目前是建议通过 replace 来解决，即在 example 中的 go.mod 增加如下 replace：（v1.0.0 根据具体情况修改，还未提交，可以使用 v1.0.0）</p>
-<pre class="line-numbers language-go" data-language="go"><code class="language-go">module github<span class="token punctuation">.</span>com<span class="token operator">/</span>polaris1119<span class="token operator">/</span>example
-
-<span class="token keyword">go</span> <span class="token number">1.19</span>
-
-require github<span class="token punctuation">.</span>com<span class="token operator">/</span>polaris1119<span class="token operator">/</span>mypkg v1<span class="token punctuation">.</span><span class="token number">0.0</span>
-
-replace github<span class="token punctuation">.</span>com<span class="token operator">/</span>polaris1119<span class="token operator">/</span>mypkg <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token operator">/</span>mypkg<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p>再次运行 go run main.go，输出如下：</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">go run main.go
-This is package mypkg<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-
-<p>当都开发完成时，我们需要手动删除 replace，并执行 go mod tidy 后提交，否则别人使用就报错了。</p>
-<p>这还是挺不方便的，如果本地有多个 module，每一个都得这么处理。</p>
-<h2 id="工作区模式"><a href="#工作区模式" class="headerlink" title="工作区模式"></a>工作区模式</h2><p>针对上面的这个问题，Michael Matloob 提出了 Workspace Mode（工作区模式）。相关 issue 讨论：<a href="https://github.com/golang/go/issues/45713">cmd&#x2F;go: add a workspace mode</a> ，<a href="https://go.googlesource.com/proposal/+/master/design/45713-workspace.md">这里是 Proposal</a> 。并在 Go1.18 中发布了。</p>
-<p>因此，要使用工作区，请确保 Go 版本在 1.18+。</p>
-<p>我本地当前版本：</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">go version
-go version go1.19.2 darwin/arm64<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-
-<p>通过 go help work 可以看到 work 相关命令：</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">go <span class="token builtin class-name">help</span> work
-Work provides access to operations on workspaces.
-
-Note that support <span class="token keyword">for</span> workspaces is built into many other commands, not
-just <span class="token string">'go work'</span><span class="token builtin class-name">.</span>
-
-See <span class="token string">'go help modules'</span> <span class="token keyword">for</span> information about Go<span class="token string">'s module system of which
-workspaces are a part.
-
-See https://go.dev/ref/mod#workspaces for an in-depth reference on
-workspaces.
-
-See https://go.dev/doc/tutorial/workspaces for an introductory
-tutorial on workspaces.
-
-A workspace is specified by a go.work file that specifies a set of
-module directories with the "use" directive. These modules are used as
-root modules by the go command for builds and related operations.  A
-workspace that does not specify modules to be used cannot be used to do
-builds from local modules.
-
-go.work files are line-oriented. Each line holds a single directive,
-made up of a keyword followed by arguments. For example:
-
-    go 1.18
-
-    use ../foo/bar
-    use ./baz
-
-    replace example.com/foo v1.2.3 => example.com/bar v1.4.5
-
-The leading keyword can be factored out of adjacent lines to create a block,
-like in Go imports.
-
-    use (
-      ../foo/bar
-      ./baz
-    )
-
-The use directive specifies a module to be included in the workspace'</span>s
-<span class="token builtin class-name">set</span> of main modules. The argument to the use directive is the directory
-containing the module's go.mod file.
-
-The go directive specifies the version of Go the <span class="token function">file</span> was written at. It
-is possible there may be future changes <span class="token keyword">in</span> the semantics of workspaces
-that could be controlled by this version, but <span class="token keyword">for</span> now the version
-specified has no effect.
-
-The replace directive has the same syntax as the replace directive <span class="token keyword">in</span> a
-go.mod <span class="token function">file</span> and takes precedence over replaces <span class="token keyword">in</span> go.mod files.  It is
-primarily intended to override conflicting replaces <span class="token keyword">in</span> different workspace
-modules.
-
-To determine whether the go <span class="token builtin class-name">command</span> is operating <span class="token keyword">in</span> workspace mode, use
-the <span class="token string">"go env GOWORK"</span> command. This will specify the workspace <span class="token function">file</span> being
-used.
-
-Usage:
-
-    go work <span class="token operator">&lt;</span>command<span class="token operator">></span> <span class="token punctuation">[</span>arguments<span class="token punctuation">]</span>
-
-The commands are:
-
-    edit        edit go.work from tools or scripts
-    init        initialize workspace <span class="token function">file</span>
-    <span class="token function">sync</span>        <span class="token function">sync</span> workspace build list to modules
-    use         <span class="token function">add</span> modules to workspace <span class="token function">file</span>
-
-Use <span class="token string">"go help work &lt;command>"</span> <span class="token keyword">for</span> <span class="token function">more</span> information about a command.<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p><strong>注意：上文中提到，工作区不只是 go work 相关命令，Go 其他命令也会涉及工作区内容，比如 go run、go build 等。</strong></p>
-<p>根据这个提示，我们初始化 workspace：</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">cd</span> ~/polarisxu
-go work init mypkg example
-tree
-<span class="token builtin class-name">.</span>
-├── example
-│   ├── go.mod
-│   └── main.go
-├── go.work
-└── mypkg
-    ├── bar.go
-    └── go.mod<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p>注意几点：</p>
-<ul>
-<li>多个子模块应该在一个目录下（或其子目录）。比如这里的 polarisxu 目录；（这不是必须的，但更好管理，否则 go work init 需要提供正确的子模块路径）</li>
-<li>go work init 需要在 polarisxu 目录执行；</li>
-<li>go work init 之后跟上需要本地开发的子模块目录名；</li>
-</ul>
-<p>打开 go.work 看看长什么样：</p>
-<pre class="line-numbers language-go" data-language="go"><code class="language-go"><span class="token keyword">go</span> <span class="token number">1.19</span>
-
-use <span class="token punctuation">(</span>
-    <span class="token punctuation">.</span><span class="token operator">/</span>example
-    <span class="token punctuation">.</span><span class="token operator">/</span>mypkg
-<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p>go.work 文件的语法和 go.mod 类似（go.work 优先级高于 go.mod），因此也支持 replace。</p>
-<p><strong>注意：实际项目中，多个模块之间可能还依赖第三方包，其他模块，建议在 go.work 所在目录执行 <code>go work sync</code>。</strong></p>
-<p>现在，我们将 example&#x2F;go.mod 中的 replace 语句删除，再次执行 go run main.go（在 example 目录下），得到了正常的输出。也可以在 polarisxu 目录下，这么运行：go run example&#x2F;main.go，也能正常。</p>
-<p><strong>注意，go.work 不需要提交到 Git 中，因为它只是你本地开发使用的。</strong></p>
-<p>当你开发完成，应该先提交 mypkg 包到 GitHub，然后在 example 下面执行 go get：</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">go get <span class="token parameter variable">-u</span> github.com/polaris1119/mypkg@latest<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>然后禁用 workspace（通过 GOWORK&#x3D;off 禁用），再次运行 example 模块，是否正确：</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">cd</span> ~/polarisxu/example
-<span class="token assign-left variable">GOWORK</span><span class="token operator">=</span>off go run main.go<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-
-]]></content>
-      <categories>
-        <category>Golang</category>
-      </categories>
-      <tags>
-        <tag>Golang</tag>
-        <tag>work</tag>
-        <tag>工作区模式</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Go语言项目开发规范 之 版本规范</title>
-    <url>//post/go-version-lint.html</url>
-    <content><![CDATA[<h2 id="版本规范"><a href="#版本规范" class="headerlink" title="版本规范"></a>版本规范</h2><p><a href="https://semver.org/lang/zh-CN/">语义化版本 2.0.0</a> 规范。</p>
-<span id="more"></span>]]></content>
-      <categories>
-        <category>Golang</category>
-      </categories>
-      <tags>
-        <tag>开发规范</tag>
-        <tag>Golang</tag>
-        <tag>版本规范</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Go项目 IAM项目安装</title>
     <url>//post/iam-project-install.html</url>
     <content><![CDATA[<h2 id="一键安装"><a href="#一键安装" class="headerlink" title="一键安装"></a>一键安装</h2><p><strong>可以执行脚本完成 <code>IAM</code> 系统的安装 ：</strong></p>
@@ -3117,10 +3322,7 @@ show databases<span class="token punctuation">;</span><span aria-hidden="true" c
 ./scripts/install/install.sh iam::install::install_cfssl<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre></li>
 </ul>
 <ol start="2">
-<li>创建配置文件</li>
-</ol>
-<p><code>CA</code>配置文件用来配置根证书的使用场景（profile） 和具体参数（usage ， 包括过期时间，服务端认证，客户端认证，加密等），也可以在签名其他证书时指定特定场景：</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">cd</span> <span class="token variable">$IAM_ROOT</span>
+<li>创建配置文件<br><code>CA</code>配置文件用来配置根证书的使用场景（profile） 和具体参数（usage ， 包括过期时间，服务端认证，客户端认证，加密等），也可以在签名其他证书时指定特定场景：<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">cd</span> <span class="token variable">$IAM_ROOT</span>
 <span class="token function">tee</span> ca-config.json <span class="token operator">&lt;&lt;</span> <span class="token string">EOF
 &#123;
     "signing": &#123;
@@ -3140,8 +3342,8 @@ show databases<span class="token punctuation">;</span><span aria-hidden="true" c
         &#125;
     &#125;
 &#125;
-EOF</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
+EOF</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
+</ol>
 <p>在上面的<code>JSON</code>配置中，一些字段的解释如下：</p>
 <ul>
 <li><code>profiles</code>：指定了不同角色的配置信息；可以定义多个 profiles，分别指定不同的过期时间、使用场景等参数；后续在签名证书时使用某个 profile。</li>
@@ -3153,10 +3355,7 @@ EOF</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span>
 <li><code>expiry</code>：设置为<code>87600h</code>，表示证书有效期设置为100年</li>
 </ul>
 <ol start="3">
-<li>创建证书签名请求文件</li>
-</ol>
-<p>我们可以通过使用以下命令来创建生成<code>CA</code>证书签名请求(<code>CSR</code>)的<code>JSON</code>配置文件：</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">cd</span> <span class="token variable">$IAM_ROOT</span>
+<li>创建证书签名请求文件<br>我们可以通过使用以下命令来创建生成<code>CA</code>证书签名请求(<code>CSR</code>)的<code>JSON</code>配置文件：<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">cd</span> <span class="token variable">$IAM_ROOT</span>
 <span class="token function">tee</span> ca-csr.json <span class="token operator">&lt;&lt;</span> <span class="token string">EOF
 &#123;
     "CN": "iam-ca",
@@ -3183,7 +3382,8 @@ EOF</span>
   <span class="token comment">#       "127.0.0.1",</span>
   <span class="token comment">#       "192.168.2.81"</span>
   <span class="token comment">#   ]</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p>在上面的<code>JSON</code>配置中，一些字段的解释如下：</p>
+在上面的<code>JSON</code>配置中，一些字段的解释如下：</li>
+</ol>
 <ul>
 <li><code>hosts</code>：包含的授权范围，不在此范围的的节点或者服务使用此证书就会报证书不匹配错误，证书如果不包含可能会出现无法连接的情况，此处需要改为本机的IP地址；</li>
 <li><code>Key</code>: 指定使用的加密算法，一般使用rsa非对称加密算法<code>algo:rsa；size:2048</code></li>
@@ -3194,22 +3394,20 @@ EOF</span>
 <li><code>O</code>：Organization，<code>iam-apiserver</code> 从证书中提取该字段作为请求用户所属的组 (Group)；</li>
 <li><code>OU</code>：对应英文为 Organization Unit(或者 Company Division)，部门&#x2F;单位</li>
 </ul>
-<p>  <em><strong>除此之外还有两点需要注意：</strong></em></p>
+<p><em><strong>除此之外还有两点需要注意：</strong></em></p>
 <ul>
 <li>不同证书<code>CSR</code>文件的 <code>CN</code>,<code>C</code>,<code>ST</code>,<code>L</code>,<code>O</code>,<code>OU</code> 组合必须不同 ，否则可能出现<code>PEER’S CERTIFICATE HAS AN INVALID SIGNATURE</code>错误</li>
 <li>后续创建证书的<code>CSR</code>文件时，保证 <code>CN</code> ，<code>OU</code> 都不相同（<code>C</code>,<code>ST</code>,<code>L</code>,<code>O</code>相同），以达到区分的目的</li>
 </ul>
 <ol start="4">
-<li>创建<code>CA</code>证书和私钥</li>
-</ol>
-<p>可以通过<code>cfssl gencert</code>命令来创建<code>CA</code>证书和私钥：</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">cd</span> <span class="token variable">$IAM_ROOT</span>
+<li>创建<code>CA</code>证书和私钥<br>可以通过<code>cfssl gencert</code>命令来创建<code>CA</code>证书和私钥：<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">cd</span> <span class="token variable">$IAM_ROOT</span>
 <span class="token builtin class-name">source</span> scripts/install/environment.sh
 cfssl gencert <span class="token parameter variable">-initca</span> ca-cer.json <span class="token operator">|</span> cfssljson <span class="token parameter variable">-bare</span> ca
 <span class="token function">ls</span> ca* <span class="token comment"># ca-config.json ca.csr ca-csr.json ca-key.pem ca.pem</span>
 <span class="token comment"># 将证书文件拷贝到指定文件夹下(分发证书)，方便各组件引用</span>
 <span class="token function">sudo</span> <span class="token function">mv</span> ca* <span class="token variable">$&#123;IAM_CONFIG_DIR&#125;</span>/cert<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p>上述命令会创建运行<code>CA</code>所必须的文件 <code>ca-key.pem</code>(私钥) 和 <code>ca.pem</code>(证书)，还会生成 <code>ca.csr</code>(证书签名请求)，用于交叉签名或重新签名。</p>
+上述命令会创建运行<code>CA</code>所必须的文件 <code>ca-key.pem</code>(私钥) 和 <code>ca.pem</code>(证书)，还会生成 <code>ca.csr</code>(证书签名请求)，用于交叉签名或重新签名。</li>
+</ol>
 <p>创建完后，我们可以通过 <code>cfssl certinfo</code>命令查看<code>cert</code>和<code>csr</code>信息</p>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 查看 cert (证书信息)</span>
 cfssl certinfo <span class="token parameter variable">-cert</span> <span class="token variable">$&#123;IMA_CONFIG_DIR&#125;</span>/cert/ca.pem
@@ -3269,23 +3467,15 @@ EOF</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span>
 <span class="token builtin class-name">source</span> scripts/install/environment.sh
 <span class="token function">make</span> build <span class="token assign-left variable">BINS</span><span class="token operator">=</span>iam-apiserver
 <span class="token function">sudo</span> <span class="token function">cp</span> _output/platforms/linux/amd64/iam-apiserver <span class="token variable">$&#123;IAM_INSTALL_DIR&#125;</span>/bin<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre></li>
-<li>生成并安装<code>iam-apiserver</code>的配置文件</li>
-</ol>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">./scripts/genconfig.sh scripts/install/environment.sh configs/iam-apiserver.yaml <span class="token operator">></span> iam-apiserver.yaml
-<span class="token function">sudo</span> <span class="token function">mv</span> iam-apiserver.yaml <span class="token variable">$&#123;IAM_CONFIG_DIR&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-<ol start="3">
-<li>创建并安装<code>iam-apiserver</code> <code>systemd unit</code>文件</li>
-</ol>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">./scripts/genconfig.sh scripts/install/environment.sh init/iam-apiserver.service <span class="token operator">></span> iam-apiserver.service
-<span class="token function">sudo</span> <span class="token function">mv</span> iam-apiserver.service /etc/systemd/system/<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-<ol start="4">
-<li>启动<code>iam-apiserver</code>服务</li>
-</ol>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">sudo</span> systemctl daemon-reload
+<li>生成并安装<code>iam-apiserver</code>的配置文件<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">./scripts/genconfig.sh scripts/install/environment.sh configs/iam-apiserver.yaml <span class="token operator">></span> iam-apiserver.yaml
+<span class="token function">sudo</span> <span class="token function">mv</span> iam-apiserver.yaml <span class="token variable">$&#123;IAM_CONFIG_DIR&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre></li>
+<li>创建并安装<code>iam-apiserver</code> <code>systemd unit</code>文件<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">./scripts/genconfig.sh scripts/install/environment.sh init/iam-apiserver.service <span class="token operator">></span> iam-apiserver.service
+<span class="token function">sudo</span> <span class="token function">mv</span> iam-apiserver.service /etc/systemd/system/<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre></li>
+<li>启动<code>iam-apiserver</code>服务<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">sudo</span> systemctl daemon-reload
 <span class="token function">sudo</span> systemctl <span class="token builtin class-name">enable</span> iam-apiserver
 <span class="token function">sudo</span> systemctl restart iam-apiserver
-<span class="token function">sudo</span> systemctl status iam-apiserver<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-
+<span class="token function">sudo</span> systemctl status iam-apiserver<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre></li>
+</ol>
 <h4 id="测试-iam-apiserver-是否成功安装"><a href="#测试-iam-apiserver-是否成功安装" class="headerlink" title="测试 iam-apiserver 是否成功安装"></a>测试 iam-apiserver 是否成功安装</h4><p>测试<code>iam-apiserver</code>主要是测试<code>用户</code>，<code>密钥</code>，<code>授权策略</code>这3类<code>REST</code>资源的增删改查操作</p>
 <p>首先，需要执行以下命令来获取访问<code>iam-apiserver</code>的<code>token</code>:</p>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">curl</span> <span class="token parameter variable">-s</span> <span class="token parameter variable">-XPOST</span> <span class="token parameter variable">-H</span> <span class="token string">'Content-Type: application/json'</span> <span class="token parameter variable">-d</span> <span class="token string">'&#123;"username":"admin","password":"Admin@2021"&#125;'</span> http://127.0.0.1:8080/login <span class="token operator">|</span> jq <span class="token parameter variable">-r</span> .token<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
@@ -3315,8 +3505,6 @@ $ <span class="token function">curl</span> <span class="token parameter variable
 $ <span class="token function">curl</span> <span class="token parameter variable">-s</span> <span class="token parameter variable">-XDELETE</span> -H<span class="token string">"Authorization: Bearer <span class="token variable">$token</span>"</span> <span class="token string">'http://127.0.0.1:8080/v1/users?name=colin&amp;name=mark&amp;name=john'</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 </li>
 <li><p>密钥增删改查</p>
-</li>
-</ol>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 创建 secret0 密钥</span>
 $ <span class="token function">curl</span> <span class="token parameter variable">-s</span> <span class="token parameter variable">-XPOST</span> -H<span class="token string">'Content-Type: application/json'</span> -H<span class="token string">"Authorization: Bearer <span class="token variable">$token</span>"</span> -d<span class="token string">'&#123;"metadata":&#123;"name":"secret0"&#125;,"expires":0,"description":"admin secret"&#125;'</span> http://127.0.0.1:8080/v1/secrets
 
@@ -3330,13 +3518,11 @@ $ <span class="token function">curl</span> <span class="token parameter variable
 $ <span class="token function">curl</span> <span class="token parameter variable">-s</span> <span class="token parameter variable">-XPUT</span> -H<span class="token string">'Content-Type: application/json'</span> -H<span class="token string">"Authorization: Bearer <span class="token variable">$token</span>"</span> -d<span class="token string">'&#123;"metadata":&#123;"name":"secret0"&#125;,"expires":0,"description":"admin secret(modified)"&#125;'</span> http://127.0.0.1:8080/v1/secrets/secret0
 
 <span class="token comment"># 删除 secret0 密钥</span>
-$ <span class="token function">curl</span> <span class="token parameter variable">-s</span> <span class="token parameter variable">-XDELETE</span> -H<span class="token string">"Authorization: Bearer <span class="token variable">$token</span>"</span> http://127.0.0.1:8080/v1/secrets/secret0<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
+$ <span class="token function">curl</span> <span class="token parameter variable">-s</span> <span class="token parameter variable">-XDELETE</span> -H<span class="token string">"Authorization: Bearer <span class="token variable">$token</span>"</span> http://127.0.0.1:8080/v1/secrets/secret0<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
+</ol>
 <p>这里需要注意，因为密钥属于重要资源，被删除会导致所有的访问请求失败。为了安全，密钥不支持批量删除。</p>
 <ol start="3">
-<li>授权策略增删改查</li>
-</ol>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 创建策略</span>
+<li>授权策略增删改查<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 创建策略</span>
 $ <span class="token function">curl</span> <span class="token parameter variable">-s</span> <span class="token parameter variable">-XPOST</span> -H<span class="token string">'Content-Type: application/json'</span> -H<span class="token string">"Authorization: Bearer <span class="token variable">$token</span>"</span> -d<span class="token string">'&#123;"metadata":&#123;"name":"policy0"&#125;,"policy":&#123;"description":"One policy to rule them all.","subjects":["users:&lt;peter|ken>","users:maria","groups:admins"],"actions":["delete","&lt;create|update>"],"effect":"allow","resources":["resources:articles:&lt;.*>","resources:printer"],"conditions":&#123;"remoteIPAddress":&#123;"type":"CIDRCondition","options":&#123;"cidr":"192.168.0.1/16"&#125;&#125;&#125;&#125;&#125;'</span> http://127.0.0.1:8080/v1/policies
 
 <span class="token comment"># 列出所有策略</span>
@@ -3349,10 +3535,8 @@ $ <span class="token function">curl</span> <span class="token parameter variable
 $ <span class="token function">curl</span> <span class="token parameter variable">-s</span> <span class="token parameter variable">-XPUT</span> -H<span class="token string">'Content-Type: application/json'</span> -H<span class="token string">"Authorization: Bearer <span class="token variable">$token</span>"</span> -d<span class="token string">'&#123;"metadata":&#123;"name":"policy0"&#125;,"policy":&#123;"description":"One policy to rule them all(modified).","subjects":["users:&lt;peter|ken>","users:maria","groups:admins"],"actions":["delete","&lt;create|update>"],"effect":"allow","resources":["resources:articles:&lt;.*>","resources:printer"],"conditions":&#123;"remoteIPAddress":&#123;"type":"CIDRCondition","options":&#123;"cidr":"192.168.0.1/16"&#125;&#125;&#125;&#125;&#125;'</span> http://127.0.0.1:8080/v1/policies/policy0
 
 <span class="token comment"># 删除 policy0 策略</span>
-$ <span class="token function">curl</span> <span class="token parameter variable">-s</span> <span class="token parameter variable">-XDELETE</span> -H<span class="token string">"Authorization: Bearer <span class="token variable">$token</span>"</span> http://127.0.0.1:8080/v1/policies/policy0<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-
-
+$ <span class="token function">curl</span> <span class="token parameter variable">-s</span> <span class="token parameter variable">-XDELETE</span> -H<span class="token string">"Authorization: Bearer <span class="token variable">$token</span>"</span> http://127.0.0.1:8080/v1/policies/policy0<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
+</ol>
 <h3 id="安装-iamctl"><a href="#安装-iamctl" class="headerlink" title="安装 iamctl"></a>安装 iamctl</h3><p>安装了 <code>IAM</code> 系统的 <code>iam-apiserver</code> 服务后,想要访问 <code>iam</code> 服务，我们还需要安装客户端工具 <code>iamctl</code>。具体来说，我们可以通过 3 步完成 <code>iamctl</code> 的安装和配置。</p>
 <h4 id="创建-iamctl证书和私钥"><a href="#创建-iamctl证书和私钥" class="headerlink" title="创建 iamctl证书和私钥"></a>创建 iamctl证书和私钥</h4><p><code>iamctl</code> 使用 <code>HTTPS</code> 协议与 <code>iam-apiserver</code> 进行通信，<code>iam-apiserver</code> 对 <code>iamctl</code> 请求包含的证书进行认证和授权。<code>iamctl</code>还用于对 <code>IAM</code> 系统的访问和管理，所以这里创建具有最高权限的 <code>admin</code> 证书。</p>
 <ol>
@@ -3443,9 +3627,7 @@ EOF</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span>
 
 <p><code>iam-authz-server-csr.json</code> 配置中的 <code>hosts</code> 字段指定授权使用该证书的 IP 和域名列表，上面的 <code>hosts</code> 列出了 <code>iam-authz-server</code> 服务的 <code>IP</code> 和<code>域名</code>。</p>
 <ol start="2">
-<li><pre><code>生成证书和私钥
-</code></pre>
-</li>
+<li>生成证书和私钥</li>
 </ol>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">cfssl gencert <span class="token parameter variable">-ca</span><span class="token operator">=</span><span class="token variable">$&#123;IAM_CONFIG_DIR&#125;</span>/cert/ca.pem <span class="token punctuation">\</span>
   -ca-key<span class="token operator">=</span><span class="token variable">$&#123;IAM_CONFIG_DIR&#125;</span>/cert/ca-key.pem <span class="token punctuation">\</span>
@@ -3647,211 +3829,6 @@ serverVersion:
       <tags>
         <tag>Golang</tag>
         <tag>IAM</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Go语言开发环境(一) linux 服务器配置</title>
-    <url>//post/go-workspace-centos8.html</url>
-    <content><![CDATA[<table>
-<thead>
-<tr>
-<th>环境&#x2F;组件</th>
-<th>版本</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Mac M1虚拟机</td>
-<td>Centos8.4</td>
-</tr>
-<tr>
-<td>Git</td>
-<td>2.39.2</td>
-</tr>
-</tbody></table>
-<h3 id="添加普通用户"><a href="#添加普通用户" class="headerlink" title="添加普通用户"></a>添加普通用户</h3><p>使用<code>root</code>用户登录Linux服务器，并创建普通用户</p>
-<p>一般来说， 一个项目会由多个开发人员协作完成 。 为了节省企业成本，公司不会为每个开发人员都配备一台服务器 ， 而是让所有的开发人员共用一个开发机，并以普通用户的身份登录开发机进行开发。</p>
-<p>尽量避免使用<code>root</code>账户 ， 以普通用户登录和操作开发机可以保证系统的安全性</p>
-<span id="more"></span>
-<p><strong>命令</strong></p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">useradd</span> going  <span class="token comment"># 创建用户</span>
-<span class="token function">passwd</span> going    <span class="token comment"># 设置密码</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-
-<p><strong>演示</strong></p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token punctuation">[</span>root@localhost ~<span class="token punctuation">]</span><span class="token comment"># useradd going</span>
-<span class="token punctuation">[</span>root@localhost ~<span class="token punctuation">]</span><span class="token comment"># passwd going</span>
-Changing password <span class="token keyword">for</span> user going.
-New password:
-BAD PASSWORD: The password is shorter than <span class="token number">8</span> characters
-Retype new password:
-passwd: all authentication tokens updated successfully.<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h3 id="添加sudoers"><a href="#添加sudoers" class="headerlink" title="添加sudoers"></a>添加<code>sudoers</code></h3><p><strong>命令</strong></p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 把用户going添加/etc/sudoers文件</span>
-<span class="token function">sed</span> <span class="token parameter variable">-i</span> <span class="token string">'/^root.*ALL=(ALL)/a\going\tALL=(ALL) \tALL'</span>  /etc/sudoers
-<span class="token comment"># 在/etc/sudoers文件中查找</span>
-<span class="token comment"># root	ALL=(ALL) 	ALL</span>
-<span class="token comment"># 在此行下添加</span>
-<span class="token comment"># going	ALL=(ALL) 	ALL</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p>或者</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 把用户going添加wheel组</span>
-<span class="token function">usermod</span> <span class="token parameter variable">-aG</span> wheel going   
-<span class="token comment"># -a 添加用户到基本的组，仅和 -G选项一起使用</span>
-<span class="token comment"># -G 用户也是其成员的补充组列表。 每个组之间用逗号分隔，中间没有空格。如果用户当前是未列出的组的成员，则该用户将从该组中删除。</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-<p><strong>测试</strong></p>
-<pre class="line-numbers language-none"><code class="language-none">sudo -i<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<h3 id="替换CentOS8-4系统自带的Yum源"><a href="#替换CentOS8-4系统自带的Yum源" class="headerlink" title="替换CentOS8.4系统自带的Yum源"></a>替换<code>CentOS8.4</code>系统自带的<code>Yum</code>源</h3><p>官方的Yum源已不可用</p>
-<p><code>阿里镜像源</code> <a href="https://mirrors.aliyun.com/repo/">https://mirrors.aliyun.com/repo/</a></p>
-<p><strong>命令</strong></p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">mv</span> /etc/yum.repos.d/ /etc/yum.repos.d.bak
-<span class="token function">mkdir</span> <span class="token parameter variable">-p</span> /etc/yum.repos.d/
-<span class="token function">wget</span> <span class="token parameter variable">-O</span> /etc/yum.repos.d/CentOS-Base.repo https://mirrors.aliyun.com/repo/Centos-vault-8.5.2111.repo
-dnf clean all <span class="token operator">&amp;&amp;</span> dnf makecache<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p><strong>演示</strong></p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token punctuation">[</span>root@localhost ~<span class="token punctuation">]</span><span class="token comment"># mv /etc/yum.repos.d/ /etc/yum.repos.d.bak</span>
-<span class="token punctuation">[</span>root@localhost ~<span class="token punctuation">]</span><span class="token comment"># mkdir -p /etc/yum.repos.d/</span>
-<span class="token punctuation">[</span>root@localhost ~<span class="token punctuation">]</span><span class="token comment"># wget -O /etc/yum.repos.d/CentOS-Base.repo https://mirrors.aliyun.com/repo/Centos-vault-8.5.2111.repo</span>
---2023-02-23 09:39:05--  https://mirrors.aliyun.com/repo/Centos-vault-8.5.2111.repo
-Resolving mirrors.aliyun.com <span class="token punctuation">(</span>mirrors.aliyun.com<span class="token punctuation">)</span><span class="token punctuation">..</span>. <span class="token number">198.18</span>.0.49
-Connecting to mirrors.aliyun.com <span class="token punctuation">(</span>mirrors.aliyun.com<span class="token punctuation">)</span><span class="token operator">|</span><span class="token number">198.18</span>.0.49<span class="token operator">|</span>:443<span class="token punctuation">..</span>. connected.
-HTTP request sent, awaiting response<span class="token punctuation">..</span>. <span class="token number">200</span> OK
-Length: <span class="token number">2495</span> <span class="token punctuation">(</span><span class="token number">2</span>.4K<span class="token punctuation">)</span> <span class="token punctuation">[</span>application/octet-stream<span class="token punctuation">]</span>
-Saving to: <span class="token string">'/etc/yum.repos.d/CentOS-Base.repo'</span>
-
-/etc/yum.repos.d/CentOS-Base.repo              <span class="token number">100</span>%<span class="token punctuation">[</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">=</span><span class="token operator">></span><span class="token punctuation">]</span>   <span class="token number">2</span>.44K  --.-KB/s    <span class="token keyword">in</span> 0s
-
-<span class="token number">2023</span>-02-23 09:39:05 <span class="token punctuation">(</span><span class="token number">6.01</span> MB/s<span class="token punctuation">)</span> - <span class="token string">'/etc/yum.repos.d/CentOS-Base.repo'</span> saved <span class="token punctuation">[</span><span class="token number">2495</span>/2495<span class="token punctuation">]</span>
-
-<span class="token punctuation">[</span>root@localhost ~<span class="token punctuation">]</span><span class="token comment"># dnf clean all &amp;&amp; dnf makecache</span>
-Failed to <span class="token builtin class-name">set</span> locale, defaulting to C.UTF-8
-<span class="token number">18</span> files removed
-Failed to <span class="token builtin class-name">set</span> locale, defaulting to C.UTF-8
-CentOS-8.5.2111 - Base - mirrors.aliyun.com                                                                                                              <span class="token number">897</span> kB/s <span class="token operator">|</span> <span class="token number">3.7</span> MB     00:04
-CentOS-8.5.2111 - Extras - mirrors.aliyun.com                                                                                                             <span class="token number">27</span> kB/s <span class="token operator">|</span>  <span class="token number">10</span> kB     00:00
-CentOS-8.5.2111 - AppStream - mirrors.aliyun.com                                                                                                         <span class="token number">590</span> kB/s <span class="token operator">|</span> <span class="token number">7.2</span> MB     00:12
-Metadata cache created.
-<span class="token punctuation">[</span>root@localhost ~<span class="token punctuation">]</span><span class="token comment">#</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h3 id="配置-HOME-bashrc文件"><a href="#配置-HOME-bashrc文件" class="headerlink" title="配置$HOME/.bashrc文件"></a>配置<code>$HOME/.bashrc</code>文件</h3><p>使用<code>going</code>用户登录</p>
-<p>配置$HOME&#x2F;.bashrc文件，使Linux Shell更加易用</p>
-<p><code>vim $HOME/.bashrc</code><br>原文件内容：</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># .bashrc</span>
-<span class="token comment"># Source global definitions</span>
-<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token parameter variable">-f</span> /etc/bashrc <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
-        <span class="token builtin class-name">.</span> /etc/bashrc
-<span class="token keyword">fi</span>
-
-<span class="token comment"># User specific environment</span>
-<span class="token keyword">if</span> <span class="token operator">!</span> <span class="token punctuation">[</span><span class="token punctuation">[</span> <span class="token string">"<span class="token environment constant">$PATH</span>"</span> <span class="token operator">=~</span> <span class="token string">"<span class="token environment constant">$HOME</span>/.local/bin:<span class="token environment constant">$HOME</span>/bin:"</span> <span class="token punctuation">]</span><span class="token punctuation">]</span>
-<span class="token keyword">then</span>
-    <span class="token assign-left variable"><span class="token environment constant">PATH</span></span><span class="token operator">=</span><span class="token string">"<span class="token environment constant">$HOME</span>/.local/bin:<span class="token environment constant">$HOME</span>/bin:<span class="token environment constant">$PATH</span>"</span>
-<span class="token keyword">fi</span>
-<span class="token builtin class-name">export</span> <span class="token environment constant">PATH</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p>配置后内容如下：</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># .bashrc</span>
-<span class="token comment"># Source global definitions</span>
-<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token parameter variable">-f</span> /etc/bashrc <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
-        <span class="token builtin class-name">.</span> /etc/bashrc
-<span class="token keyword">fi</span>
-
-<span class="token comment"># User specific environment</span>
-<span class="token keyword">if</span> <span class="token operator">!</span> <span class="token punctuation">[</span><span class="token punctuation">[</span> <span class="token string">"<span class="token environment constant">$PATH</span>"</span> <span class="token operator">=~</span> <span class="token string">"<span class="token environment constant">$HOME</span>/.local/bin:<span class="token environment constant">$HOME</span>/bin:"</span> <span class="token punctuation">]</span><span class="token punctuation">]</span>
-<span class="token keyword">then</span>
-    <span class="token assign-left variable"><span class="token environment constant">PATH</span></span><span class="token operator">=</span><span class="token string">"<span class="token environment constant">$HOME</span>/.local/bin:<span class="token environment constant">$HOME</span>/bin:<span class="token environment constant">$PATH</span>"</span>
-<span class="token keyword">fi</span>
-<span class="token builtin class-name">export</span> <span class="token environment constant">PATH</span>
-
-<span class="token comment"># 用户特定的别名函数</span>
-<span class="token comment"># 操作前询问</span>
-<span class="token builtin class-name">alias</span> <span class="token function">rm</span> <span class="token operator">=</span><span class="token string">'rm -i'</span>
-<span class="token builtin class-name">alias</span> <span class="token function">cp</span> <span class="token operator">=</span><span class="token string">'cp -i'</span>
-<span class="token builtin class-name">alias</span> <span class="token function">mv</span> <span class="token operator">=</span><span class="token string">'mv -i'</span>
-
-<span class="token comment"># 源全局定义</span>
-<span class="token comment"># 判断/etc/bashrc这个文件是否存在，如果存在执行这个文件</span>
-<span class="token comment">#if [ -f /etc/bashrc ]; then</span>
-<span class="token comment">#    . /etc/bashrc</span>
-<span class="token comment">#fi</span>
-<span class="token comment"># 判断$HOME/workspace是否为目录,不是则创建</span>
-<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token operator">!</span> <span class="token parameter variable">-d</span> <span class="token environment constant">$HOME</span>/workspace <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
-    <span class="token function">mkdir</span> <span class="token parameter variable">-p</span> <span class="token environment constant">$HOME</span>/workspace
-<span class="token keyword">fi</span>
-
-<span class="token comment"># 用户特定环境</span>
-<span class="token comment"># Basic envs</span>
-
-<span class="token builtin class-name">export</span> <span class="token assign-left variable"><span class="token environment constant">LANG</span></span><span class="token operator">=</span><span class="token string">"en_US.UTF-8"</span>   <span class="token comment"># 设置系统语言为en_US.UTF-8 避免中断出现中文乱码</span>
-<span class="token builtin class-name">export</span> <span class="token assign-left variable"><span class="token environment constant">PS1</span></span><span class="token operator">=</span><span class="token string">'[\u@dev \w]\$ '</span>    <span class="token comment"># 默认的PS1设置会展示全部的路径，为防止过长，这里只展示: "用户名 @dev 最后的目录名"</span>
-<span class="token builtin class-name">export</span> <span class="token assign-left variable">WORKSPACE</span><span class="token operator">=</span><span class="token string">"<span class="token environment constant">$HOME</span>/workspace"</span>  <span class="token comment"># 设置工作目录</span>
-
-<span class="token builtin class-name">export</span> <span class="token assign-left variable"><span class="token environment constant">PATH</span></span><span class="token operator">=</span><span class="token environment constant">$HOME</span>/bin:<span class="token environment constant">$PATH</span> <span class="token comment"># 将$HOME/bin目录加入PATH变量中</span>
-
-<span class="token comment"># 设置默认入口目录</span>
-<span class="token builtin class-name">cd</span> <span class="token variable">$WORKSPACE</span>   <span class="token comment"># 登录系统 默认进入workspace目录</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p>配置好后</p>
-<pre class="line-numbers language-none"><code class="language-none">bash<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p><strong>注意</strong></p>
-<p><code>export PATH</code> 时，最好把<code>$PATH</code>放在最后，一维添加到<code>$HOME/bin</code>目录中的命令是期望被优先搜索并使用的</p>
-<p><code>$HOME/.bashrc</code>会自动创建目录<code>workspace</code>，所有的工作都在这个目录下展开:</p>
-<ul>
-<li>可以使<code>$HOME</code>保持整洁</li>
-<li>分区空间不足，可以移动<code>workspace</code>到另一个分区，并在分区中保留软连接，如：<code>/home/going/workspace -&gt; /data/workspace/</code></li>
-<li>备份所有工作文件，直接备份<code>workspace</code></li>
-</ul>
-<h3 id="依赖安装和配置"><a href="#依赖安装和配置" class="headerlink" title="依赖安装和配置"></a>依赖安装和配置</h3><h4 id="安装依赖"><a href="#安装依赖" class="headerlink" title="安装依赖"></a>安装依赖</h4><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">dnf <span class="token function">install</span> <span class="token parameter variable">-y</span> <span class="token function">make</span> cmake autoconf automake cmake perl-CPAN libcurl-devel libtool gcc gcc-c++ glibc-headers zlib-devel git-lfs telnet lrzsz jq expat-devel openssl-devel<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<h4 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h4><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">cd</span> /tmp
-<span class="token function">wget</span> --no-check-certificate https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.39.2.tar.gz
-<span class="token function">tar</span> <span class="token parameter variable">-zxvf</span> git-2.39.2.tar.gz
-<span class="token builtin class-name">cd</span> git-2.39.2
-./configure
-<span class="token function">make</span>
-<span class="token function">sudo</span> <span class="token function">make</span> <span class="token function">install</span>
-
-<span class="token comment"># 将Git二进制目录添加到 PATH 路径中 </span>
-<span class="token function">tee</span> <span class="token parameter variable">-a</span> <span class="token environment constant">$HOME</span>/.bashrc <span class="token operator">&lt;&lt;</span><span class="token string">'EOF'
-export PATH=/usr/local/libexec/git-core:$PATH
-EOF</span>
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h4 id="配置Git"><a href="#配置Git" class="headerlink" title="配置Git"></a>配置Git</h4><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 修改用户名</span>
-<span class="token function">git</span> config <span class="token parameter variable">--global</span> user.name <span class="token string">"gzwillyy"</span>
-<span class="token comment"># 修改邮箱</span>
-<span class="token function">git</span> config <span class="token parameter variable">--global</span> user.email <span class="token string">"gzwillyy@gmail.com"</span>
-<span class="token comment"># 设置git，保存用户名和密码</span>
-<span class="token function">git</span> config <span class="token parameter variable">--global</span> credential.helper store 
-<span class="token comment"># 解决git中 'Filename too lang' 的错误</span>
-<span class="token function">git</span> config <span class="token parameter variable">--global</span> core.longpaths <span class="token boolean">true</span> 
-<span class="token comment"># 防止乱码</span>
-<span class="token function">git</span> config <span class="token parameter variable">--global</span> core.quotepath off
-<span class="token comment"># github限制最大克隆 需要安装 Git Large File Storage</span>
-<span class="token function">git</span> lfs <span class="token function">install</span> --skip-repo
-<span class="token comment"># 设置自动更正</span>
-<span class="token function">git</span> config <span class="token parameter variable">--global</span> help.autocorrect <span class="token number">15</span>
-<span class="token comment"># Git 中设置 GPG 签名主键,替换要使用的 GPG 密钥ID： 3AA5C34371567BD2</span>
-<span class="token function">git</span> config <span class="token parameter variable">--global</span> user.signingkey 3AA5C34371567BD2
-<span class="token comment"># 将 Git 配置为默认对所有提交进行签名</span>
-<span class="token function">git</span> config <span class="token parameter variable">--global</span> commit.gpgsign <span class="token boolean">true</span>
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-
-
-
-
-
-
-
-]]></content>
-      <categories>
-        <category>Golang</category>
-      </categories>
-      <tags>
-        <tag>CentOS8</tag>
-        <tag>Golang</tag>
-        <tag>开发环境</tag>
-        <tag>Git</tag>
       </tags>
   </entry>
   <entry>
