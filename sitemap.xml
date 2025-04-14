@@ -2,6 +2,141 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://gzwilly.blog/post/how-to-use-yazi-file-manager.html</loc>
+    
+    <lastmod>2025-04-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/post/tmux-setup.html</loc>
+    
+    <lastmod>2025-04-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/post/how-to-setup-neovim.html</loc>
+    
+    <lastmod>2025-04-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/post/how-to-setup-wezterm-terminal.html</loc>
+    
+    <lastmod>2025-04-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/post/sketchybar-install.html</loc>
+    
+    <lastmod>2025-04-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/post/vim-use.html</loc>
+    
+    <lastmod>2025-04-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/post/wezterm.html</loc>
+    
+    <lastmod>2025-04-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/post/2023-golang-design-61-go-design-06.html</loc>
+    
+    <lastmod>2025-03-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/post/2023-golang-design-61-go-design-05.html</loc>
+    
+    <lastmod>2025-03-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/post/2023-golang-design-61-go-design-04.html</loc>
+    
+    <lastmod>2025-03-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/post/2023-golang-design-61-go-design-03.html</loc>
+    
+    <lastmod>2025-03-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/post/2023-golang-design-61-go-design-02.html</loc>
+    
+    <lastmod>2025-03-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/post/2023-golang-design-61-go-design-01.html</loc>
+    
+    <lastmod>2025-03-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/post/2023-tailwind-tailwind-css-info.html</loc>
+    
+    <lastmod>2025-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/post/2023-shadcn-shadcn-ui-info.html</loc>
+    
+    <lastmod>2025-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://gzwilly.blog/post/hello-world.html</loc>
     
     <lastmod>2024-07-02</lastmod>
@@ -263,7 +398,169 @@
   </url>
   
   <url>
+    <loc>http://gzwilly.blog/post/2023-react-react-ts-react-next-ssr-info.html</loc>
+    
+    <lastmod>2023-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/post/orther-domain-wai-info.html</loc>
+    
+    <lastmod>2023-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://gzwilly.blog/post/2023-python-python-install-centos8.html</loc>
+    
+    <lastmod>2023-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/post/2023-react-react-ts-ts-array-info.html</loc>
+    
+    <lastmod>2023-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/post/2023-react-react-ts-ts-generics-info.html</loc>
+    
+    <lastmod>2023-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/post/2023-react-react-ts-ts-key-typeof-info.html</loc>
+    
+    <lastmod>2023-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/post/2023-react-react-ts-ts-interface-info.html</loc>
+    
+    <lastmod>2023-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/post/2023-react-react-ts-ts-tsconfig-info.html</loc>
+    
+    <lastmod>2023-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/post/2023-react-react-ts-ts-type-info.html</loc>
+    
+    <lastmod>2023-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/post/2023-react-react-ts-react-css-info.html</loc>
+    
+    <lastmod>2023-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/post/2023-react-react-ts-ts-tuple-info.html</loc>
+    
+    <lastmod>2023-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/post/2023-react-react-ts-react-project-init.html</loc>
+    
+    <lastmod>2023-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/post/2023-react-react-ts-react-debug-info.html</loc>
+    
+    <lastmod>2023-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/post/2023-react-react-ts-react-router-info.html</loc>
+    
+    <lastmod>2023-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/post/2023-react-react-ts-react-useContent-info.html</loc>
+    
+    <lastmod>2023-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/post/2023-react-react-ts-react-useEffect-info.html</loc>
+    
+    <lastmod>2023-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/post/2023-react-react-ts-react-useMemo-info.html</loc>
+    
+    <lastmod>2023-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/post/2023-react-react-ts-react-useRef-info.html</loc>
+    
+    <lastmod>2023-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/post/2023-react-react-ts-react-useSate-info.html</loc>
     
     <lastmod>2023-03-10</lastmod>
     
@@ -326,7 +623,7 @@
   </url>
   
   <url>
-    <loc>http://gzwilly.blog/post/2023-protocbuf-protobuf-next.html</loc>
+    <loc>http://gzwilly.blog/post/2023-protocbuf-protobuf-doc.html</loc>
     
     <lastmod>2023-02-24</lastmod>
     
@@ -335,7 +632,7 @@
   </url>
   
   <url>
-    <loc>http://gzwilly.blog/post/2023-protocbuf-protobuf-doc.html</loc>
+    <loc>http://gzwilly.blog/post/2023-protocbuf-protobuf-next.html</loc>
     
     <lastmod>2023-02-24</lastmod>
     
@@ -443,7 +740,7 @@
   </url>
   
   <url>
-    <loc>http://gzwilly.blog/post/2023-golang-practice-%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%8F%91%E4%BC%81%E4%B8%9A%E7%BA%A7-Go-%E5%BA%94%E7%94%A8-go-commit-lint.html</loc>
+    <loc>http://gzwilly.blog/post/2023-golang-practice-%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%8F%91%E4%BC%81%E4%B8%9A%E7%BA%A7-Go-%E5%BA%94%E7%94%A8-go-code-lint.html</loc>
     
     <lastmod>2023-02-02</lastmod>
     
@@ -470,7 +767,7 @@
   </url>
   
   <url>
-    <loc>http://gzwilly.blog/post/2023-golang-practice-%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%8F%91%E4%BC%81%E4%B8%9A%E7%BA%A7-Go-%E5%BA%94%E7%94%A8-go-code-lint.html</loc>
+    <loc>http://gzwilly.blog/post/2023-golang-practice-%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%8F%91%E4%BC%81%E4%B8%9A%E7%BA%A7-Go-%E5%BA%94%E7%94%A8-go-logging-lint.html</loc>
     
     <lastmod>2023-02-02</lastmod>
     
@@ -479,7 +776,7 @@
   </url>
   
   <url>
-    <loc>http://gzwilly.blog/post/2023-golang-practice-%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%8F%91%E4%BC%81%E4%B8%9A%E7%BA%A7-Go-%E5%BA%94%E7%94%A8-go-logging-lint.html</loc>
+    <loc>http://gzwilly.blog/post/2023-golang-practice-%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%8F%91%E4%BC%81%E4%B8%9A%E7%BA%A7-Go-%E5%BA%94%E7%94%A8-go-commit-lint.html</loc>
     
     <lastmod>2023-02-02</lastmod>
     
@@ -578,7 +875,7 @@
   </url>
   
   <url>
-    <loc>http://gzwilly.blog/post/docker-command-info.html</loc>
+    <loc>http://gzwilly.blog/post/docker-compose-info.html</loc>
     
     <lastmod>2023-01-11</lastmod>
     
@@ -587,7 +884,7 @@
   </url>
   
   <url>
-    <loc>http://gzwilly.blog/post/docker-compose-info.html</loc>
+    <loc>http://gzwilly.blog/post/docker-command-info.html</loc>
     
     <lastmod>2023-01-11</lastmod>
     
@@ -614,7 +911,7 @@
   </url>
   
   <url>
-    <loc>http://gzwilly.blog/post/docker-volume-info.html</loc>
+    <loc>http://gzwilly.blog/post/docker-swarm-info.html</loc>
     
     <lastmod>2023-01-11</lastmod>
     
@@ -623,7 +920,7 @@
   </url>
   
   <url>
-    <loc>http://gzwilly.blog/post/docker-swarm-info.html</loc>
+    <loc>http://gzwilly.blog/post/docker-volume-info.html</loc>
     
     <lastmod>2023-01-11</lastmod>
     
@@ -643,638 +940,855 @@
 
   <url>
     <loc>http://gzwilly.blog/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
+    <loc>http://gzwilly.blog/tags/Typescript/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://gzwilly.blog/tags/Dnf/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://gzwilly.blog/tags/CentOS8/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://gzwilly.blog/tags/Docker/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://gzwilly.blog/tags/Docker-Compose/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://gzwilly.blog/tags/%E6%9C%8D%E5%8A%A1%E9%9B%AA%E5%B4%A9/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://gzwilly.blog/tags/%E9%93%BE%E8%B7%AF%E8%BF%BD%E8%B8%AA/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://gzwilly.blog/tags/%E7%86%94%E6%96%AD/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://gzwilly.blog/tags/%E9%99%90%E6%B5%81/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://gzwilly.blog/tags/%E9%99%8D%E7%BA%A7/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://gzwilly.blog/tags/%E5%BE%AE%E6%9C%8D%E5%8A%A1/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://gzwilly.blog/tags/%E5%B9%82%E7%AD%89%E6%80%A7%E6%9C%BA%E5%88%B6/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://gzwilly.blog/tags/%E5%B9%82%E7%AD%89%E6%80%A7%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/tags/Prometheus/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/tags/Grafana/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/tags/%E7%9B%91%E6%8E%A7/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/tags/Kubernetes%E5%AE%B9%E5%99%A8/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/tags/Azure/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/tags/github/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/tags/Git/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/tags/actions/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/tags/commit/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/tags/GPG/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/tags/Consul/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/tags/%E5%88%86%E5%B8%83%E5%BC%8F/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/tags/workflows/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/tags/curl/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/tags/Mac-M1/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/tags/goreleaser/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/tags/db/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/tags/mysql/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/tags/Go%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/tags/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/tags/Golang/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/tags/ProtoBuf/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/tags/%E2%80%8B%E2%80%8Bprotoc-gen-go/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/tags/protoc/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://gzwilly.blog/tags/makefile/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://gzwilly.blog/tags/addlicense/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <loc>http://gzwilly.blog/tags/Prometheus/</loc>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://gzwilly.blog/tags/license/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <loc>http://gzwilly.blog/tags/Grafana/</loc>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://gzwilly.blog/tags/%E7%89%88%E6%9C%AC%E5%A3%B0%E6%98%8E/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <loc>http://gzwilly.blog/tags/%E7%9B%91%E6%8E%A7/</loc>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://gzwilly.blog/tags/misspell/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <loc>http://gzwilly.blog/tags/Consul/</loc>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://gzwilly.blog/tags/%E6%8B%BC%E5%86%99%E9%94%99%E8%AF%AF/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/tags/Python/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/tags/work/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/tags/%E5%B7%A5%E4%BD%9C%E5%8C%BA%E6%A8%A1%E5%BC%8F/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <loc>http://gzwilly.blog/tags/%E5%88%86%E5%B8%83%E5%BC%8F/</loc>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://gzwilly.blog/tags/Dockerfile/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/tags/arch/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/tags/docker-buildx/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/tags/image-buildx/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/tags/DockerHub/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/tags/GitHub/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/tags/CICD/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://gzwilly.blog/tags/Docker-Bridge/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://gzwilly.blog/tags/Docker-Image/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <loc>http://gzwilly.blog/tags/arch/</loc>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://gzwilly.blog/tags/Docker-Container/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <loc>http://gzwilly.blog/tags/docker-buildx/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/image-buildx/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/DockerHub/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/GitHub/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/CICD/</loc>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://gzwilly.blog/tags/Docker-Composer/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/Docker-Image/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/Docker-Container/</loc>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://gzwilly.blog/tags/Swarm/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://gzwilly.blog/tags/Podman/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/tags/Docker-Volume/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/tags/Dbml/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://gzwilly.blog/tags/Docker-Security/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/Dbml/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/mysql/</loc>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://gzwilly.blog/tags/DEV/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://gzwilly.blog/tags/IAM/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <loc>http://gzwilly.blog/tags/Docker-Volume/</loc>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://gzwilly.blog/tags/GitFlow/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <loc>http://gzwilly.blog/tags/db/</loc>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://gzwilly.blog/tags/%E7%A0%94%E5%8F%91%E6%B5%81%E7%A8%8B/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <loc>http://gzwilly.blog/tags/Go%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</loc>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://gzwilly.blog/tags/%E8%AE%BE%E8%AE%A1%E6%96%B9%E6%B3%95/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <loc>http://gzwilly.blog/tags/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</loc>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://gzwilly.blog/tags/Makefile/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <loc>http://gzwilly.blog/tags/Golang/</loc>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://gzwilly.blog/tags/git-chglog/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <loc>http://gzwilly.blog/tags/ProtoBuf/</loc>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://gzwilly.blog/tags/gsemver/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <loc>http://gzwilly.blog/tags/%E2%80%8B%E2%80%8Bprotoc-gen-go/</loc>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://gzwilly.blog/tags/golangci-lint/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <loc>http://gzwilly.blog/tags/protoc/</loc>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://gzwilly.blog/tags/swagger/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <loc>http://gzwilly.blog/tags/work/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/%E5%B7%A5%E4%BD%9C%E5%8C%BA%E6%A8%A1%E5%BC%8F/</loc>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://gzwilly.blog/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://gzwilly.blog/tags/log/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <loc>http://gzwilly.blog/tags/curl/</loc>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://gzwilly.blog/tags/error/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <loc>http://gzwilly.blog/tags/addlicense/</loc>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://gzwilly.blog/tags/Pflag/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <loc>http://gzwilly.blog/tags/license/</loc>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://gzwilly.blog/tags/Viper/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <loc>http://gzwilly.blog/tags/%E7%89%88%E6%9C%AC%E5%A3%B0%E6%98%8E/</loc>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://gzwilly.blog/tags/Cobra/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <loc>http://gzwilly.blog/tags/misspell/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/%E6%8B%BC%E5%86%99%E9%94%99%E8%AF%AF/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/Python/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/Git/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/shadcn/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/CSS/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/tailwind-css/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/Kubernetes%E5%AE%B9%E5%99%A8/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/Azure/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/github/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/actions/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/workflows/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/goreleaser/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/commit/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/GPG/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/Mac-M1/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/neovim/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/mac/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/%E7%BC%96%E8%BE%91%E5%99%A8/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/Wezterm/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/%E7%BB%88%E7%AB%AF/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/Yazi/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/Tmux/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/Vim/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/sketchybar/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/mac%E7%8A%B6%E6%80%81%E6%A0%8F/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/%E5%8A%9E%E5%85%AC/</loc>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://gzwilly.blog/tags/%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://gzwilly.blog/tags/%E6%8E%A5%E5%8F%A3%E8%A7%84%E8%8C%83/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/tags/Basic/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/tags/Jwt/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/tags/Commit%E8%A7%84%E8%8C%83/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/tags/%E7%9B%AE%E5%BD%95%E8%A7%84%E8%8C%83/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/tags/App/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/tags/%E9%94%99%E8%AF%AF%E8%A7%84%E8%8C%83/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://gzwilly.blog/tags/%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://gzwilly.blog/tags/%E9%A1%B9%E7%9B%AE%E8%AE%BE%E8%AE%A1/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <loc>http://gzwilly.blog/tags/%E7%9B%AE%E5%BD%95%E8%A7%84%E8%8C%83/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/%E9%94%99%E8%AF%AF%E8%A7%84%E8%8C%83/</loc>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://gzwilly.blog/tags/%E6%97%A5%E5%BF%97%E8%A7%84%E8%8C%83/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/%E9%A1%B9%E7%9B%AE%E8%AE%BE%E8%AE%A1/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/Commit%E8%A7%84%E8%8C%83/</loc>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://gzwilly.blog/tags/%E7%89%88%E6%9C%AC%E8%A7%84%E8%8C%83/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://gzwilly.blog/tags/%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/IAM/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/GitFlow/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/%E7%A0%94%E5%8F%91%E6%B5%81%E7%A8%8B/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/git-chglog/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/gsemver/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/Makefile/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/error/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/%E8%AE%BE%E8%AE%A1%E6%96%B9%E6%B3%95/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/golangci-lint/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/swagger/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/log/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/Pflag/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/Viper/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/Cobra/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/App/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/Basic/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/Jwt/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/React/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/css/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/Vite/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/console/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/SSR/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/NEXT/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/router/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/useContext/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/useReducer/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/useState/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/useMemo/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/useCallback/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/memo/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/useRef/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/tags/useEffect/</loc>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -1282,50 +1796,127 @@
 
   
   <url>
+    <loc>http://gzwilly.blog/categories/Typescript/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://gzwilly.blog/categories/Notes/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://gzwilly.blog/categories/Micro/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://gzwilly.blog/categories/Mysql/</loc>
-    <lastmod>2024-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://gzwilly.blog/categories/github/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://gzwilly.blog/categories/Golang/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://gzwilly.blog/categories/Python/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/categories/React/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/categories/Tailwind/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/categories/github/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/categories/neovim/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/categories/Wezterm/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/categories/Yazi/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/categories/Tmux/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/categories/Vim/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/categories/sketchybar/</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/categories/%E7%BB%88%E7%AB%AF/</loc>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://gzwilly.blog/categories/Golang-%E5%AE%9E%E6%88%98/</loc>
-    <lastmod>2024-07-02</lastmod>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://gzwilly.blog/categories/%E7%BB%88%E7%AB%AF/WezTerm/</loc>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
